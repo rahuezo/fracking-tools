@@ -1,0 +1,26 @@
+.navbar-brand img {
+  height: 50px;
+}
+
+.navbar-brand {
+  opacity: 0.8;
+  transition: all ease-out 0.2s;
+}
+
+.navbar-brand:hover {
+  opacity: 1;
+}
+.navbar-bg-custom {
+  background: #222;
+}
+
+#home-banner {
+  background: url('../img/home-banner.png');
+  background-position: center;
+  background-size: cover;
+}
+
+
+button, .btn {
+  cursor: pointer;
+}
