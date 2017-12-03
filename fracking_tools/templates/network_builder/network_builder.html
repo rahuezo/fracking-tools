@@ -47,7 +47,7 @@
       <div id="header">
         <div class="jumbotron jumbotron-fluid" id="home-banner">
           <div class="container text-center">
-            <h1 class="display-4 text-dark">Fracking Tools</h1>
+            <h1 class="display-4 text-dark">Fracking Tools: Network Builder</h1>
             <p class="lead text-dark">This website provides an interface to all programs and scripts used for Gwen Arnold's Fracking Projects.</p>
             <p class="lead text-light">By <strong>Rudy Huezo</strong></p>
           </div>
@@ -55,8 +55,6 @@
       </div>
       <div id="content">
         <div class="container text-center">
-          <h2 class="mb-4">Network Utilities</h2>
-
           <div class="card-deck">
             <div class="card">
               <div class="card-body text-left">
@@ -139,131 +137,6 @@
               <div class="card-footer">
                 <div class="text-center">
                   <a href="{% url 'network_builder:pairs' %}" class="btn btn-dark">Build <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-body text-left">
-                <h4 class="card-title mb-4">Compare Networks</h4>
-                <p class="card-text">
-                  You can compare network files (adjacency matrices) to determine
-                  the <strong>actor overlap</strong>, <strong>relationship overlap</strong>,
-                  <strong>unique actors</strong>, and the <strong>unique relationships</strong>.
-                </p>
-                <p class="card-text">
-                  Usually, the comparison involves a network built using meeting minutes
-                  and the other network using newspapers.
-                </p>
-                <p class="text-muted text-center">
-                  <button class="btn btn-link"><i class="fa fa-info-circle" aria-hidden="true"></i></button>
-                <p>
-              </div>
-              <div class="card-footer">
-                <div class="text-center">
-                  <a href="#" class="btn btn-dark">Compare <i class="fa fa-exchange" aria-hidden="true"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <hr class="my-4">
-          <h2 class="my-4">Document Utilities</h2>
-          <div class="card-deck">
-            <div class="card mb-4">
-              <div class="card-body text-left">
-                <h4 class="card-title mb-4">Compare Documents</h4>
-                <p class="card-text">
-                  This utility allows you to compare two documents for content similarity
-                  and for textual similarity.
-                </p>
-                <p class="card-text">
-                  <strong>Content similarity</strong> uses the Vector Space Model (VSM) and Cosine Similarity
-                  to determine how similar two or a set of documents are to each other based
-                  on their topics.
-                </p>
-                <p class="card-text">
-                  <strong>Textual similarity</strong> uses Near Duplicate Detection to determine if two or a set
-                  of documents are almost identical. A numerical representation of textual similarity
-                  is given by computing the Jaccard similarity of documents.
-                </p>
-                <p class="text-muted text-center">
-                  <button class="btn btn-link"><i class="fa fa-info-circle" aria-hidden="true"></i></button>
-                <p>
-              </div>
-              <div class="card-footer">
-                <div class="text-center">
-                  <a href="#" class="btn btn-dark">Compare <i class="fa fa-exchange" aria-hidden="true"></i></a>
-                </div>
-              </div>
-            </div>
-            <div class="card mb-4">
-              <div class="card-body text-left">
-                <h4 class="card-title mb-4">Tag Documents for Keywords</h4>
-                <p class="card-text">
-                  This utility takes in one or a set of documents (.pdf, .docx, .txt)
-                  and a list of keywords. It then reads the documents and looks for
-                  the keywords within the document's text.
-                </p>
-                <p class="card-text">
-                  If any keywords are found, a <strong>.docx</strong> version of the document
-                  is created with a list of found keywords as the header of this document.
-                  Additionally, the found keywords are capitalized and boldened for easier
-                  human lookup.
-                </p>
-                <p class="text-muted text-center">
-                  <button class="btn btn-link"><i class="fa fa-info-circle" aria-hidden="true"></i></button>
-                <p>
-              </div>
-              <div class="card-footer">
-                <div class="text-center">
-                  <a href="#" class="btn btn-dark">Tag <i class="fa fa-tag" aria-hidden="true"></i></a>
-                </div>
-              </div>
-            </div>
-            <div class="card mb-4">
-              <div class="card-body text-left">
-                <h4 class="card-title mb-4">Tag Documents Using NER</h4>
-                <p class="card-text">
-                  This utility allows you to tag one or a set of documents for
-                  named entities using Stanford's Named Entity Recognizer (NER).
-                </p>
-                <p class="card-text">
-                  The utility outputs <strong>.txt</strong> versions of the inputed
-                  documents with named entities wrapped around XML tags that show
-                  whether the named entity is a <strong>Location</strong>, a <strong>Person</strong>,
-                  an <strong>Organization</strong>, <strong>Money</strong>, a <strong>Percent</strong>,
-                  a <strong>Date</strong>, or a <strong>Time</strong>.
-                </p>
-                <p class="text-muted text-center">
-                  <button class="btn btn-link"><i class="fa fa-info-circle" aria-hidden="true"></i></button>
-                <p>
-              </div>
-              <div class="card-footer">
-                <div class="text-center">
-                  <a href="#" class="btn btn-dark">Tag <i class="fa fa-tag" aria-hidden="true"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card-deck">
-            <div class="card mb-4">
-              <div class="card-body text-left">
-                <h4 class="card-title mb-4">Compute Document Statistics</h4>
-                <p class="card-text">
-                  You can compare network files (adjacency matrices) to determine
-                  the <strong>actor overlap</strong>, <strong>relationship overlap</strong>,
-                  <strong>unique actors</strong>, and the <strong>unique relationships</strong>.
-                </p>
-                <p class="card-text">
-                  Usually, the comparison involves a network built using meeting minutes
-                  and the other network using newspapers.
-                </p>
-                <p class="text-muted text-center">
-                  <button class="btn btn-link"><i class="fa fa-info-circle" aria-hidden="true"></i></button>
-                <p>
-              </div>
-              <div class="card-footer">
-                <div class="text-center">
-                  <a href="#" class="btn btn-dark">Compute <i class="fa fa-bar-chart" aria-hidden="true"></i></a>
                 </div>
               </div>
             </div>

@@ -24,3 +24,17 @@
 button, .btn {
   cursor: pointer;
 }
+
+
+.card-footer {
+  background: #FFF;
+  border: none;
+}
+
+.card-footer a {
+  width: 75%;
+}
+
+#networks-built-alert, #empty-fields-alert {
+  display: none;
+}

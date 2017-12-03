@@ -32,6 +32,11 @@ ALLOWED_HOSTS = ['*']
 
 INSTALLED_APPS = [
     'home',
+    'network_builder',
+    'network_comparison',
+    'document_comparison',
+    'document_tagging',
+    'document_stats',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
