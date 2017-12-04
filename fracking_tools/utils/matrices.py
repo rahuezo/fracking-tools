@@ -1,6 +1,8 @@
 import networkx as nx
 import pandas as pd
 import re
+import matplotlib.pyplot as plt
+import csv
 
 
 class AdjacencyMatrix:
@@ -16,6 +18,19 @@ class AdjacencyMatrix:
         df = pd.DataFrame(self.rows)
         return [[AdjacencyMatrix.clean_text(i) for i in df[cn].tolist()[1:] if type(i) is str and len(i) > 0]
                 for cn in list(df)]
+
+    def to_network(self):
+        nodes = map(lambda x: AdjacencyMatrix.clean_text(x), self.rows[0][1:])
+        values = map(lambda x: x, self.rows[1:])
+
+        network = nx.Graph()
+
+        network.add_edges_from([(nodes[i], nodes[j])
+                                for i in xrange(len(nodes)) for j in xrange(i + 1, len(nodes))])
+
+        nx.draw(network, with_labels=True)
+        plt.show()
+
 
     def build(self):
         network = nx.Graph()
@@ -43,26 +58,9 @@ def df2csv(df, path):
 def get_adjmat_name(csv_fn):
     return "{0}_adjacency_matrix.csv".format(AdjacencyMatrix.clean_text(csv_fn.split('.csv')[0]))
 
-# events = [
-#     ['Event A', 'Event B', 'Event C'],
-#     ['A', 'A', 'B' ],
-#     ['B', 'C', 'C' ],
-#     ['C', '', '' ],
-# ]
-#
-#
-# pairs = [
-#     ['A', 'B'],
-#     ['C', 'A'],
-#     ['B', 'C']
-# ]
-#
-# df2csv(AdjacencyMatrix(events).build(), './tryingoutfunc.csv')
-# import csv
-#
-# wd = r'C:\Users\Rudy\Desktop\events.csv'
-#
-# events = [row for row in csv.reader(open(wd, 'rb'), delimiter=str(u',').encode('utf-8'))]
-#           # csv.reader(open(wd, 'rb'), delimiter=',')]
-#
-# print AdjacencyMatrix(events).build()
+with open(r'C:\Users\Rudy\Desktop\adjmat.csv', 'rbb') as f:
+    rows = [row for row in csv.reader(f, delimiter=',')]
+
+am = AdjacencyMatrix(rows)
+
+am.to_network()

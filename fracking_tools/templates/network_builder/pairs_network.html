@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     {% load static %}
-    <title>Hello, world!</title>
+    <title>Fracking Tools: Network Builder > Individual Pair Networks</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -13,6 +13,7 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
     <link rel="stylesheet" href="{% static 'home/css/style.css' %}">
+    <link rel="shortcut icon" type="image/png" href="{% static 'home/img/fracking-tools logo.png' %}"/>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark navbar-bg-custom">
@@ -49,6 +50,7 @@
           <div class="container text-center">
             <h1 class="display-4 text-dark">Fracking Tools: Build Networks From Individual Pairs</h1>
             <p class="lead text-dark">This website provides an interface to all programs and scripts used for Gwen Arnold's Fracking Projects.</p>
+            <p><a href="{% url 'network_builder:events' %}" class="btn btn-dark my-4">Build Networks from Events</a></p>
             <p class="lead text-light">By <strong>Rudy Huezo</strong></p>
           </div>
         </div>
