@@ -1,8 +1,6 @@
 import networkx as nx
 import pandas as pd
 import re
-import matplotlib.pyplot as plt
-import csv
 
 
 class AdjacencyMatrix:
@@ -21,16 +19,14 @@ class AdjacencyMatrix:
 
     def to_network(self):
         nodes = map(lambda x: AdjacencyMatrix.clean_text(x), self.rows[0][1:])
-        values = map(lambda x: x, self.rows[1:])
+        values = map(lambda x: x[1:], self.rows[1:])
 
         network = nx.Graph()
 
-        network.add_edges_from([(nodes[i], nodes[j])
+        network.add_edges_from([(nodes[i], nodes[j], {'stance': values[i][j]})
                                 for i in xrange(len(nodes)) for j in xrange(i + 1, len(nodes))])
 
-        nx.draw(network, with_labels=True)
-        plt.show()
-
+        return network
 
     def build(self):
         network = nx.Graph()
@@ -58,9 +54,10 @@ def df2csv(df, path):
 def get_adjmat_name(csv_fn):
     return "{0}_adjacency_matrix.csv".format(AdjacencyMatrix.clean_text(csv_fn.split('.csv')[0]))
 
-with open(r'C:\Users\Rudy\Desktop\adjmat.csv', 'rbb') as f:
-    rows = [row for row in csv.reader(f, delimiter=',')]
-
-am = AdjacencyMatrix(rows)
-
-am.to_network()
+# import csv
+# with open(r'C:\Users\rahue\Desktop\adjmat.csv', 'rb') as f:
+#     rows = [row for row in csv.reader(f, delimiter=',')]
+#
+# am = AdjacencyMatrix(rows)
+#
+# print am.to_network().edge['B']['C']['stance']

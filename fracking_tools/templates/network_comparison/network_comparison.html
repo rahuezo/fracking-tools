@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {% load static %}
+    <title>Fracking Tools: Network Builder > Network Comparison</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="{% static 'home/css/style.css' %}">
+    <link rel="shortcut icon" type="image/png" href="{% static 'home/img/fracking-tools logo.png' %}"/>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-bg-custom">
+      <a class="navbar-brand" href="{% url 'home:index' %}">
+        <img src="{% static 'home/img/fracking-tools logo.png' %}" alt="">
+        Fracking Tools
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto mr-2 text-center">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              NETCOMP
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">PAIRCOMP</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div id="wrapper">
+      <div id="header">
+        <div class="jumbotron jumbotron-fluid" id="home-banner">
+          <div class="container text-center">
+            <h1 class="display-4 text-dark">Fracking Tools: Compare Networks</h1>
+            <p class="lead text-dark">This website provides an interface to all programs and scripts used for Gwen Arnold's Fracking Projects.</p>
+            <p><a href="{% url 'network_builder:network_builder' %}" class="btn btn-dark my-4">Network Builder Home</a></p>
+            <p class="lead text-light">By <strong>Rudy Huezo</strong></p>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="container text-center">
+          <div id="networks-built-alert" class="alert alert-success alert-dismissible fade show" role="alert">
+            <i class="fa fa-check" aria-hidden="true"></i> Your networks were compared successfully!
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div id="empty-fields-alert" class="alert alert-danger alert-dismissible fade show" role="alert">
+            <i class="fa fa-times-circle" aria-hidden="true"></i> You must select a Networks A and Networks B files and choose an output .zip name!
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <form id="comparison-form" action="{% url 'network_builder:compnets' %}" method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            <div class="card w-100 my-4">
+              <div class="card-body text-left">
+                <h4 class="card-title mb-4">1. Choose Networks A Files</h4>
+                <p class="card-text">
+                  Upload ALL <strong>.csv</strong> spreadsheets for networks A.
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="text-center">
+                  <input class="form-control" type="file" name="network-a-csvs" value="" multiple required>
+                </div>
+              </div>
+            </div>
+            <div class="card w-100 my-4">
+              <div class="card-body text-left">
+                <h4 class="card-title mb-4">2. Choose Networks B Files</h4>
+                <p class="card-text">
+                  Upload ALL <strong>.csv</strong> spreadsheets for networks B.
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="text-center">
+                  <input class="form-control" type="file" name="network-b-csvs" value="" multiple required>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-4 w-100 my-4">
+              <div class="card-body text-left">
+                <h4 class="card-title mb-4">3. Choose Output <strong>.zip</strong> Name</h4>
+                <p class="card-text">
+                  Enter the output .zip name without a file extension.
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="text-center">
+                  <input class="form-control" type="text" name="output-zip-name" placeholder="Enter a .zip name" required>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-4 w-100 my-4">
+              <div class="card-body text-left">
+                <h4 class="card-title mb-4">4. Compare Networks</h4>
+              </div>
+
+              <div class="card-footer">
+                <div class="text-center">
+                  <button type="button" onclick="submit_form();" class="btn btn-dark btn-block" name="button">Compare <i class="fa fa-exchange" aria-hidden="true"></i></button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div id="footer"></div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+
+    function submit_form() {
+      let comparison_form = $('#comparison-form');
+
+      if(comparison_form.find('input:file').val().length > 0 && comparison_form.find('input:text').val().length > 0) {
+        comparison_form.submit();
+        comparison_form[0].reset();
+        $('#empty-fields-alert').fadeOut();
+        $('#networks-built-alert').fadeIn();
+      } else {
+        $('#empty-fields-alert').fadeIn();
+      }
+    }
+
+    $(function () {
+      $('[data-toggle="popover"]').popover()
+    })
+    </script>
+  </body>
+</html>
