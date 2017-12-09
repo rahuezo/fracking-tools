@@ -1,5 +1,5 @@
 body {
-  padding-bottom: 10vh;  
+  padding-bottom: 10vh;
 }
 
 .navbar-brand img {
@@ -40,5 +40,9 @@ button, .btn {
 }
 
 #networks-built-alert, #empty-fields-alert {
+  display: none;
+}
+
+.invisible {
   display: none;
 }

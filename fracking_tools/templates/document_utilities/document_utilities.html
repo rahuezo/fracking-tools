@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {% load static %}
+    <title>Fracking Tools: Document Utilities</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="{% static 'home/css/style.css' %}">
+    <link rel="shortcut icon" type="image/png" href="{% static 'home/img/fracking-tools logo.png' %}"/>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-bg-custom">
+      <a class="navbar-brand" href="{% url 'home:index' %}">
+        <img src="{% static 'home/img/fracking-tools logo.png' %}" alt="">
+        Fracking Tools
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto mr-2 text-center">
+          <li class="nav-item m-2">
+            <div class="btn-group nav-item">
+              <a href="{% url 'network_builder:network_builder' %}" class="btn btn-primary">Network Utilities</a>
+              <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="sr-only">Toggle Dropdown</span>
+              </button>
+              <div class="dropdown-menu dropdown-menu-right">
+                <a class="dropdown-item" href="{% url 'network_builder:events' %}">Build Networks from Events</a>
+                <a class="dropdown-item" href="{% url 'network_builder:pairs' %}">Build Networks from Individual Pairs</a>
+                <a class="dropdown-item" href="{% url 'network_builder:netcomp' %}">Compare Networks</a>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item m-2">
+            <div class="btn-group nav-item">
+              <a href="{% url 'network_builder:network_builder' %}" class="btn btn-light">Document Utilities</a>
+              <button type="button" class="btn btn-light dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="sr-only">Toggle Dropdown</span>
+              </button>
+              <div class="dropdown-menu dropdown-menu-right">
+                <a class="dropdown-item" href="{% url 'network_builder:events' %}">Build Networks from Events</a>
+                <a class="dropdown-item" href="{% url 'network_builder:pairs' %}">Build Networks from Individual Pairs</a>
+                <a class="dropdown-item" href="{% url 'network_builder:netcomp' %}">Compare Networks</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div id="wrapper">
+      <div id="header">
+        <div class="jumbotron jumbotron-fluid" id="home-banner">
+          <div class="container text-center">
+            <h1 class="display-4 text-dark">Fracking Tools: Document Utilities</h1>
+            <p class="lead text-dark">This is a collection of programs to analyze, tag, OCR, and compare <strong>.txt</strong>,
+              <strong>.docx</strong>, and <strong>.pdf</strong> documents.
+            </p>
+            <p class="lead text-light">By <strong>Rudy Huezo</strong></p>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="container text-center">
+          <div class="card-deck">
+            <div class="card mb-4">
+              <div class="card-body text-left">
+                <h4 class="card-title mb-4">Compare Documents</h4>
+                <p class="card-text">
+                  This utility allows you to compare two documents for content similarity
+                  and for textual similarity.
+                </p>
+                <p class="card-text">
+                  <strong>Content similarity</strong> uses the Vector Space Model (VSM) and Cosine Similarity
+                  to determine how similar two or a set of documents are to each other based
+                  on their topics.
+                </p>
+                <p class="card-text">
+                  <strong>Textual similarity</strong> uses Near Duplicate Detection to determine if two or a set
+                  of documents are almost identical. A numerical representation of textual similarity
+                  is given by computing the Jaccard similarity of documents.
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="text-center">
+                  <a href="#" class="btn btn-dark">Compare <i class="fa fa-exchange" aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-4">
+              <div class="card-body text-left">
+                <h4 class="card-title mb-4">Tag Documents for Keywords</h4>
+                <p class="card-text">
+                  This utility takes in one or a set of documents (.pdf, .docx, .txt)
+                  and a list of keywords. It then reads the documents and looks for
+                  the keywords within the document's text.
+                </p>
+                <p class="card-text">
+                  If any keywords are found, a <strong>.docx</strong> version of the document
+                  is created with a list of found keywords as the header of this document.
+                  Additionally, the found keywords are capitalized and boldened for easier
+                  human lookup.
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="text-center">
+                  <a href="#" class="btn btn-dark">Tag <i class="fa fa-tag" aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-4">
+              <div class="card-body text-left">
+                <h4 class="card-title mb-4">Tag Documents Using NER</h4>
+                <p class="card-text">
+                  This utility allows you to tag one or a set of documents for
+                  named entities using Stanford's Named Entity Recognizer (NER).
+                </p>
+                <p class="card-text">
+                  The utility outputs <strong>.txt</strong> versions of the inputed
+                  documents with named entities wrapped around XML tags that show
+                  whether the named entity is a <strong>Location</strong>, a <strong>Person</strong>,
+                  an <strong>Organization</strong>, <strong>Money</strong>, a <strong>Percent</strong>,
+                  a <strong>Date</strong>, or a <strong>Time</strong>.
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="text-center">
+                  <a href="#" class="btn btn-dark">Tag <i class="fa fa-tag" aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-deck">
+            <div class="card mb-4">
+              <div class="card-body text-left">
+                <h4 class="card-title mb-4">Compute Document Statistics</h4>
+                <p class="card-text">
+                  You can compare network files (adjacency matrices) to determine
+                  the <strong>actor overlap</strong>, <strong>relationship overlap</strong>,
+                  <strong>unique actors</strong>, and the <strong>unique relationships</strong>.
+                </p>
+                <p class="card-text">
+                  Usually, the comparison involves a network built using meeting minutes
+                  and the other network using newspapers.
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="text-center">
+                  <a href="#" class="btn btn-dark">Compute <i class="fa fa-bar-chart" aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-4">
+              <div class="card-body text-left">
+                <h4 class="card-title mb-4">OCR Documents</h4>
+                <p class="card-text">
+                  You can make scanned pdfs, and images with text readable by performing
+                  optical character (OCR) recognition on them.
+                </p>
+                <p class="card-text">
+                  Supported image files include <strong>JPEGS</strong>, <strong>TIFFs</strong>, and <strong>PNGs</strong>.
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="text-center">
+                  <a href="#" class="btn btn-dark">OCR <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="footer"></div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+    $(function () {
+      $('[data-toggle="popover"]').popover()
+    })
+    </script>
+  </body>
+</html>

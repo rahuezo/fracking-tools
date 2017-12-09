@@ -27,19 +27,31 @@
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto mr-2 text-center">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              NETCOMP
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
+          <li class="nav-item m-2">
+            <div class="btn-group nav-item">
+              <a href="{% url 'network_builder:network_builder' %}" class="btn btn-primary">Network Utilities</a>
+              <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="sr-only">Toggle Dropdown</span>
+              </button>
+              <div class="dropdown-menu dropdown-menu-right">
+                <a class="dropdown-item" href="{% url 'network_builder:events' %}">Build Networks from Events</a>
+                <a class="dropdown-item" href="{% url 'network_builder:pairs' %}">Build Networks from Individual Pairs</a>
+                <a class="dropdown-item" href="{% url 'network_builder:netcomp' %}">Compare Networks</a>
+              </div>
             </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">PAIRCOMP</a>
+          <li class="nav-item m-2">
+            <div class="btn-group nav-item">
+              <a href="{% url 'network_builder:network_builder' %}" class="btn btn-light">Document Utilities</a>
+              <button type="button" class="btn btn-light dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="sr-only">Toggle Dropdown</span>
+              </button>
+              <div class="dropdown-menu dropdown-menu-right">
+                <a class="dropdown-item" href="{% url 'network_builder:events' %}">Build Networks from Events</a>
+                <a class="dropdown-item" href="{% url 'network_builder:pairs' %}">Build Networks from Individual Pairs</a>
+                <a class="dropdown-item" href="{% url 'network_builder:netcomp' %}">Compare Networks</a>
+              </div>
+            </div>
           </li>
         </ul>
       </div>
@@ -49,8 +61,11 @@
         <div class="jumbotron jumbotron-fluid" id="home-banner">
           <div class="container text-center">
             <h1 class="display-4 text-dark">Fracking Tools: Compare Networks</h1>
-            <p class="lead text-dark">This website provides an interface to all programs and scripts used for Gwen Arnold's Fracking Projects.</p>
-            <p><a href="{% url 'network_builder:network_builder' %}" class="btn btn-dark my-4">Network Builder Home</a></p>
+            <p class="lead text-dark">Compare one pair or many pairs of same-named networks.</p>
+            <p>
+              <a href="{% url 'network_builder:events' %}" class="btn btn-dark my-4">Build Networks from Events</a>
+              <a href="{% url 'network_builder:pairs' %}" class="btn btn-light my-4">Build Networks from Individual Pairs</a>
+            </p>
             <p class="lead text-light">By <strong>Rudy Huezo</strong></p>
           </div>
         </div>
@@ -68,6 +83,137 @@
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
+          </div>
+          <div class="card w-100 my-4 border-warning">
+            <div class="card-body text-left">
+              <h4 class="card-title mb-4">0. Before You Begin</h4>
+              <p class="card-text">
+                Before comparing networks you <strong>MUST</strong> follow the exact instructions provided below.
+              </p>
+            </div>
+            <div class="card-footer">
+              <div class="text-center">
+                <button class="btn btn-warning btn-block" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="fa fa-info-circle" aria-hidden="true"></i> Instructions</button>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Instructions</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body text-left">
+                  <p>1. Your network files must be in <strong>.csv</strong> format.</p>
+                  <p>2. Each network file must be a spreadsheet with the following format</p>
+                  <p>
+                    <table class="table">
+                      <thead>
+                        <th></th>
+                        <th>A</th>
+                        <th>B</th>
+                        <th>C</th>
+                        <th>D</th>
+                      </thead>
+                      <tr>
+                        <td>A</td>
+                        <td>0</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>1</td>
+                      </tr>
+                      <tr>
+                        <td>B</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>1</td>
+                        <td>1</td>
+                      </tr>
+                      <tr>
+                        <td>C</td>
+                        <td>0</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>1</td>
+                      </tr>
+                      <tr>
+                        <td>D</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>0</td>
+                      </tr>
+                    </table>
+                  </p>
+                  <p>
+                    3. Networks A Files must be named exactly the same as Networks B Files. Therefore,
+                    Networks A Files and Networks B Files must be in different folders on your computer.
+                  </p>
+                  <p>
+                    3. Once you choose which files to upload and enter an output <strong>.zip</strong>
+                    name, you can click on <kbd>Compare <i class="fa fa-exchange" aria-hidden="true"></i></kbd> to compare your networks.
+                  </p>
+                  <p>
+                    4. A resulting output .zip
+                    file will be automatically downloaded to your computer.
+                  </p>
+                  <p>
+                    5. Each network comparison will look something like the following
+                  </p>
+                  <p>
+                    <table class="table">
+                      <thead>
+                        <th>AB Actor Overlap</th>
+                        <th>AB Relationship Overlap</th>
+                        <th>Unique A Actors</th>
+                        <th>Unique B Actors</th>
+                        <th>Unique A Relationships</th>
+                        <th>Unique B Relationships</th>
+                      </thead>
+                      <tr>
+                        <td>A</td>
+                        <td>('A', 'B')</td>
+                        <td>D</td>
+                        <td>G</td>
+                        <td></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td>C</td>
+                        <td>('C', 'B')</td>
+                        <td>F</td>
+                        <td>H</td>
+                        <td>('A', 'D')</td>
+                        <td>('A', 'F')</td>
+                      </tr>
+                      <tr>
+                        <td>B</td>
+                        <td>('A', 'C')</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                      </tr>
+                    </table>
+                  </p>
+                  <hr class="my-4">
+                  <h5>Understanding the Network Comparison Process</h5>
+                  <ul class="list-unstyled">
+                    <li>- The two network files (adjacency matrices) are converted into networkx graphs</li>
+                    <li>- <strong>AB Actor Overlap: </strong>Get all the nodes in network A and all the nodes in network B and compute the intersection between the two node sets.</li>
+                    <li>- <strong>AB Relationship Overlap: </strong>Get all the edges in network A and all the edges in network B and compute the intersection between the two edge sets.</li>
+                    <li>- <strong>AB Unique Actors: </strong>Get all nodes in network A and all nodes in network B. Iterate through both node lists. If a node in network A does not appear in network B, then this node uniquely belongs to network A. The same process applies to unique nodes in network B.</li>
+                    <li>- <strong>AB Unique Relationships: </strong>Get all edges in network A and all edges in network B. Iterate through both edge lists. If an edge in network A does not appear in network B, then this edge (relationship) uniquely belongs to network A. The same process applies to unique edges in network B.</li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
           </div>
           <form id="comparison-form" action="{% url 'network_builder:compnets' %}" method="post" enctype="multipart/form-data">
             {% csrf_token %}

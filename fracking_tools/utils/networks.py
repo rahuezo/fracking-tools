@@ -3,17 +3,6 @@ import csv
 
 
 class NetworkComparison:
-    @staticmethod
-    def to_csv(fn, header, rows):
-        with open(fn, 'wb') as f:
-            writer = csv.writer(f, delimiter=',')
-            writer.writerow(header)
-
-            for row in rows:
-                writer.writerow(row)
-
-        return fn
-
     def __init__(self, network_name, network_a, network_b):
         self.network_name = AdjacencyMatrix.clean_text(network_name).title()
         self.network_a = network_a
@@ -64,6 +53,16 @@ class NetworkComparison:
 
         return summary_name, header, rows
 
+
+def to_csv(fn, header, rows):
+    with open(fn, 'wb') as f:
+        writer = csv.writer(f, delimiter=',')
+        writer.writerow(header)
+
+        for row in rows:
+            writer.writerow(row)
+
+    return fn
 # import csv
 #
 # with open(r'C:\Users\rahue\Desktop\adjmat.csv', 'rb') as f:

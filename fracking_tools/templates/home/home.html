@@ -27,19 +27,33 @@
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto mr-2 text-center">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              NETCOMP
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
+          <li class="nav-item m-2">
+            <div class="btn-group nav-item">
+              <a href="{% url 'network_builder:network_builder' %}" class="btn btn-primary">Network Utilities</a>
+              <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="sr-only">Toggle Dropdown</span>
+              </button>
+              <div class="dropdown-menu dropdown-menu-right">
+                <a class="dropdown-item" href="{% url 'network_builder:events' %}">Build Networks from Events</a>
+                <a class="dropdown-item" href="{% url 'network_builder:pairs' %}">Build Networks from Individual Pairs</a>
+                <a class="dropdown-item" href="{% url 'network_builder:netcomp' %}">Compare Networks</a>
+              </div>
             </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">PAIRCOMP</a>
+          <li class="nav-item m-2">
+            <div class="btn-group nav-item">
+              <a href="{% url 'document_utilities:docutils' %}" class="btn btn-light">Document Utilities</a>
+              <button type="button" class="btn btn-light dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="sr-only">Toggle Dropdown</span>
+              </button>
+              <div class="dropdown-menu dropdown-menu-right">
+                <a class="dropdown-item" href="{% url 'document_utilities:doccomp' %}">Compare Documents</a>
+                <a class="dropdown-item" href="{% url 'network_builder:pairs' %}">Tag Documents for Keywords</a>
+                <a class="dropdown-item" href="{% url 'network_builder:netcomp' %}">Tag Documents Using NER</a>
+                <a class="dropdown-item" href="{% url 'network_builder:netcomp' %}">Compute Document Statistics</a>
+                <a class="dropdown-item" href="{% url 'network_builder:netcomp' %}">OCR Documents</a>
+              </div>
+            </div>
           </li>
         </ul>
       </div>
@@ -49,7 +63,7 @@
         <div class="jumbotron jumbotron-fluid" id="home-banner">
           <div class="container text-center">
             <h1 class="display-4 text-dark">Fracking Tools</h1>
-            <p class="lead text-dark">This website provides an interface to all programs and scripts used for Gwen Arnold's Fracking Projects.</p>
+            <p class="lead text-dark">A set of all programs and scripts used for Gwen Arnold's Fracking Projects.</p>
             <p class="lead text-light">By <strong>Rudy Huezo</strong></p>
           </div>
         </div>
@@ -69,28 +83,6 @@
                 <p class="card-text">
                   To build a network from events, you must provide a <strong>.csv</strong>
                   spreadsheet where each column is an event and each row is an individual.
-                </p>
-                <p class="text-muted text-center">
-                  <button class="btn btn-link" data-html="true" data-trigger="focus"
-                  data-toggle="popover" data-placement="top" title="Events Spreadsheet"
-                  data-content='<table class="table table-bordered table-striped table-condensed center">
-                    <tr>
-                        <th>Event 1</th>
-                        <th>Event 2</th>
-                        <th>Event 3</th>
-                    </tr>
-                    <tr>
-                        <td>Person A</td>
-                        <td>Person B</td>
-                        <td>Person C</td>
-                    </tr>
-                    <tr>
-                        <td>Person B</td>
-                        <td>Person C</td>
-                        <td>Person D</td>
-                    </tr>
-                  </table>'>
-                    <i class="fa fa-info-circle" aria-hidden="true"></i></button>
                 </p>
               </div>
               <div class="card-footer">
@@ -112,30 +104,6 @@
                   In this spreadsheet, each row corresponds to a unique
                   pair of individuals.
                 </p>
-                <p class="text-muted text-center">
-                  <button class="btn btn-link" data-html="true" data-trigger="focus"
-                  data-toggle="popover" data-placement="top" title="Events Spreadsheet"
-                  data-content='<table class="table table-bordered table-striped table-condensed center">
-                    <tr>
-                        <th>Person 1</th>
-                        <th>Person 2</th>
-                    </tr>
-
-                    <tr>
-                        <td>John Doe</td>
-                        <td>Michael Smith</td>
-                    </tr>
-                    <tr>
-                        <td>John Doe</td>
-                        <td>Jane Doe</td>
-                    </tr>
-                    <tr>
-                        <td>Jane Doe</td>
-                        <td>Jim Adams</td>
-                    </tr>
-                  </table>'>
-                    <i class="fa fa-info-circle" aria-hidden="true"></i></a>
-                </p>
               </div>
               <div class="card-footer">
                 <div class="text-center">
@@ -155,13 +123,10 @@
                   Usually, the comparison involves a network built using meeting minutes
                   and the other network using newspapers.
                 </p>
-                <p class="text-muted text-center">
-                  <button class="btn btn-link"><i class="fa fa-info-circle" aria-hidden="true"></i></button>
-                <p>
               </div>
               <div class="card-footer">
                 <div class="text-center">
-                  <a href="#" class="btn btn-dark">Compare <i class="fa fa-exchange" aria-hidden="true"></i></a>
+                  <a href="{% url 'network_builder:netcomp' %}" class="btn btn-dark">Compare <i class="fa fa-exchange" aria-hidden="true"></i></a>
                 </div>
               </div>
             </div>
@@ -186,13 +151,10 @@
                   of documents are almost identical. A numerical representation of textual similarity
                   is given by computing the Jaccard similarity of documents.
                 </p>
-                <p class="text-muted text-center">
-                  <button class="btn btn-link"><i class="fa fa-info-circle" aria-hidden="true"></i></button>
-                <p>
               </div>
               <div class="card-footer">
                 <div class="text-center">
-                  <a href="#" class="btn btn-dark">Compare <i class="fa fa-exchange" aria-hidden="true"></i></a>
+                  <a href="{% url 'document_utilities:doccomp' %}" class="btn btn-dark">Compare <i class="fa fa-exchange" aria-hidden="true"></i></a>
                 </div>
               </div>
             </div>
@@ -210,9 +172,6 @@
                   Additionally, the found keywords are capitalized and boldened for easier
                   human lookup.
                 </p>
-                <p class="text-muted text-center">
-                  <button class="btn btn-link"><i class="fa fa-info-circle" aria-hidden="true"></i></button>
-                <p>
               </div>
               <div class="card-footer">
                 <div class="text-center">
@@ -234,9 +193,6 @@
                   an <strong>Organization</strong>, <strong>Money</strong>, a <strong>Percent</strong>,
                   a <strong>Date</strong>, or a <strong>Time</strong>.
                 </p>
-                <p class="text-muted text-center">
-                  <button class="btn btn-link"><i class="fa fa-info-circle" aria-hidden="true"></i></button>
-                <p>
               </div>
               <div class="card-footer">
                 <div class="text-center">
@@ -258,13 +214,27 @@
                   Usually, the comparison involves a network built using meeting minutes
                   and the other network using newspapers.
                 </p>
-                <p class="text-muted text-center">
-                  <button class="btn btn-link"><i class="fa fa-info-circle" aria-hidden="true"></i></button>
-                <p>
               </div>
               <div class="card-footer">
                 <div class="text-center">
                   <a href="#" class="btn btn-dark">Compute <i class="fa fa-bar-chart" aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-4">
+              <div class="card-body text-left">
+                <h4 class="card-title mb-4">OCR Documents</h4>
+                <p class="card-text">
+                  You can make scanned pdfs, and images with text readable by performing
+                  optical character (OCR) recognition on them.
+                </p>
+                <p class="card-text">
+                  Supported image files include <strong>JPEGS</strong>, <strong>TIFFs</strong>, and <strong>PNGs</strong>.
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="text-center">
+                  <a href="#" class="btn btn-dark">OCR <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
                 </div>
               </div>
             </div>
