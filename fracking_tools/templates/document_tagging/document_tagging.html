@@ -42,14 +42,16 @@
           </li>
           <li class="nav-item m-2">
             <div class="btn-group nav-item">
-              <a href="{% url 'network_builder:network_builder' %}" class="btn btn-light">Document Utilities</a>
+              <a href="{% url 'document_utilities:docutils' %}" class="btn btn-light">Document Utilities</a>
               <button type="button" class="btn btn-light dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <span class="sr-only">Toggle Dropdown</span>
               </button>
               <div class="dropdown-menu dropdown-menu-right">
-                <a class="dropdown-item" href="{% url 'network_builder:events' %}">Build Networks from Events</a>
-                <a class="dropdown-item" href="{% url 'network_builder:pairs' %}">Build Networks from Individual Pairs</a>
-                <a class="dropdown-item" href="{% url 'network_builder:netcomp' %}">Compare Networks</a>
+                <a class="dropdown-item" href="{% url 'document_utilities:doccomp' %}">Compare Documents</a>
+                <a class="dropdown-item" href="{% url 'document_utilities:doctag' %}">Tag Documents for Keywords</a>
+                <a class="dropdown-item" href="{% url 'network_builder:netcomp' %}">Tag Documents Using NER</a>
+                <a class="dropdown-item" href="{% url 'document_utilities:docstats' %}">Compute Document Statistics</a>
+                <a class="dropdown-item" href="#">OCR Documents</a>
               </div>
             </div>
           </li>
@@ -63,8 +65,10 @@
             <h1 class="display-4 text-dark">Fracking Tools: Tag Documents for Keywords</h1>
             <p class="lead text-dark">Tag one or many documents for a list of keywords.</p>
             <p>
-              <a href="{% url 'network_builder:pairs' %}" class="btn btn-dark my-4">Build Networks from Individual Pairs</a>
-              <a href="{% url 'network_builder:netcomp' %}" class="btn btn-light my-4">Compare Networks</a>
+              <a href="{% url 'document_utilities:doccomp' %}" class="btn btn-primary my-4">Compare Documents</a>
+              <a href="{% url 'document_utilities:nertag' %}" class="btn btn-success my-4">Tag Documents with NER</a>
+              <a href="{% url 'document_utilities:docstats' %}" class="btn btn-danger my-4">Compute Document Statistics</a>
+              <a href="#" class="btn btn-dark my-4">OCR Documents</a>
             </p>
             <p class="lead text-light">By <strong>Rudy Huezo</strong></p>
           </div>
@@ -72,14 +76,27 @@
       </div>
       <div id="content">
         <div class="container text-center">
+          {% if messages %}
+          {% for message in messages %}
+          {% ifequal message.tags "info" %}
+            <div id="" class="alert alert-warning alert-dismissible fade show" role="alert">
+              <i class="fa fa-exclamation-triangle" aria-hidden="true"></i> {{ message|safe }}
+              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+          {% endifequal %}
+          {% endfor %}
+          {% else %}
           <div id="networks-built-alert" class="alert alert-success alert-dismissible fade show" role="alert">
-            <i class="fa fa-check" aria-hidden="true"></i> <strong><span id="number-of-files"></span></strong> files were compared successfully!
+            <i class="fa fa-check" aria-hidden="true"></i> <strong><span id="number-of-files"></span></strong> files were tagged successfully!
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
+          {% endif %}
           <div id="empty-fields-alert" class="alert alert-danger alert-dismissible fade show" role="alert">
-            <i class="fa fa-times-circle" aria-hidden="true"></i> You must upload at least <strong>1</strong> file, upload/enter a list of keywords and choose an output .zip name!
+            <i class="fa fa-times-circle" aria-hidden="true"></i> You must upload at least <strong>1</strong> file to tag, upload/enter a list of keywords and choose an output .zip name!
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -108,42 +125,22 @@
                 </div>
                 <div class="modal-body text-left">
                   <p>1. Select all the files you want to tag. Your files must be <strong>.txt</strong> or <strong>.docx</strong>.</p>
-                  <p>2. Choose a name for the results file. The results of the file comparisons will be outputted to a single <strong>.csv</strong> file.</p>
+                  <p>2. Upload a file or enter a list of keywords to tag each document.</p>
+                  <p>- If you choose to upload a file with keywords: each keyword must be separated with commas.</p>
+                  <p> &nbsp;&nbsp;&nbsp;&nbsp; For example: keyword1,keyword2,keyword3, etc.</p>
+                  <p>- To manually enter keywords, click on <kbd>Manually Input Keywords</kbd>. Each keyword must be separated with commas.</p>
+                  <p>- You can toggle between <strong>Manually Input Keywords</strong> and <strong>Input Keywords from File</strong> by clicking
+                  on <kbd>Manually Input Keywords</kbd> or <kbd>Input Keywords from File</kbd>.
 
                   <p>
-                    3. Once you choose which files to upload and enter an output <strong>.csv</strong>
-                    name, you can click on <kbd>Compare <i class="fa fa-exchange" aria-hidden="true"></i></kbd> to compare your files.
+                    3. Once you choose which files to upload and enter an output <strong>.zip</strong>
+                    name, you can click on <kbd>Tag <i class="fa fa-tags" aria-hidden="true"></i></kbd> to tag your files for keywords.
                   </p>
                   <p>
-                    4. The output file will look something like this
-                    <table class="table">
-                      <thead>
-                        <th>File A</th>
-                        <th>File B</th>
-                        <th>Cosine Similarity</th>
-                        <th>Jaccard Similarity</th>
-                      </thead>
-                      <tr>
-                        <td>Example File A.txt</td>
-                        <td>Example File B.txt</td>
-                        <td>0.5</td>
-                        <td>0.6</td>
-                      </tr>
-                      <tr>
-                        <td>Example File A.txt</td>
-                        <td>Example File D.txt</td>
-                        <td>0.8</td>
-                        <td>0.4</td>
-                      </tr>
-                      <tr>
-                        <td>Example File A.txt</td>
-                        <td>Example File F.txt</td>
-                        <td>0.3</td>
-                        <td>0.0</td>
-                      </tr>
-                    </table>
+                    4. The output zip file will contain <strong>.docx</strong> documents where the heading
+                    is a list of the keywords that were found in each document. Additionally, each tagged
+                    document will have the found keywords capitalized and boldened for easier lookup.
                   </p>
-
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
@@ -151,7 +148,7 @@
               </div>
             </div>
           </div>
-          <form id="events-form" action="{% url 'document_utilities:compdocs' %}" method="post" enctype="multipart/form-data">
+          <form id="tag-files-form" action="{% url 'document_utilities:tagdocs' %}" method="post" enctype="multipart/form-data">
             {% csrf_token %}
             <div class="card w-100 my-4">
               <div class="card-body text-left">
@@ -162,7 +159,7 @@
               </div>
               <div class="card-footer">
                 <div class="text-center">
-                  <input class="form-control" type="file" name="comparison-documents" accept=".txt,.docx" multiple required>
+                  <input class="form-control" type="file" id="tag-documents" name="tag-documents" accept=".txt,.docx" multiple required>
                 </div>
               </div>
             </div>
@@ -175,7 +172,7 @@
                   </button>
                 </p>
               </div>
-              <input type="hidden" id="keywords-type" name="keywords-type" value="">
+              <input type="hidden" id="keywords-type" name="keywords-type" value="file">
 
               <div class="card-footer invisible" id="manual-keywords">
                 <p class="text-left">
@@ -190,7 +187,7 @@
                   Upload a list of keywords from file
                 </p>
                 <div class="text-center">
-                  <input class="form-control" type="file" id="file-keyword-list" name="file-keyword-list" accept=".txt,.docx" multiple required>
+                  <input class="form-control" type="file" id="file-keyword-list" name="file-keyword-list" accept=".txt" required>
                 </div>
               </div>
             </div>
@@ -203,24 +200,40 @@
               </div>
               <div class="card-footer">
                 <div class="text-center">
-                  <input class="form-control" type="text" name="comparison-output-csv-name" placeholder="Enter a .csv name" required>
+                  <input class="form-control" type="text" id="output-zip-name" name="output-zip-name" placeholder="Enter a .zip name" required>
                 </div>
               </div>
             </div>
             <div class="card mb-4 w-100 my-4">
               <div class="card-body text-left">
-                <h4 class="card-title mb-4">3. Compare Documents</h4>
+                <h4 class="card-title mb-4">4. Tag Documents</h4>
               </div>
               <div class="card-footer">
                 <div class="text-center">
-                  <button type="button" onclick="submit_form();" class="btn btn-dark btn-block" name="button">Compare <i class="fa fa-exchange" aria-hidden="true"></i></button>
+                  <button type="button" onclick="submit_form();" class="btn btn-dark btn-block" name="button">Tag <i class="fa fa-tags" aria-hidden="true"></i></button>
                 </div>
               </div>
             </div>
           </form>
         </div>
       </div>
-      <div id="footer"></div>
+      <div id="footer">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-sm-6">
+              <i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:rahuezo@ucdavis.edu">rahuezo@ucdavis.edu</a>
+            </div>
+            <div class="col-sm-6">
+              <i class="fa fa-globe" aria-hidden="true"></i> <a href="http://rudyhuezo.work">rudyhuezo.work</a>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-sm-12 text-muted">
+              © 2017 Fracking Tools All rights reserved.
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Optional JavaScript -->
@@ -238,19 +251,9 @@
           return false;
         }
       });
-
-      $('#upload-keywords').click(function(){
-        console.log('Keywords from File');
-      });
-
-      $('#enter-keywords').click(function(){
-        console.log('Keywords from text input');
-      });
     });
 
     function keywordEntryHandler(element) {
-      console.log($(element).text());
-
       if($(element).text() == 'From File') {
         $(element).text('Manually Input Keywords');
         $(element).removeClass('btn-secondary').addClass('btn-dark');
@@ -267,17 +270,23 @@
         $('#manual-keyword-list').val('');
         $('#keywords-type').val('manual');
       }
-
-      console.log($('#keywords-type').val());
     }
 
     function submit_form() {
-      let events_form = $('#events-form');
+      let tag_files_form = $('#tag-files-form');
 
-      if(events_form.find('input:file')[0].files.length > 1 && events_form.find('input:text').val().length > 0) {
-        $('#number-of-files').text(events_form.find('input:file')[0].files.length);
-        events_form.submit();
-        events_form[0].reset();
+      console.log('Files to tag: ', $('#tag-documents')[0].files.length > 0)
+      console.log('keywords file: ', $('#file-keyword-list')[0].files.length > 0)
+      console.log('manual keywords: ', $('#manual-keyword-list').val().length > 0)
+      console.log('zip output: ', $('#output-zip-name').val().length > 0)
+
+
+      if($('#tag-documents')[0].files.length > 0
+        && ($('#file-keyword-list')[0].files.length > 0 || $('#manual-keyword-list').val().length > 0)
+        && $('#output-zip-name').val().length > 0) {
+        $('#number-of-files').text($('#tag-documents')[0].files.length);
+        tag_files_form.submit();
+        tag_files_form[0].reset();
         $('#empty-fields-alert').fadeOut();
         $('#networks-built-alert').fadeIn();
 

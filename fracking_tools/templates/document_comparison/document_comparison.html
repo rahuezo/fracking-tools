@@ -42,14 +42,16 @@
           </li>
           <li class="nav-item m-2">
             <div class="btn-group nav-item">
-              <a href="{% url 'network_builder:network_builder' %}" class="btn btn-light">Document Utilities</a>
+              <a href="{% url 'document_utilities:docutils' %}" class="btn btn-light">Document Utilities</a>
               <button type="button" class="btn btn-light dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <span class="sr-only">Toggle Dropdown</span>
               </button>
               <div class="dropdown-menu dropdown-menu-right">
-                <a class="dropdown-item" href="{% url 'network_builder:events' %}">Build Networks from Events</a>
-                <a class="dropdown-item" href="{% url 'network_builder:pairs' %}">Build Networks from Individual Pairs</a>
-                <a class="dropdown-item" href="{% url 'network_builder:netcomp' %}">Compare Networks</a>
+                <a class="dropdown-item" href="{% url 'document_utilities:doccomp' %}">Compare Documents</a>
+                <a class="dropdown-item" href="{% url 'document_utilities:doctag' %}">Tag Documents for Keywords</a>
+                <a class="dropdown-item" href="{% url 'network_builder:netcomp' %}">Tag Documents Using NER</a>
+                <a class="dropdown-item" href="{% url 'document_utilities:docstats' %}">Compute Document Statistics</a>
+                <a class="dropdown-item" href="#">OCR Documents</a>
               </div>
             </div>
           </li>
@@ -63,8 +65,10 @@
             <h1 class="display-4 text-dark">Fracking Tools: Compare Documents</h1>
             <p class="lead text-dark">Compare one pair or many pairs of documents for content or textual similarity.</p>
             <p>
-              <a href="{% url 'network_builder:pairs' %}" class="btn btn-dark my-4">Build Networks from Individual Pairs</a>
-              <a href="{% url 'network_builder:netcomp' %}" class="btn btn-light my-4">Compare Networks</a>
+              <a href="{% url 'document_utilities:doctag' %}" class="btn btn-primary my-4">Tag Documents for Keywords</a>
+              <a href="{% url 'document_utilities:nertag' %}" class="btn btn-success my-4">Tag Documents with NER</a>
+              <a href="{% url 'document_utilities:docstats' %}" class="btn btn-danger my-4">Compute Document Statistics</a>
+              <a href="#" class="btn btn-dark my-4">OCR Documents</a>
             </p>
             <p class="lead text-light">By <strong>Rudy Huezo</strong></p>
           </div>
@@ -143,7 +147,32 @@
                       </tr>
                     </table>
                   </p>
-
+                  <hr>
+                  <h6 class="text-center">Some Background Information</h6><br>
+                  <p><strong>Cosine Similarity </strong> refers to comparing the content
+                    of two or more documents. The cosine similarity of two documents ranges from -1 to +1. If two documents
+                    talk about the same topics their cosine similarity is closer to +1. If two documents talk about completely
+                    opposite topics, their cosine similarity is closer to -1. However, if two documents are unrelated,
+                    their cosine similarity is exactly 0.
+                  </p>
+                  <p>
+                    This comparison is possible thanks to the <strong>Vector Space Model (VSM)</strong>.
+                    VSM is an algebraic model representing textual information as a vector.
+                    The components of this vector are important-word frequencies determined using the term
+                    frequency-inverse document frequency <a href="http://en.wikipedia.org/wiki/Tf%E2%80%93idf">(tf-idf)</a> method.
+                  </p>
+                  <p>
+                    <strong>Jaccard Similarity </strong> is used to detect whether two documents are almost identical.
+                    This method reduces a document to a set of strings through a process called shingling.
+                    Shingling extracts the set of all substrings of length k (k-shingles) from a text. This is implemented
+                    by sliding a window of size k over each document--character by character--and putting the substrings into a set.
+                    For example, the document "abcabcac" yields the 3 shingles {"abc", "bca", "cab", "cac"}. This set eliminates duplicate shingles.
+                  </p>
+                  <p>
+                    Once documents have been turned into shingle sets, the jaccard similarity of 2 sets (2 documents) is calculated
+                    by dividing the size of the intersection of two sets by the size of their union. In other words, the ratio of the number
+                    of words that are found in BOTH documents and the total number of unique words in BOTH documents.
+                  </p>
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
@@ -192,7 +221,23 @@
           </form>
         </div>
       </div>
-      <div id="footer"></div>
+      <div id="footer">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-sm-6">
+              <i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:rahuezo@ucdavis.edu">rahuezo@ucdavis.edu</a>
+            </div>
+            <div class="col-sm-6">
+              <i class="fa fa-globe" aria-hidden="true"></i> <a href="http://rudyhuezo.work">rudyhuezo.work</a>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-sm-12 text-muted">
+              © 2017 Fracking Tools All rights reserved.
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Optional JavaScript -->

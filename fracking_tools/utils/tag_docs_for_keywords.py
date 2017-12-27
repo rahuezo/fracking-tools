@@ -6,10 +6,10 @@ import re
 
 
 class KeywordTagger:
-    def __init__(self, f, keywords_file, output_path):
+    def __init__(self, f, keywords, output_path):
         self.file_to_tag = f
-        self.keywords_file = keywords_file
-        self.keywords = self.get_keywords()
+        # self.keywords_file = keywords_file
+        self.keywords = keywords #self.get_keywords()
         self.output_path = output_path
         self.content = ExtensionHandler(self.file_to_tag).get_content()
 
@@ -20,9 +20,9 @@ class KeywordTagger:
                 content = get_text(content.lower().replace(kw, tags[i]))
         return content
 
-    def get_keywords(self):
-        with open(self.keywords_file, 'r') as kwds_file:
-            return map(get_text, kwds_file.read().split(','))
+    # def get_keywords(self):
+    #     with open(self.keywords_file, 'r') as kwds_file:
+    #         return map(get_text, kwds_file.read().split(','))
 
     def find_keywords(self, content, tags):
         return filter(lambda tag: re.findall(r'{0}'.format(tag), content), tags)
@@ -46,6 +46,7 @@ class KeywordTagger:
                     paragraph.add_run(' {0}'.format(word))
 
             doc.save(self.output_path)
+            return self.output_path
         else:
             return None
 

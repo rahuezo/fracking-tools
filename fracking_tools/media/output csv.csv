@@ -1,0 +1,6 @@
+File,Reading Level,This,That,Them,Polarity,Subjectivity,Classification,P_POS,P_NEG
+Natural+gas+drilling-LETTERS FOR JULY 24 2008.txt,9.9,974,5,2,19,0.1483,0.5015,pos,1.0,0.0
+Shale+drilling-DRILLING ON HOLD IN TOWN.txt,9.9,684,4,2,6,0.0735,0.42,pos,1.0,0.0
+Shale+drilling-GAS-DRILLING FEARS ABOUND.txt,11.1,817,1,0,5,0.0923,0.4419,pos,1.0,0.0
+Shale+drilling-MORE THAN 1 500 SIGN GAS LEASES.txt,9.1,869,3,2,8,0.0884,0.4088,pos,1.0,0.0
+Shale-2008 PIT RUN RESULTS.txt,1.7,5156,0,0,0,0.3105,0.4994,pos,1.0,0.0

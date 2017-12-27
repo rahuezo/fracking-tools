@@ -42,14 +42,16 @@
           </li>
           <li class="nav-item m-2">
             <div class="btn-group nav-item">
-              <a href="{% url 'network_builder:network_builder' %}" class="btn btn-light">Document Utilities</a>
+              <a href="{% url 'document_utilities:docutils' %}" class="btn btn-light">Document Utilities</a>
               <button type="button" class="btn btn-light dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <span class="sr-only">Toggle Dropdown</span>
               </button>
               <div class="dropdown-menu dropdown-menu-right">
-                <a class="dropdown-item" href="{% url 'network_builder:events' %}">Build Networks from Events</a>
-                <a class="dropdown-item" href="{% url 'network_builder:pairs' %}">Build Networks from Individual Pairs</a>
-                <a class="dropdown-item" href="{% url 'network_builder:netcomp' %}">Compare Networks</a>
+                <a class="dropdown-item" href="{% url 'document_utilities:doccomp' %}">Compare Documents</a>
+                <a class="dropdown-item" href="{% url 'document_utilities:doctag' %}">Tag Documents for Keywords</a>
+                <a class="dropdown-item" href="{% url 'network_builder:netcomp' %}">Tag Documents Using NER</a>
+                <a class="dropdown-item" href="{% url 'document_utilities:docstats' %}">Compute Document Statistics</a>
+                <a class="dropdown-item" href="{% url 'network_builder:netcomp' %}">OCR Documents</a>
               </div>
             </div>
           </li>
@@ -63,8 +65,8 @@
             <h1 class="display-4 text-dark">Fracking Tools: Build Networks From Events</h1>
             <p class="lead text-dark">Build one or many networks from <strong>.csv</strong> event spreadsheets.</p>
             <p>
-              <a href="{% url 'network_builder:pairs' %}" class="btn btn-dark my-4">Build Networks from Individual Pairs</a>
-              <a href="{% url 'network_builder:netcomp' %}" class="btn btn-light my-4">Compare Networks</a>
+              <a href="{% url 'network_builder:pairs' %}" class="btn btn-primary my-4">Build Networks from Individual Pairs</a>
+              <a href="{% url 'network_builder:netcomp' %}" class="btn btn-success my-4">Compare Networks</a>
             </p>
             <p class="lead text-light">By <strong>Rudy Huezo</strong></p>
           </div>
@@ -233,7 +235,23 @@
           </form>
         </div>
       </div>
-      <div id="footer"></div>
+      <div id="footer">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-sm-6">
+              <i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:rahuezo@ucdavis.edu">rahuezo@ucdavis.edu</a>
+            </div>
+            <div class="col-sm-6">
+              <i class="fa fa-globe" aria-hidden="true"></i> <a href="http://rudyhuezo.work">rudyhuezo.work</a>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-sm-12 text-muted">
+              © 2017 Fracking Tools All rights reserved.
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Optional JavaScript -->

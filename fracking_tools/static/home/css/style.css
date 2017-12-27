@@ -1,5 +1,5 @@
 body {
-  padding-bottom: 10vh;
+  /* padding-bottom: 10vh; */
 }
 
 .navbar-brand img {
@@ -45,4 +45,29 @@ button, .btn {
 
 .invisible {
   display: none;
+}
+
+.blurred {
+  filter: blur(3px);
+  opacity: 0.8;
+  pointer-events: none;
+  user-select: none;
+}
+
+#footer {
+  color: #FFF;
+  padding-top: 20px;
+  padding-bottom: 20px; 
+  margin-top: 10vh;
+  background: #111;
+  font-size: 1.2rem;
+}
+
+#footer a {
+  color: #CCC;
+  transition: all ease-out 0.1s;
+}
+
+#footer a:hover {
+  color: #FFF;
 }

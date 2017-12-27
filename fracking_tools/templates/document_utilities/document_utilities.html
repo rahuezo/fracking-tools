@@ -42,14 +42,16 @@
           </li>
           <li class="nav-item m-2">
             <div class="btn-group nav-item">
-              <a href="{% url 'network_builder:network_builder' %}" class="btn btn-light">Document Utilities</a>
+              <a href="{% url 'document_utilities:docutils' %}" class="btn btn-light">Document Utilities</a>
               <button type="button" class="btn btn-light dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <span class="sr-only">Toggle Dropdown</span>
               </button>
               <div class="dropdown-menu dropdown-menu-right">
-                <a class="dropdown-item" href="{% url 'network_builder:events' %}">Build Networks from Events</a>
-                <a class="dropdown-item" href="{% url 'network_builder:pairs' %}">Build Networks from Individual Pairs</a>
-                <a class="dropdown-item" href="{% url 'network_builder:netcomp' %}">Compare Networks</a>
+                <a class="dropdown-item" href="{% url 'document_utilities:doccomp' %}">Compare Documents</a>
+                <a class="dropdown-item" href="{% url 'document_utilities:doctag' %}">Tag Documents for Keywords</a>
+                <a class="dropdown-item" href="{% url 'network_builder:netcomp' %}">Tag Documents Using NER</a>
+                <a class="dropdown-item" href="{% url 'document_utilities:docstats' %}">Compute Document Statistics</a>
+                <a class="dropdown-item" href="#">OCR Documents</a>
               </div>
             </div>
           </li>
@@ -91,7 +93,7 @@
               </div>
               <div class="card-footer">
                 <div class="text-center">
-                  <a href="#" class="btn btn-dark">Compare <i class="fa fa-exchange" aria-hidden="true"></i></a>
+                  <a href="{% url 'document_utilities:doccomp' %}" class="btn btn-dark">Compare <i class="fa fa-exchange" aria-hidden="true"></i></a>
                 </div>
               </div>
             </div>
@@ -112,7 +114,7 @@
               </div>
               <div class="card-footer">
                 <div class="text-center">
-                  <a href="#" class="btn btn-dark">Tag <i class="fa fa-tag" aria-hidden="true"></i></a>
+                  <a href="{% url 'document_utilities:doctag' %}" class="btn btn-dark">Tag <i class="fa fa-tag" aria-hidden="true"></i></a>
                 </div>
               </div>
             </div>
@@ -133,7 +135,7 @@
               </div>
               <div class="card-footer">
                 <div class="text-center">
-                  <a href="#" class="btn btn-dark">Tag <i class="fa fa-tag" aria-hidden="true"></i></a>
+                  <a href="{% url 'document_utilities:nertag' %}" class="btn btn-dark">Tag <i class="fa fa-tag" aria-hidden="true"></i></a>
                 </div>
               </div>
             </div>
@@ -143,22 +145,22 @@
               <div class="card-body text-left">
                 <h4 class="card-title mb-4">Compute Document Statistics</h4>
                 <p class="card-text">
-                  You can compare network files (adjacency matrices) to determine
-                  the <strong>actor overlap</strong>, <strong>relationship overlap</strong>,
-                  <strong>unique actors</strong>, and the <strong>unique relationships</strong>.
+                  You can analyze one or more documents to determine its reading level, word count, word occurrance count, polarity,
+                  subjectivity, and positive/negative tone classification.
                 </p>
-                <p class="card-text">
-                  Usually, the comparison involves a network built using meeting minutes
-                  and the other network using newspapers.
-                </p>
+                <p>- Reading level is determined using the Flesch-Kincaid grade level formula.</p>
+                <p>- Word count is determined by separating strings at spaces.</p>
+                <p>- By providing a list of keywords, this utility outputs how often a keyword appears in the text.</p>
+                <p>- Polarity, subjectivity, and positive/negative classification are determined using Python's Textblob library.</p>
+                <p>This utility outputs a <strong>.csv</strong> file where each row represents the analysis of a single document.</p>
               </div>
               <div class="card-footer">
                 <div class="text-center">
-                  <a href="#" class="btn btn-dark">Compute <i class="fa fa-bar-chart" aria-hidden="true"></i></a>
+                  <a href="{% url 'document_utilities:docstats' %}" class="btn btn-dark">Compute <i class="fa fa-bar-chart" aria-hidden="true"></i></a>
                 </div>
               </div>
             </div>
-            <div class="card mb-4">
+            <div class="card mb-4 blurred">
               <div class="card-body text-left">
                 <h4 class="card-title mb-4">OCR Documents</h4>
                 <p class="card-text">
@@ -178,7 +180,23 @@
           </div>
         </div>
       </div>
-      <div id="footer"></div>
+      <div id="footer">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-sm-6">
+              <i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:rahuezo@ucdavis.edu">rahuezo@ucdavis.edu</a>
+            </div>
+            <div class="col-sm-6">
+              <i class="fa fa-globe" aria-hidden="true"></i> <a href="http://rudyhuezo.work">rudyhuezo.work</a>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-sm-12 text-muted">
+              © 2017 Fracking Tools All rights reserved.
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Optional JavaScript -->
