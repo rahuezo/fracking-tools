@@ -1,0 +1,317 @@
+Actor Overlap,Relationship Overlap,Unique Newspaper Network Actors,Unique Meeting Minute Network Actors,Unique Newspaper Network Relationships,Unique Newspaper Network Relationships
+Katelin Palmeter,"('Katelin Palmeter', 'Richard Congdon')",John Nahill,David Malone,"('John Nahill', 'Leon Newswanger')","('David Malone', 'Patterson')"
+John Mowers,"('David Slottje', 'Richard Congdon')",Leon Newswanger,Patterson,"('John Nahill', 'Donna Loucks')","('David Malone', 'Pauline Williams')"
+David Slottje,"('David Slottje', 'Robert Scanlon')",Donna Loucks,Pauline Williams,"('John Nahill', 'David Slottje')","('David Malone', 'Katelin Palmeter')"
+Richard Congdon,"('Robert Scanlon', 'Colleen Walrath')",Bill Timmerman,Christopher Simpson,"('John Nahill', 'Bill Timmerman')","('David Malone', 'Christopher Simpson')"
+Robert Scanlon,"('David Slottje', 'Colleen Walrath')",Betty Darling,Karen Yomboro,"('John Nahill', 'Betty Darling')","('David Malone', 'Karen Yomboro')"
+Colleen Walrath,"('John Mowers', 'Richard Congdon')",Rebecca Newswanger,Gary Farquhar,"('John Nahill', 'Rebecca Newswanger')","('David Malone', 'Gary Farquhar')"
+,"('Katelin Palmeter', 'Colleen Walrath')",Scott Stowell,James Seward,"('John Nahill', 'Scott Stowell')","('David Malone', 'John Mowers')"
+,"('Katelin Palmeter', 'John Mowers')",Barbara Boucher,Charles Kuehnle,"('John Nahill', 'Katelin Palmeter')","('David Malone', 'David Slottje')"
+,"('Katelin Palmeter', 'Robert Scanlon')",Bruce Lyon,,"('John Nahill', 'Barbara Boucher')","('David Malone', 'Richard Congdon')"
+,,Robyn Cadwell,,"('John Nahill', 'Bruce Lyon')","('David Malone', 'Robert Scanlon')"
+,,Anne Wavra,,"('John Nahill', 'Robyn Cadwell')","('David Malone', 'James Seward')"
+,,Sharon Baisley,,"('John Nahill', 'Robert Scanlon')","('David Malone', 'Charles Kuehnle')"
+,,Norman Mastromoro,,"('John Nahill', 'Anne Wavra')","('David Malone', 'Colleen Walrath')"
+,,Alex Yomboro,,"('John Nahill', 'Sharon Baisley')","('Patterson', 'Pauline Williams')"
+,,Lia Marrero,,"('John Nahill', 'Norman Mastromoro')","('Patterson', 'Katelin Palmeter')"
+,,John Haughton,,"('John Nahill', 'Colleen Walrath')","('Patterson', 'Christopher Simpson')"
+,,Jan Murphy,,"('John Nahill', 'Alex Yomboro')","('Patterson', 'Karen Yomboro')"
+,,Ken Ayers,,"('John Nahill', 'Lia Marrero')","('Patterson', 'Gary Farquhar')"
+,,Karin Yomboro,,"('John Nahill', 'John Haughton')","('Patterson', 'John Mowers')"
+,,Carl Stallman,,"('John Nahill', 'Jan Murphy')","('Patterson', 'David Slottje')"
+,,,,"('John Nahill', 'Ken Ayers')","('Patterson', 'Richard Congdon')"
+,,,,"('John Nahill', 'Karin Yomboro')","('Patterson', 'Robert Scanlon')"
+,,,,"('John Nahill', 'John Mowers')","('Patterson', 'James Seward')"
+,,,,"('John Nahill', 'Richard Congdon')","('Patterson', 'Charles Kuehnle')"
+,,,,"('John Nahill', 'Carl Stallman')","('Patterson', 'Colleen Walrath')"
+,,,,"('Leon Newswanger', 'Donna Loucks')","('Pauline Williams', 'Katelin Palmeter')"
+,,,,"('Leon Newswanger', 'David Slottje')","('Pauline Williams', 'Christopher Simpson')"
+,,,,"('Leon Newswanger', 'Bill Timmerman')","('Pauline Williams', 'Karen Yomboro')"
+,,,,"('Leon Newswanger', 'Betty Darling')","('Pauline Williams', 'Gary Farquhar')"
+,,,,"('Leon Newswanger', 'Rebecca Newswanger')","('Pauline Williams', 'John Mowers')"
+,,,,"('Leon Newswanger', 'Scott Stowell')","('Pauline Williams', 'David Slottje')"
+,,,,"('Leon Newswanger', 'Katelin Palmeter')","('Pauline Williams', 'Richard Congdon')"
+,,,,"('Leon Newswanger', 'Barbara Boucher')","('Pauline Williams', 'Robert Scanlon')"
+,,,,"('Leon Newswanger', 'Bruce Lyon')","('Pauline Williams', 'James Seward')"
+,,,,"('Leon Newswanger', 'Robyn Cadwell')","('Pauline Williams', 'Charles Kuehnle')"
+,,,,"('Leon Newswanger', 'Robert Scanlon')","('Pauline Williams', 'Colleen Walrath')"
+,,,,"('Leon Newswanger', 'Anne Wavra')","('Katelin Palmeter', 'Christopher Simpson')"
+,,,,"('Leon Newswanger', 'Sharon Baisley')","('Katelin Palmeter', 'Karen Yomboro')"
+,,,,"('Leon Newswanger', 'Norman Mastromoro')","('Katelin Palmeter', 'Gary Farquhar')"
+,,,,"('Leon Newswanger', 'Colleen Walrath')","('Katelin Palmeter', 'David Slottje')"
+,,,,"('Leon Newswanger', 'Alex Yomboro')","('Katelin Palmeter', 'James Seward')"
+,,,,"('Leon Newswanger', 'Lia Marrero')","('Katelin Palmeter', 'Charles Kuehnle')"
+,,,,"('Leon Newswanger', 'John Haughton')","('Christopher Simpson', 'Karen Yomboro')"
+,,,,"('Leon Newswanger', 'Jan Murphy')","('Christopher Simpson', 'Gary Farquhar')"
+,,,,"('Leon Newswanger', 'Ken Ayers')","('Christopher Simpson', 'John Mowers')"
+,,,,"('Leon Newswanger', 'Karin Yomboro')","('Christopher Simpson', 'David Slottje')"
+,,,,"('Leon Newswanger', 'John Mowers')","('Christopher Simpson', 'Richard Congdon')"
+,,,,"('Leon Newswanger', 'Richard Congdon')","('Christopher Simpson', 'Robert Scanlon')"
+,,,,"('Leon Newswanger', 'Carl Stallman')","('Christopher Simpson', 'James Seward')"
+,,,,"('Donna Loucks', 'David Slottje')","('Christopher Simpson', 'Charles Kuehnle')"
+,,,,"('Donna Loucks', 'Bill Timmerman')","('Christopher Simpson', 'Colleen Walrath')"
+,,,,"('Donna Loucks', 'Betty Darling')","('Karen Yomboro', 'Gary Farquhar')"
+,,,,"('Donna Loucks', 'Rebecca Newswanger')","('Karen Yomboro', 'John Mowers')"
+,,,,"('Donna Loucks', 'Scott Stowell')","('Karen Yomboro', 'David Slottje')"
+,,,,"('Donna Loucks', 'Katelin Palmeter')","('Karen Yomboro', 'Richard Congdon')"
+,,,,"('Donna Loucks', 'Barbara Boucher')","('Karen Yomboro', 'Robert Scanlon')"
+,,,,"('Donna Loucks', 'Bruce Lyon')","('Karen Yomboro', 'James Seward')"
+,,,,"('Donna Loucks', 'Robyn Cadwell')","('Karen Yomboro', 'Charles Kuehnle')"
+,,,,"('Donna Loucks', 'Robert Scanlon')","('Karen Yomboro', 'Colleen Walrath')"
+,,,,"('Donna Loucks', 'Anne Wavra')","('Gary Farquhar', 'John Mowers')"
+,,,,"('Donna Loucks', 'Sharon Baisley')","('Gary Farquhar', 'David Slottje')"
+,,,,"('Donna Loucks', 'Norman Mastromoro')","('Gary Farquhar', 'Richard Congdon')"
+,,,,"('Donna Loucks', 'Colleen Walrath')","('Gary Farquhar', 'Robert Scanlon')"
+,,,,"('Donna Loucks', 'Alex Yomboro')","('Gary Farquhar', 'James Seward')"
+,,,,"('Donna Loucks', 'Lia Marrero')","('Gary Farquhar', 'Charles Kuehnle')"
+,,,,"('Donna Loucks', 'John Haughton')","('Gary Farquhar', 'Colleen Walrath')"
+,,,,"('Donna Loucks', 'Jan Murphy')","('John Mowers', 'David Slottje')"
+,,,,"('Donna Loucks', 'Ken Ayers')","('John Mowers', 'Robert Scanlon')"
+,,,,"('Donna Loucks', 'Karin Yomboro')","('John Mowers', 'James Seward')"
+,,,,"('Donna Loucks', 'John Mowers')","('John Mowers', 'Charles Kuehnle')"
+,,,,"('Donna Loucks', 'Richard Congdon')","('John Mowers', 'Colleen Walrath')"
+,,,,"('Donna Loucks', 'Carl Stallman')","('David Slottje', 'James Seward')"
+,,,,"('David Slottje', 'Bill Timmerman')","('David Slottje', 'Charles Kuehnle')"
+,,,,"('David Slottje', 'Betty Darling')","('Richard Congdon', 'Robert Scanlon')"
+,,,,"('David Slottje', 'Rebecca Newswanger')","('Richard Congdon', 'James Seward')"
+,,,,"('David Slottje', 'Scott Stowell')","('Richard Congdon', 'Charles Kuehnle')"
+,,,,"('David Slottje', 'Katelin Palmeter')","('Richard Congdon', 'Colleen Walrath')"
+,,,,"('David Slottje', 'Barbara Boucher')","('Robert Scanlon', 'James Seward')"
+,,,,"('David Slottje', 'Bruce Lyon')","('Robert Scanlon', 'Charles Kuehnle')"
+,,,,"('David Slottje', 'Robyn Cadwell')","('James Seward', 'Charles Kuehnle')"
+,,,,"('David Slottje', 'Anne Wavra')","('James Seward', 'Colleen Walrath')"
+,,,,"('David Slottje', 'Sharon Baisley')","('Charles Kuehnle', 'Colleen Walrath')"
+,,,,"('David Slottje', 'Norman Mastromoro')",
+,,,,"('David Slottje', 'Alex Yomboro')",
+,,,,"('David Slottje', 'Lia Marrero')",
+,,,,"('David Slottje', 'John Haughton')",
+,,,,"('David Slottje', 'Jan Murphy')",
+,,,,"('David Slottje', 'Ken Ayers')",
+,,,,"('David Slottje', 'Karin Yomboro')",
+,,,,"('David Slottje', 'John Mowers')",
+,,,,"('David Slottje', 'Carl Stallman')",
+,,,,"('Bill Timmerman', 'Betty Darling')",
+,,,,"('Bill Timmerman', 'Rebecca Newswanger')",
+,,,,"('Bill Timmerman', 'Scott Stowell')",
+,,,,"('Bill Timmerman', 'Katelin Palmeter')",
+,,,,"('Bill Timmerman', 'Barbara Boucher')",
+,,,,"('Bill Timmerman', 'Bruce Lyon')",
+,,,,"('Bill Timmerman', 'Robyn Cadwell')",
+,,,,"('Bill Timmerman', 'Robert Scanlon')",
+,,,,"('Bill Timmerman', 'Anne Wavra')",
+,,,,"('Bill Timmerman', 'Sharon Baisley')",
+,,,,"('Bill Timmerman', 'Norman Mastromoro')",
+,,,,"('Bill Timmerman', 'Colleen Walrath')",
+,,,,"('Bill Timmerman', 'Alex Yomboro')",
+,,,,"('Bill Timmerman', 'Lia Marrero')",
+,,,,"('Bill Timmerman', 'John Haughton')",
+,,,,"('Bill Timmerman', 'Jan Murphy')",
+,,,,"('Bill Timmerman', 'Ken Ayers')",
+,,,,"('Bill Timmerman', 'Karin Yomboro')",
+,,,,"('Bill Timmerman', 'John Mowers')",
+,,,,"('Bill Timmerman', 'Richard Congdon')",
+,,,,"('Bill Timmerman', 'Carl Stallman')",
+,,,,"('Betty Darling', 'Rebecca Newswanger')",
+,,,,"('Betty Darling', 'Scott Stowell')",
+,,,,"('Betty Darling', 'Katelin Palmeter')",
+,,,,"('Betty Darling', 'Barbara Boucher')",
+,,,,"('Betty Darling', 'Bruce Lyon')",
+,,,,"('Betty Darling', 'Robyn Cadwell')",
+,,,,"('Betty Darling', 'Robert Scanlon')",
+,,,,"('Betty Darling', 'Anne Wavra')",
+,,,,"('Betty Darling', 'Sharon Baisley')",
+,,,,"('Betty Darling', 'Norman Mastromoro')",
+,,,,"('Betty Darling', 'Colleen Walrath')",
+,,,,"('Betty Darling', 'Alex Yomboro')",
+,,,,"('Betty Darling', 'Lia Marrero')",
+,,,,"('Betty Darling', 'John Haughton')",
+,,,,"('Betty Darling', 'Jan Murphy')",
+,,,,"('Betty Darling', 'Ken Ayers')",
+,,,,"('Betty Darling', 'Karin Yomboro')",
+,,,,"('Betty Darling', 'John Mowers')",
+,,,,"('Betty Darling', 'Richard Congdon')",
+,,,,"('Betty Darling', 'Carl Stallman')",
+,,,,"('Rebecca Newswanger', 'Scott Stowell')",
+,,,,"('Rebecca Newswanger', 'Katelin Palmeter')",
+,,,,"('Rebecca Newswanger', 'Barbara Boucher')",
+,,,,"('Rebecca Newswanger', 'Bruce Lyon')",
+,,,,"('Rebecca Newswanger', 'Robyn Cadwell')",
+,,,,"('Rebecca Newswanger', 'Robert Scanlon')",
+,,,,"('Rebecca Newswanger', 'Anne Wavra')",
+,,,,"('Rebecca Newswanger', 'Sharon Baisley')",
+,,,,"('Rebecca Newswanger', 'Norman Mastromoro')",
+,,,,"('Rebecca Newswanger', 'Colleen Walrath')",
+,,,,"('Rebecca Newswanger', 'Alex Yomboro')",
+,,,,"('Rebecca Newswanger', 'Lia Marrero')",
+,,,,"('Rebecca Newswanger', 'John Haughton')",
+,,,,"('Rebecca Newswanger', 'Jan Murphy')",
+,,,,"('Rebecca Newswanger', 'Ken Ayers')",
+,,,,"('Rebecca Newswanger', 'Karin Yomboro')",
+,,,,"('Rebecca Newswanger', 'John Mowers')",
+,,,,"('Rebecca Newswanger', 'Richard Congdon')",
+,,,,"('Rebecca Newswanger', 'Carl Stallman')",
+,,,,"('Scott Stowell', 'Katelin Palmeter')",
+,,,,"('Scott Stowell', 'Barbara Boucher')",
+,,,,"('Scott Stowell', 'Bruce Lyon')",
+,,,,"('Scott Stowell', 'Robyn Cadwell')",
+,,,,"('Scott Stowell', 'Robert Scanlon')",
+,,,,"('Scott Stowell', 'Anne Wavra')",
+,,,,"('Scott Stowell', 'Sharon Baisley')",
+,,,,"('Scott Stowell', 'Norman Mastromoro')",
+,,,,"('Scott Stowell', 'Colleen Walrath')",
+,,,,"('Scott Stowell', 'Alex Yomboro')",
+,,,,"('Scott Stowell', 'Lia Marrero')",
+,,,,"('Scott Stowell', 'John Haughton')",
+,,,,"('Scott Stowell', 'Jan Murphy')",
+,,,,"('Scott Stowell', 'Ken Ayers')",
+,,,,"('Scott Stowell', 'Karin Yomboro')",
+,,,,"('Scott Stowell', 'John Mowers')",
+,,,,"('Scott Stowell', 'Richard Congdon')",
+,,,,"('Scott Stowell', 'Carl Stallman')",
+,,,,"('Katelin Palmeter', 'Barbara Boucher')",
+,,,,"('Katelin Palmeter', 'Bruce Lyon')",
+,,,,"('Katelin Palmeter', 'Robyn Cadwell')",
+,,,,"('Katelin Palmeter', 'Anne Wavra')",
+,,,,"('Katelin Palmeter', 'Sharon Baisley')",
+,,,,"('Katelin Palmeter', 'Norman Mastromoro')",
+,,,,"('Katelin Palmeter', 'Alex Yomboro')",
+,,,,"('Katelin Palmeter', 'Lia Marrero')",
+,,,,"('Katelin Palmeter', 'John Haughton')",
+,,,,"('Katelin Palmeter', 'Jan Murphy')",
+,,,,"('Katelin Palmeter', 'Ken Ayers')",
+,,,,"('Katelin Palmeter', 'Karin Yomboro')",
+,,,,"('Katelin Palmeter', 'Carl Stallman')",
+,,,,"('Barbara Boucher', 'Bruce Lyon')",
+,,,,"('Barbara Boucher', 'Robyn Cadwell')",
+,,,,"('Barbara Boucher', 'Robert Scanlon')",
+,,,,"('Barbara Boucher', 'Anne Wavra')",
+,,,,"('Barbara Boucher', 'Sharon Baisley')",
+,,,,"('Barbara Boucher', 'Norman Mastromoro')",
+,,,,"('Barbara Boucher', 'Colleen Walrath')",
+,,,,"('Barbara Boucher', 'Alex Yomboro')",
+,,,,"('Barbara Boucher', 'Lia Marrero')",
+,,,,"('Barbara Boucher', 'John Haughton')",
+,,,,"('Barbara Boucher', 'Jan Murphy')",
+,,,,"('Barbara Boucher', 'Ken Ayers')",
+,,,,"('Barbara Boucher', 'Karin Yomboro')",
+,,,,"('Barbara Boucher', 'John Mowers')",
+,,,,"('Barbara Boucher', 'Richard Congdon')",
+,,,,"('Barbara Boucher', 'Carl Stallman')",
+,,,,"('Bruce Lyon', 'Robyn Cadwell')",
+,,,,"('Bruce Lyon', 'Robert Scanlon')",
+,,,,"('Bruce Lyon', 'Anne Wavra')",
+,,,,"('Bruce Lyon', 'Sharon Baisley')",
+,,,,"('Bruce Lyon', 'Norman Mastromoro')",
+,,,,"('Bruce Lyon', 'Colleen Walrath')",
+,,,,"('Bruce Lyon', 'Alex Yomboro')",
+,,,,"('Bruce Lyon', 'Lia Marrero')",
+,,,,"('Bruce Lyon', 'John Haughton')",
+,,,,"('Bruce Lyon', 'Jan Murphy')",
+,,,,"('Bruce Lyon', 'Ken Ayers')",
+,,,,"('Bruce Lyon', 'Karin Yomboro')",
+,,,,"('Bruce Lyon', 'John Mowers')",
+,,,,"('Bruce Lyon', 'Richard Congdon')",
+,,,,"('Bruce Lyon', 'Carl Stallman')",
+,,,,"('Robyn Cadwell', 'Robert Scanlon')",
+,,,,"('Robyn Cadwell', 'Anne Wavra')",
+,,,,"('Robyn Cadwell', 'Sharon Baisley')",
+,,,,"('Robyn Cadwell', 'Norman Mastromoro')",
+,,,,"('Robyn Cadwell', 'Colleen Walrath')",
+,,,,"('Robyn Cadwell', 'Alex Yomboro')",
+,,,,"('Robyn Cadwell', 'Lia Marrero')",
+,,,,"('Robyn Cadwell', 'John Haughton')",
+,,,,"('Robyn Cadwell', 'Jan Murphy')",
+,,,,"('Robyn Cadwell', 'Ken Ayers')",
+,,,,"('Robyn Cadwell', 'Karin Yomboro')",
+,,,,"('Robyn Cadwell', 'John Mowers')",
+,,,,"('Robyn Cadwell', 'Richard Congdon')",
+,,,,"('Robyn Cadwell', 'Carl Stallman')",
+,,,,"('Robert Scanlon', 'Anne Wavra')",
+,,,,"('Robert Scanlon', 'Sharon Baisley')",
+,,,,"('Robert Scanlon', 'Norman Mastromoro')",
+,,,,"('Robert Scanlon', 'Alex Yomboro')",
+,,,,"('Robert Scanlon', 'Lia Marrero')",
+,,,,"('Robert Scanlon', 'John Haughton')",
+,,,,"('Robert Scanlon', 'Jan Murphy')",
+,,,,"('Robert Scanlon', 'Ken Ayers')",
+,,,,"('Robert Scanlon', 'Karin Yomboro')",
+,,,,"('Robert Scanlon', 'John Mowers')",
+,,,,"('Robert Scanlon', 'Richard Congdon')",
+,,,,"('Robert Scanlon', 'Carl Stallman')",
+,,,,"('Anne Wavra', 'Sharon Baisley')",
+,,,,"('Anne Wavra', 'Norman Mastromoro')",
+,,,,"('Anne Wavra', 'Colleen Walrath')",
+,,,,"('Anne Wavra', 'Alex Yomboro')",
+,,,,"('Anne Wavra', 'Lia Marrero')",
+,,,,"('Anne Wavra', 'John Haughton')",
+,,,,"('Anne Wavra', 'Jan Murphy')",
+,,,,"('Anne Wavra', 'Ken Ayers')",
+,,,,"('Anne Wavra', 'Karin Yomboro')",
+,,,,"('Anne Wavra', 'John Mowers')",
+,,,,"('Anne Wavra', 'Richard Congdon')",
+,,,,"('Anne Wavra', 'Carl Stallman')",
+,,,,"('Sharon Baisley', 'Norman Mastromoro')",
+,,,,"('Sharon Baisley', 'Colleen Walrath')",
+,,,,"('Sharon Baisley', 'Alex Yomboro')",
+,,,,"('Sharon Baisley', 'Lia Marrero')",
+,,,,"('Sharon Baisley', 'John Haughton')",
+,,,,"('Sharon Baisley', 'Jan Murphy')",
+,,,,"('Sharon Baisley', 'Ken Ayers')",
+,,,,"('Sharon Baisley', 'Karin Yomboro')",
+,,,,"('Sharon Baisley', 'John Mowers')",
+,,,,"('Sharon Baisley', 'Richard Congdon')",
+,,,,"('Sharon Baisley', 'Carl Stallman')",
+,,,,"('Norman Mastromoro', 'Colleen Walrath')",
+,,,,"('Norman Mastromoro', 'Alex Yomboro')",
+,,,,"('Norman Mastromoro', 'Lia Marrero')",
+,,,,"('Norman Mastromoro', 'John Haughton')",
+,,,,"('Norman Mastromoro', 'Jan Murphy')",
+,,,,"('Norman Mastromoro', 'Ken Ayers')",
+,,,,"('Norman Mastromoro', 'Karin Yomboro')",
+,,,,"('Norman Mastromoro', 'John Mowers')",
+,,,,"('Norman Mastromoro', 'Richard Congdon')",
+,,,,"('Norman Mastromoro', 'Carl Stallman')",
+,,,,"('Colleen Walrath', 'Alex Yomboro')",
+,,,,"('Colleen Walrath', 'Lia Marrero')",
+,,,,"('Colleen Walrath', 'John Haughton')",
+,,,,"('Colleen Walrath', 'Jan Murphy')",
+,,,,"('Colleen Walrath', 'Ken Ayers')",
+,,,,"('Colleen Walrath', 'Karin Yomboro')",
+,,,,"('Colleen Walrath', 'John Mowers')",
+,,,,"('Colleen Walrath', 'Richard Congdon')",
+,,,,"('Colleen Walrath', 'Carl Stallman')",
+,,,,"('Alex Yomboro', 'Lia Marrero')",
+,,,,"('Alex Yomboro', 'John Haughton')",
+,,,,"('Alex Yomboro', 'Jan Murphy')",
+,,,,"('Alex Yomboro', 'Ken Ayers')",
+,,,,"('Alex Yomboro', 'Karin Yomboro')",
+,,,,"('Alex Yomboro', 'John Mowers')",
+,,,,"('Alex Yomboro', 'Richard Congdon')",
+,,,,"('Alex Yomboro', 'Carl Stallman')",
+,,,,"('Lia Marrero', 'John Haughton')",
+,,,,"('Lia Marrero', 'Jan Murphy')",
+,,,,"('Lia Marrero', 'Ken Ayers')",
+,,,,"('Lia Marrero', 'Karin Yomboro')",
+,,,,"('Lia Marrero', 'John Mowers')",
+,,,,"('Lia Marrero', 'Richard Congdon')",
+,,,,"('Lia Marrero', 'Carl Stallman')",
+,,,,"('John Haughton', 'Jan Murphy')",
+,,,,"('John Haughton', 'Ken Ayers')",
+,,,,"('John Haughton', 'Karin Yomboro')",
+,,,,"('John Haughton', 'John Mowers')",
+,,,,"('John Haughton', 'Richard Congdon')",
+,,,,"('John Haughton', 'Carl Stallman')",
+,,,,"('Jan Murphy', 'Ken Ayers')",
+,,,,"('Jan Murphy', 'Karin Yomboro')",
+,,,,"('Jan Murphy', 'John Mowers')",
+,,,,"('Jan Murphy', 'Richard Congdon')",
+,,,,"('Jan Murphy', 'Carl Stallman')",
+,,,,"('Ken Ayers', 'Karin Yomboro')",
+,,,,"('Ken Ayers', 'John Mowers')",
+,,,,"('Ken Ayers', 'Richard Congdon')",
+,,,,"('Ken Ayers', 'Carl Stallman')",
+,,,,"('Karin Yomboro', 'John Mowers')",
+,,,,"('Karin Yomboro', 'Richard Congdon')",
+,,,,"('Karin Yomboro', 'Carl Stallman')",
+,,,,"('John Mowers', 'Carl Stallman')",
+,,,,"('Richard Congdon', 'Carl Stallman')",

@@ -1,0 +1,167 @@
+<div class="card w-100 my-4 border-warning">
+  <div class="card-body text-left">
+    <h4 class="card-title mb-4">0. Before You Begin</h4>
+    <p class="card-text">
+      Before analyzing documents you <strong>MUST</strong> follow the exact instructions provided below.
+    </p>
+  </div>
+  <div class="card-footer">
+    <div class="text-center">
+      <button class="btn btn-warning btn-block" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="fa fa-info-circle" aria-hidden="true"></i> Instructions</button>
+    </div>
+  </div>
+</div>
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Instructions</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body text-left">
+        <p>1. Select all the files you want to analyze. Your files must be <strong>.txt</strong> or <strong>.docx</strong>.</p>
+        <p>2. Upload a file or enter a list of keywords to count their occurrance frequency in each document.</p>
+        <p>- If you choose to upload a file with keywords: each keyword must be separated with commas.</p>
+        <p> &nbsp;&nbsp;&nbsp;&nbsp; For example: keyword1,keyword2,keyword3, etc.</p>
+        <p>- To manually enter keywords, click on <kbd>Manually Input Keywords</kbd>. Each keyword must be separated with commas.</p>
+        <p>- You can toggle between <strong>Manually Input Keywords</strong> and <strong>Input Keywords from File</strong> by clicking
+        on <kbd>Manually Input Keywords</kbd> or <kbd>Input Keywords from File</kbd>.
+        </p>
+        <p>3. Choose a name for the output analysis file. The results of the analysis will be outputted to a single <strong>.csv</strong> file.</p>
+        <p>
+          4. Once you choose which files to upload, include a list of keywords, and enter an output <strong>.csv</strong>
+          name, you can click on <kbd>Compute <i class="fa fa-bar-chart" aria-hidden="true"></i></kbd> to analyze your files.
+        </p>
+          5. The output file will look something like this
+          <div class="table-responsive">
+            <table class="table my-4">
+              <thead>
+                <th>File Name</th>
+                <th>Reading Level</th>
+                <th>Word Count</th>
+                <th>Keyword 1</th>
+                <th>Keyword 2</th>
+                <th>Keyword 3</th>
+                <th>Polarity</th>
+                <th>Subjectivity</th>
+                <th>Classification</th>
+                <th>P_POS</th>
+                <th>P_NEG</th>
+              </thead>
+              <tr>
+                <td>File 1.txt</td>
+                <td>6</td>
+                <td>240</td>
+                <td>0</td>
+                <td>1</td>
+                <td>4</td>
+                <td>0.1</td>
+                <td>0.5</td>
+                <td>pos</td>
+                <td>1</td>
+                <td>0</td>
+              </tr>
+              <tr>
+                <td>File 2.txt</td>
+                <td>12</td>
+                <td>1250</td>
+                <td>4</td>
+                <td>6</td>
+                <td>8</td>
+                <td>-0.2</td>
+                <td>0.8</td>
+                <td>neg</td>
+                <td>1</td>
+                <td>0</td>
+              </tr>
+            </table>
+          </div>
+          <hr>
+          <h6 class="text-center">Some Background Information</h6><br>
+          <p><strong>Reading Level</strong> is determined in the following way: </p>
+          <ol>
+            <li>Calculate the average number of words used per sentence.</li>
+            <li>Calculate the average number of syllables per word.</li>
+            <li>Multiply the average number of words by 0.39 and add it to the average number of syllables per word, multiplied by 11.8.</li>
+            <li>Subtract 15.59 from the result.</li>
+          </ol>
+          <p><strong>Word Count </strong> is determined by counting the number of words in a text separated by spaces.</p>
+          <p><strong>Keyword Occurrance Frequency </strong> if determined by counting the number of times each keyword appears in a text.</p>
+          <p><strong>Sentiment Analysis </strong>is determined using Python's Textblob library. <a href="http://textblob.readthedocs.io/en/dev/quickstart.html">Read more</a></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<form id="tag-files-form" action="{% url 'document_utilities:statdocs' %}" method="post" enctype="multipart/form-data">
+  {% csrf_token %}
+  <div class="card w-100 my-4">
+    <div class="card-body text-left">
+      <h4 class="card-title mb-4">1. Upload Documents to Analyze</h4>
+      <p class="card-text">
+        Upload the files you want to analyze. Valid file formats are <strong>.txt</strong>, and <strong>.docx</strong>.
+      </p>
+    </div>
+    <div class="card-footer">
+      <div class="text-center">
+        <input class="form-control" type="file" id="analyze-documents" name="analyze-documents" accept=".txt,.docx" multiple required>
+      </div>
+    </div>
+  </div>
+  <div class="card mb-4 w-100 my-4">
+    <div class="card-body text-left">
+      <h4 class="card-title mb-4">2. Upload or Enter a list of keywords</h4>
+      <p>
+        <button type="button" class="btn btn-dark w-100" onclick="keywordEntryHandler(this);">
+        Manually Input Keywords
+        </button>
+      </p>
+    </div>
+    <input type="hidden" id="keywords-type" name="keywords-type" value="file">
+
+    <div class="card-footer invisible" id="manual-keywords">
+      <p class="text-left">
+        Enter a list of keywords separated by commas
+      </p>
+      <div class="text-center">
+        <input class="form-control" type="text" id="manual-keyword-list" name="manual-keyword-list" placeholder="e.g. word 1, word 2, word 3" required>
+      </div>
+    </div>
+    <div class="card-footer" id="file-keywords">
+      <p class="text-left">
+        Upload a list of keywords from file
+      </p>
+      <div class="text-center">
+        <input class="form-control" type="file" id="file-keyword-list" name="file-keyword-list" accept=".txt" required>
+      </div>
+    </div>
+  </div>
+  <div class="card mb-4 w-100 my-4">
+    <div class="card-body text-left">
+      <h4 class="card-title mb-4">3. Choose a Name for the Output <strong>.csv</strong> File</h4>
+      <p class="card-text">
+        Enter the output .csv name without a file extension.
+      </p>
+    </div>
+    <div class="card-footer">
+      <div class="text-center">
+        <input class="form-control" type="text" id="output-csv-name" name="output-csv-name" placeholder="Enter a .csv name" required>
+      </div>
+    </div>
+  </div>
+  <div class="card mb-4 w-100 my-4">
+    <div class="card-body text-left">
+      <h4 class="card-title mb-4">4. Analyze Documents</h4>
+    </div>
+    <div class="card-footer">
+      <div class="text-center">
+        <button type="button" onclick="submit_form();" class="btn btn-dark btn-block" name="button">Compute <i class="fa fa-bar-chart" aria-hidden="true"></i></button>
+      </div>
+    </div>
+  </div>
+</form>

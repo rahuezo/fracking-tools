@@ -1,5 +1,4 @@
 body {
-  /* padding-bottom: 10vh; */
 }
 
 .navbar-brand img {
@@ -57,7 +56,7 @@ button, .btn {
 #footer {
   color: #FFF;
   padding-top: 20px;
-  padding-bottom: 20px; 
+  padding-bottom: 20px;
   margin-top: 10vh;
   background: #111;
   font-size: 1.2rem;

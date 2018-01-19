@@ -1,0 +1,59 @@
+<div class="card-deck">
+  <div class="card">
+    <div class="card-body text-left">
+      <h4 class="card-title mb-4">Build Networks from Events</h4>
+      <p class="card-text">
+        An event network refers to a network where individuals are linked
+        by attending the same events.
+      </p>
+      <p class="card-text">
+        To build a network from events, you must provide a <strong>.csv</strong>
+        spreadsheet where each column is an event and each row is an individual.
+      </p>
+    </div>
+    <div class="card-footer">
+      <div class="text-center">
+        <a href="{% url 'network_builder:events' %}" class="btn btn-dark">Build <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-body text-left">
+      <h4 class="card-title mb-4">Build Networks from Individual Pairs</h4>
+
+      <p class="card-text">
+        To build a network from individual pairs, you must provide a
+        <strong>.csv</strong> spreadsheet with only two columns: Individual A column
+        and Individual B column.
+      </p>
+      <p class="card-text">
+        In this spreadsheet, each row corresponds to a unique
+        pair of individuals.
+      </p>
+    </div>
+    <div class="card-footer">
+      <div class="text-center">
+        <a href="{% url 'network_builder:pairs' %}" class="btn btn-dark">Build <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-body text-left">
+      <h4 class="card-title mb-4">Compare Networks</h4>
+      <p class="card-text">
+        You can compare network files (adjacency matrices) to determine
+        the <strong>actor overlap</strong>, <strong>relationship overlap</strong>,
+        <strong>unique actors</strong>, and the <strong>unique relationships</strong>.
+      </p>
+      <p class="card-text">
+        Usually, the comparison involves a network built using meeting minutes
+        and the other network using newspapers.
+      </p>
+    </div>
+    <div class="card-footer">
+      <div class="text-center">
+        <a href="{% url 'network_builder:netcomp' %}" class="btn btn-dark">Compare <i class="fa fa-exchange" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </div>
+</div>

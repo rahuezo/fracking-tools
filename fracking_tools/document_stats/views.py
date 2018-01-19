@@ -33,8 +33,6 @@ def document_stats_view(request):
 
 def analyze_documents_view(request):
     if request.method == 'POST':
-        print "Form Submission"
-
         keywords_type = request.POST.get('keywords-type')
         documents_to_analyze = request.FILES.getlist('analyze-documents')
 
@@ -68,4 +66,5 @@ def analyze_documents_view(request):
             response['content_type'] = 'text/csv'
             response['Content-Disposition'] = 'attachment; filename="{0}"'.format(os.path.split(output_csv_path)[1])
 
-    return response #redirect('document_utilities:docstats')
+        return response
+    return redirect('document_utilities:docstats')

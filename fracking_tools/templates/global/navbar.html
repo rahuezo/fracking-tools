@@ -1,0 +1,37 @@
+{% load static %}
+<nav class="navbar navbar-expand-lg navbar-dark navbar-bg-custom sticky-top">
+  <a class="navbar-brand" href="{% url 'home:index' %}">
+    <img src="{% static 'home/img/fracking-tools logo.png' %}" alt="">
+    Fracking Tools
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto mr-2 text-center">
+      <li class="nav-item m-2 dropdown">
+        <a class="btn btn-primary dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Network Utilities
+        </a>
+        <div class="dropdown-menu dropdown-menu-right">
+          <a class="dropdown-item" href="{% url 'network_builder:events' %}">Build Networks from Events</a>
+          <a class="dropdown-item" href="{% url 'network_builder:pairs' %}">Build Networks from Individual Pairs</a>
+          <a class="dropdown-item" href="{% url 'network_builder:netcomp' %}">Compare Networks</a>
+        </div>
+      </li>
+      <li class="nav-item m-2 dropdown">
+        <a class="btn btn-light dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Document Utilities
+        </a>
+        <div class="dropdown-menu dropdown-menu-right">
+          <a class="dropdown-item" href="{% url 'document_utilities:doccomp' %}">Compare Documents</a>
+          <a class="dropdown-item" href="{% url 'document_utilities:doctag' %}">Tag Documents for Keywords</a>
+          <a class="dropdown-item" href="{% url 'document_utilities:nertag' %}">Tag Documents Using NER</a>
+          <a class="dropdown-item" href="{% url 'document_utilities:docstats' %}">Compute Document Statistics</a>
+          <a class="dropdown-item blurred" href="">OCR Documents</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>

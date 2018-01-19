@@ -57,4 +57,5 @@ def compare_documents_view(request):
             response = HttpResponse(csv_file.read())
             response['content_type'] = 'text/csv'
             response['Content-Disposition'] = 'attachment; filename="{0}"'.format(os.path.split(output_csv_path)[1])
-    return response #redirect('document_utilities:doccomp')
+        return response
+    return redirect('document_utilities:doccomp')

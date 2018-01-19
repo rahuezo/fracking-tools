@@ -1,0 +1,98 @@
+<div class="card w-100 my-4 border-warning">
+  <div class="card-body text-left">
+    <h4 class="card-title mb-4">0. Before You Begin</h4>
+    <p class="card-text">
+      Before tagging documents you <strong>MUST</strong> follow the exact instructions provided below.
+    </p>
+  </div>
+  <div class="card-footer">
+    <div class="text-center">
+      <button class="btn btn-warning btn-block" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="fa fa-info-circle" aria-hidden="true"></i> Instructions</button>
+    </div>
+  </div>
+</div>
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Instructions</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body text-left">
+        <p>1. Select all the files you want to tag. Your files must be <strong>.txt</strong> or <strong>.docx</strong>.</p>
+        <p>2. Choose a name for the output <strong>.zip</strong> file.</p>
+
+        <p>
+          3. Once you choose which files to upload and enter an output <strong>.zip</strong>
+          name, you can click on <kbd>Tag <i class="fa fa-tags" aria-hidden="true"></i></kbd> to tag your files using NER.
+        </p>
+        <p>
+          4. The output zip file will contain all the tagged documents.
+        </p>
+        <hr>
+        <h6 class="text-center">Some Background Information</h6><br>
+        <p>NER can tag documents for persons, organizations, dates, percentages, locations, money, and times.</p>
+        <p>As an example, look at the following text </p>
+        <div class="container">
+          <p class="lead">
+            In bringing his distinct vision to the Western genre, writer-director Jim Jarmusch has created a quasi-mystical avant-garde drama that remains a deeply spiritual viewing experience. After losing his parents and fiancée, a Cleveland accountant named William Blake (a remarkable Johnny Depp) spends all his money and takes a train to the frontier town of Machine in order to work at a factory.
+          </p>
+        </div>
+        <p>Applying NER to this text would yield</p>
+        <div class="container">
+          <p class="lead">
+            <!-- <pre> -->
+              In bringing his distinct vision to the Western genre, writer-director <strong>&lt;PERSON>Jim Jarmusch&lt;/PERSON></strong> has created a quasi-mystical avant-garde drama that remains a deeply spiritual viewing experience. After losing his parents and fiancée, a <strong>&lt;LOCATION>Cleveland&lt;/LOCATION></strong> accountant named <strong>&lt;PERSON>William Blake&lt;/PERSON></strong> (a remarkable <strong>&lt;PERSON>Johnny Depp&lt;/PERSON></strong>) spends all his money and takes a train to the frontier town of Machine in order to work at a factory.
+            <!-- </pre> -->
+          </p>
+        </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<form id="tag-files-form" action="{% url 'document_utilities:tagner' %}" method="post" enctype="multipart/form-data">
+  {% csrf_token %}
+  <div class="card w-100 my-4">
+    <div class="card-body text-left">
+      <h4 class="card-title mb-4">1. Upload Documents to Tag</h4>
+      <p class="card-text">
+        Upload the files you want to tag. Valid file formats are <strong>.txt</strong>, and <strong>.docx</strong>.
+      </p>
+    </div>
+    <div class="card-footer">
+      <div class="text-center">
+        <input class="form-control" type="file" id="tag-documents" name="tag-documents" accept=".txt,.docx" multiple required>
+      </div>
+    </div>
+  </div>
+
+  <div class="card mb-4 w-100 my-4">
+    <div class="card-body text-left">
+      <h4 class="card-title mb-4">2. Choose a Name for the Output <strong>.zip</strong> File</h4>
+      <p class="card-text">
+        Enter the output .zip name without a file extension.
+      </p>
+    </div>
+    <div class="card-footer">
+      <div class="text-center">
+        <input class="form-control" type="text" id="output-zip-name" name="output-zip-name" placeholder="Enter a .zip name" required>
+      </div>
+    </div>
+  </div>
+  <div class="card mb-4 w-100 my-4">
+    <div class="card-body text-left">
+      <h4 class="card-title mb-4">3. Tag Documents</h4>
+    </div>
+    <div class="card-footer">
+      <div class="text-center">
+        <button type="button" onclick="submit_form();" class="btn btn-dark btn-block" name="button">Tag <i class="fa fa-tags" aria-hidden="true"></i></button>
+      </div>
+    </div>
+  </div>
+</form>

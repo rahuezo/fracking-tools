@@ -1,0 +1,2205 @@
+Actor Overlap,Relationship Overlap,Unique Newspaper Network Actors,Unique Meeting Minute Network Actors,Unique Newspaper Network Relationships,Unique Newspaper Network Relationships
+Taylor Fitch,"('Charles Kreuzer', 'Donna Alexander')",Mike Folts,Duke Clark,"('Mike Folts', 'Tim Dennis')","('Duke Clark', 'Margaret Dunn')"
+Margaret Dunn,"('Taylor Fitch', 'Donna Alexander')",Rachel Triechler,Sande Johnson,"('Mike Folts', 'Margaret Dunn')","('Duke Clark', 'Sande Johnson')"
+Charles Kreuzer,"('Margaret Dunn', 'Debbie Craig')",Daryl Jones,Donna Baran,"('Mike Folts', 'Rachel Triechler')","('Duke Clark', 'Donna Baran')"
+Debbie Craig,"('Taylor Fitch', 'Charles Kreuzer')",Douglas Paddock,Ruth Craig,"('Mike Folts', 'Daryl Jones')","('Duke Clark', 'Ruth Craig')"
+Donna Alexander,"('Margaret Dunn', 'Charles Kreuzer')",Mark Morris,Dave Snaith,"('Mike Folts', 'Douglas Paddock')","('Duke Clark', 'Dave Snaith')"
+,"('Margaret Dunn', 'Taylor Fitch')",William Quinn,Cindy Tucker,"('Mike Folts', 'Mark Morris')","('Duke Clark', 'Cindy Tucker')"
+,"('Margaret Dunn', 'Donna Alexander')",Philip Bailey,Debbie Trischler,"('Mike Folts', 'William Quinn')","('Duke Clark', 'Debbie Trischler')"
+,,Doug Howells,James Pierce,"('Mike Folts', 'Philip Bailey')","('Duke Clark', 'James Pierce')"
+,,Michael Horning,Tony Carter,"('Mike Folts', 'Doug Howells')","('Duke Clark', 'Debbie Craig')"
+,,Floyd Lane,Mary Loesch,"('Mike Folts', 'Michael Horning')","('Duke Clark', 'Tony Carter')"
+,,Don House,Shawna Bonshak,"('Mike Folts', 'Floyd Lane')","('Duke Clark', 'Mary Loesch')"
+,,Phil Palmesano,Ed Brockman,"('Mike Folts', 'Don House')","('Duke Clark', 'Taylor Fitch')"
+,,John Grabski,Malcolm MacKenzie,"('Mike Folts', 'Phil Palmesano')","('Duke Clark', 'Charles Kreuzer')"
+,,Tom O Mara,Eric Holtz,"('Mike Folts', 'John Grabski')","('Duke Clark', 'Shawna Bonshak')"
+,,Maureen Wren,Steve Finnan,"('Mike Folts', 'Tom O Mara')","('Duke Clark', 'Ed Brockman')"
+,,Art Hunt,Penelope Carter,"('Mike Folts', 'Maureen Wren')","('Duke Clark', 'Malcolm MacKenzie')"
+,,Scott Falvey,Timothy Kinton,"('Mike Folts', 'Art Hunt')","('Duke Clark', 'Eric Holtz')"
+,,Paul Danielson,Eleanor Craig,"('Mike Folts', 'Scott Falvey')","('Duke Clark', 'Steve Finnan')"
+,,Peter Gamba,John Futko,"('Mike Folts', 'Paul Danielson')","('Duke Clark', 'Penelope Carter')"
+,,Frank Zifino,Frank Mueller,"('Mike Folts', 'Peter Gamba')","('Duke Clark', 'Timothy Kinton')"
+,,Bruce Lyon,Peter Lander,"('Mike Folts', 'Frank Zifino')","('Duke Clark', 'Eleanor Craig')"
+,,Andrew Cuomo,Greg Marion,"('Mike Folts', 'Bruce Lyon')","('Duke Clark', 'John Futko')"
+,,Mike Linehan,Gary Abraham,"('Mike Folts', 'Taylor Fitch')","('Duke Clark', 'Jeff Hicks')"
+,,George Mathewson,Richard Craig,"('Mike Folts', 'Charles Kreuzer')","('Duke Clark', 'Peter Lander')"
+,,Neil Simmons,Michael Herzog,"('Mike Folts', 'Andrew Cuomo')","('Duke Clark', 'Greg Marion')"
+,,Jeff Davis,Jeff Hicks,"('Mike Folts', 'Mike Linehan')","('Duke Clark', 'Gary Abraham')"
+,,Max Parson,Dave Ferry,"('Mike Folts', 'George Mathewson')","('Duke Clark', 'Richard Craig')"
+,,John Kiedel,Charles Craig,"('Mike Folts', 'Neil Simmons')","('Duke Clark', 'Michael Herzog')"
+,,Sarah Vestal,Doug Paddock,"('Mike Folts', 'Jeff Davis')","('Duke Clark', 'Frank Mueller')"
+,,Jerry Stape,Jerry Johnson,"('Mike Folts', 'Max Parson')","('Duke Clark', 'Dave Ferry')"
+,,Rick Willson,Charles Rettig,"('Mike Folts', 'John Kiedel')","('Duke Clark', 'Charles Craig')"
+,,Robert Multer,Brad Jones,"('Mike Folts', 'Sarah Vestal')","('Duke Clark', 'Doug Paddock')"
+,,Herbie Snyder,Steven Brewer,"('Mike Folts', 'Jerry Stape')","('Duke Clark', 'Jerry Johnson')"
+,,Dan Paddock,Patti Fitzgerald,"('Mike Folts', 'Rick Willson')","('Duke Clark', 'Charles Rettig')"
+,,Tim Dennis,Amanda Gorton,"('Mike Folts', 'Robert Multer')","('Duke Clark', 'Brad Jones')"
+,,Caryl Sutterby,Vane Calhoun,"('Mike Folts', 'Herbie Snyder')","('Duke Clark', 'Donna Alexander')"
+,,Jim Crevelling,Fred Johnstone,"('Mike Folts', 'Dan Paddock')","('Duke Clark', 'Steven Brewer')"
+,,Robert Nielsen,Vince Johnson,"('Mike Folts', 'Caryl Sutterby')","('Duke Clark', 'Patti Fitzgerald')"
+,,Bradley Jones,,"('Mike Folts', 'Jim Crevelling')","('Duke Clark', 'Amanda Gorton')"
+,,Ron Rubin,,"('Mike Folts', 'Robert Nielsen')","('Duke Clark', 'Vane Calhoun')"
+,,Kim Crawford,,"('Mike Folts', 'Bradley Jones')","('Duke Clark', 'Fred Johnstone')"
+,,Chris Iversen,,"('Mike Folts', 'Ron Rubin')","('Duke Clark', 'Vince Johnson')"
+,,Ray Stewart,,"('Mike Folts', 'Kim Crawford')","('Margaret Dunn', 'Sande Johnson')"
+,,Bill Hall,,"('Mike Folts', 'Chris Iversen')","('Margaret Dunn', 'Donna Baran')"
+,,Judy Wiltberger,,"('Mike Folts', 'Ray Stewart')","('Margaret Dunn', 'Ruth Craig')"
+,,John Sawers,,"('Mike Folts', 'Bill Hall')","('Margaret Dunn', 'Dave Snaith')"
+,,Roger McDonough,,"('Mike Folts', 'Judy Wiltberger')","('Margaret Dunn', 'Cindy Tucker')"
+,,Steve Griffin,,"('Mike Folts', 'John Sawers')","('Margaret Dunn', 'Debbie Trischler')"
+,,Jeff Kennedy,,"('Mike Folts', 'Roger McDonough')","('Margaret Dunn', 'James Pierce')"
+,,Mark Schenk,,"('Mike Folts', 'Steve Griffin')","('Margaret Dunn', 'Tony Carter')"
+,,Butch Comstock,,"('Mike Folts', 'Jeff Kennedy')","('Margaret Dunn', 'Mary Loesch')"
+,,Dan Banach,,"('Mike Folts', 'Mark Schenk')","('Margaret Dunn', 'Shawna Bonshak')"
+,,Kevin North,,"('Mike Folts', 'Butch Comstock')","('Margaret Dunn', 'Ed Brockman')"
+,,Karl Tober,,"('Mike Folts', 'Donna Alexander')","('Margaret Dunn', 'Malcolm MacKenzie')"
+,,Patrick Killen,,"('Mike Folts', 'Dan Banach')","('Margaret Dunn', 'Eric Holtz')"
+,,Chuck Mitchell,,"('Mike Folts', 'Kevin North')","('Margaret Dunn', 'Steve Finnan')"
+,,Brian Winslow,,"('Mike Folts', 'Karl Tober')","('Margaret Dunn', 'Penelope Carter')"
+,,Andrew Zepp,,"('Mike Folts', 'Patrick Killen')","('Margaret Dunn', 'Timothy Kinton')"
+,,Marty DeVinney,,"('Mike Folts', 'Chuck Mitchell')","('Margaret Dunn', 'Eleanor Craig')"
+,,Sarah Purdy,,"('Mike Folts', 'Brian Winslow')","('Margaret Dunn', 'John Futko')"
+,,Ryan Destro,,"('Mike Folts', 'Andrew Zepp')","('Margaret Dunn', 'Frank Mueller')"
+,,Craig Densmore,,"('Mike Folts', 'Debbie Craig')","('Margaret Dunn', 'Peter Lander')"
+,,,,"('Mike Folts', 'Marty DeVinney')","('Margaret Dunn', 'Greg Marion')"
+,,,,"('Mike Folts', 'Sarah Purdy')","('Margaret Dunn', 'Gary Abraham')"
+,,,,"('Mike Folts', 'Ryan Destro')","('Margaret Dunn', 'Richard Craig')"
+,,,,"('Mike Folts', 'Craig Densmore')","('Margaret Dunn', 'Michael Herzog')"
+,,,,"('Margaret Dunn', 'Rachel Triechler')","('Margaret Dunn', 'Jeff Hicks')"
+,,,,"('Margaret Dunn', 'Daryl Jones')","('Margaret Dunn', 'Dave Ferry')"
+,,,,"('Margaret Dunn', 'Douglas Paddock')","('Margaret Dunn', 'Charles Craig')"
+,,,,"('Margaret Dunn', 'Mark Morris')","('Margaret Dunn', 'Doug Paddock')"
+,,,,"('Margaret Dunn', 'William Quinn')","('Margaret Dunn', 'Jerry Johnson')"
+,,,,"('Margaret Dunn', 'Philip Bailey')","('Margaret Dunn', 'Charles Rettig')"
+,,,,"('Margaret Dunn', 'Doug Howells')","('Margaret Dunn', 'Brad Jones')"
+,,,,"('Margaret Dunn', 'Michael Horning')","('Margaret Dunn', 'Steven Brewer')"
+,,,,"('Margaret Dunn', 'Floyd Lane')","('Margaret Dunn', 'Patti Fitzgerald')"
+,,,,"('Margaret Dunn', 'Don House')","('Margaret Dunn', 'Amanda Gorton')"
+,,,,"('Margaret Dunn', 'Phil Palmesano')","('Margaret Dunn', 'Vane Calhoun')"
+,,,,"('Margaret Dunn', 'John Grabski')","('Margaret Dunn', 'Fred Johnstone')"
+,,,,"('Margaret Dunn', 'Tom O Mara')","('Margaret Dunn', 'Vince Johnson')"
+,,,,"('Margaret Dunn', 'Maureen Wren')","('Sande Johnson', 'Donna Baran')"
+,,,,"('Margaret Dunn', 'Art Hunt')","('Sande Johnson', 'Ruth Craig')"
+,,,,"('Margaret Dunn', 'Scott Falvey')","('Sande Johnson', 'Dave Snaith')"
+,,,,"('Margaret Dunn', 'Paul Danielson')","('Sande Johnson', 'Cindy Tucker')"
+,,,,"('Margaret Dunn', 'Peter Gamba')","('Sande Johnson', 'Debbie Trischler')"
+,,,,"('Margaret Dunn', 'Frank Zifino')","('Sande Johnson', 'James Pierce')"
+,,,,"('Margaret Dunn', 'Bruce Lyon')","('Sande Johnson', 'Debbie Craig')"
+,,,,"('Margaret Dunn', 'Andrew Cuomo')","('Sande Johnson', 'Tony Carter')"
+,,,,"('Margaret Dunn', 'Mike Linehan')","('Sande Johnson', 'Mary Loesch')"
+,,,,"('Margaret Dunn', 'George Mathewson')","('Sande Johnson', 'Taylor Fitch')"
+,,,,"('Margaret Dunn', 'Neil Simmons')","('Sande Johnson', 'Charles Kreuzer')"
+,,,,"('Margaret Dunn', 'Jeff Davis')","('Sande Johnson', 'Shawna Bonshak')"
+,,,,"('Margaret Dunn', 'Max Parson')","('Sande Johnson', 'Ed Brockman')"
+,,,,"('Margaret Dunn', 'John Kiedel')","('Sande Johnson', 'Malcolm MacKenzie')"
+,,,,"('Margaret Dunn', 'Sarah Vestal')","('Sande Johnson', 'Eric Holtz')"
+,,,,"('Margaret Dunn', 'Jerry Stape')","('Sande Johnson', 'Steve Finnan')"
+,,,,"('Margaret Dunn', 'Rick Willson')","('Sande Johnson', 'Penelope Carter')"
+,,,,"('Margaret Dunn', 'Robert Multer')","('Sande Johnson', 'Timothy Kinton')"
+,,,,"('Margaret Dunn', 'Herbie Snyder')","('Sande Johnson', 'Eleanor Craig')"
+,,,,"('Margaret Dunn', 'Dan Paddock')","('Sande Johnson', 'John Futko')"
+,,,,"('Margaret Dunn', 'Tim Dennis')","('Sande Johnson', 'Frank Mueller')"
+,,,,"('Margaret Dunn', 'Caryl Sutterby')","('Sande Johnson', 'Peter Lander')"
+,,,,"('Margaret Dunn', 'Jim Crevelling')","('Sande Johnson', 'Greg Marion')"
+,,,,"('Margaret Dunn', 'Robert Nielsen')","('Sande Johnson', 'Gary Abraham')"
+,,,,"('Margaret Dunn', 'Bradley Jones')","('Sande Johnson', 'Richard Craig')"
+,,,,"('Margaret Dunn', 'Ron Rubin')","('Sande Johnson', 'Michael Herzog')"
+,,,,"('Margaret Dunn', 'Kim Crawford')","('Sande Johnson', 'Jeff Hicks')"
+,,,,"('Margaret Dunn', 'Chris Iversen')","('Sande Johnson', 'Dave Ferry')"
+,,,,"('Margaret Dunn', 'Ray Stewart')","('Sande Johnson', 'Charles Craig')"
+,,,,"('Margaret Dunn', 'Bill Hall')","('Sande Johnson', 'Doug Paddock')"
+,,,,"('Margaret Dunn', 'Judy Wiltberger')","('Sande Johnson', 'Jerry Johnson')"
+,,,,"('Margaret Dunn', 'John Sawers')","('Sande Johnson', 'Charles Rettig')"
+,,,,"('Margaret Dunn', 'Roger McDonough')","('Sande Johnson', 'Brad Jones')"
+,,,,"('Margaret Dunn', 'Steve Griffin')","('Sande Johnson', 'Donna Alexander')"
+,,,,"('Margaret Dunn', 'Jeff Kennedy')","('Sande Johnson', 'Steven Brewer')"
+,,,,"('Margaret Dunn', 'Mark Schenk')","('Sande Johnson', 'Patti Fitzgerald')"
+,,,,"('Margaret Dunn', 'Butch Comstock')","('Sande Johnson', 'Amanda Gorton')"
+,,,,"('Margaret Dunn', 'Dan Banach')","('Sande Johnson', 'Vane Calhoun')"
+,,,,"('Margaret Dunn', 'Kevin North')","('Sande Johnson', 'Fred Johnstone')"
+,,,,"('Margaret Dunn', 'Karl Tober')","('Sande Johnson', 'Vince Johnson')"
+,,,,"('Margaret Dunn', 'Patrick Killen')","('Donna Baran', 'Ruth Craig')"
+,,,,"('Margaret Dunn', 'Chuck Mitchell')","('Donna Baran', 'Dave Snaith')"
+,,,,"('Margaret Dunn', 'Brian Winslow')","('Donna Baran', 'Cindy Tucker')"
+,,,,"('Margaret Dunn', 'Andrew Zepp')","('Donna Baran', 'Debbie Trischler')"
+,,,,"('Margaret Dunn', 'Marty DeVinney')","('Donna Baran', 'James Pierce')"
+,,,,"('Margaret Dunn', 'Sarah Purdy')","('Donna Baran', 'Debbie Craig')"
+,,,,"('Margaret Dunn', 'Ryan Destro')","('Donna Baran', 'Tony Carter')"
+,,,,"('Margaret Dunn', 'Craig Densmore')","('Donna Baran', 'Mary Loesch')"
+,,,,"('Rachel Triechler', 'Daryl Jones')","('Donna Baran', 'Taylor Fitch')"
+,,,,"('Rachel Triechler', 'Douglas Paddock')","('Donna Baran', 'Charles Kreuzer')"
+,,,,"('Rachel Triechler', 'Mark Morris')","('Donna Baran', 'Shawna Bonshak')"
+,,,,"('Rachel Triechler', 'William Quinn')","('Donna Baran', 'Ed Brockman')"
+,,,,"('Rachel Triechler', 'Philip Bailey')","('Donna Baran', 'Malcolm MacKenzie')"
+,,,,"('Rachel Triechler', 'Doug Howells')","('Donna Baran', 'Eric Holtz')"
+,,,,"('Rachel Triechler', 'Michael Horning')","('Donna Baran', 'Steve Finnan')"
+,,,,"('Rachel Triechler', 'Floyd Lane')","('Donna Baran', 'Penelope Carter')"
+,,,,"('Rachel Triechler', 'Don House')","('Donna Baran', 'Timothy Kinton')"
+,,,,"('Rachel Triechler', 'Phil Palmesano')","('Donna Baran', 'Eleanor Craig')"
+,,,,"('Rachel Triechler', 'John Grabski')","('Donna Baran', 'John Futko')"
+,,,,"('Rachel Triechler', 'Tom O Mara')","('Donna Baran', 'Jeff Hicks')"
+,,,,"('Rachel Triechler', 'Maureen Wren')","('Donna Baran', 'Peter Lander')"
+,,,,"('Rachel Triechler', 'Art Hunt')","('Donna Baran', 'Greg Marion')"
+,,,,"('Rachel Triechler', 'Scott Falvey')","('Donna Baran', 'Gary Abraham')"
+,,,,"('Rachel Triechler', 'Paul Danielson')","('Donna Baran', 'Richard Craig')"
+,,,,"('Rachel Triechler', 'Peter Gamba')","('Donna Baran', 'Michael Herzog')"
+,,,,"('Rachel Triechler', 'Frank Zifino')","('Donna Baran', 'Frank Mueller')"
+,,,,"('Rachel Triechler', 'Bruce Lyon')","('Donna Baran', 'Dave Ferry')"
+,,,,"('Rachel Triechler', 'Taylor Fitch')","('Donna Baran', 'Charles Craig')"
+,,,,"('Rachel Triechler', 'Charles Kreuzer')","('Donna Baran', 'Doug Paddock')"
+,,,,"('Rachel Triechler', 'Andrew Cuomo')","('Donna Baran', 'Jerry Johnson')"
+,,,,"('Rachel Triechler', 'Mike Linehan')","('Donna Baran', 'Charles Rettig')"
+,,,,"('Rachel Triechler', 'George Mathewson')","('Donna Baran', 'Brad Jones')"
+,,,,"('Rachel Triechler', 'Neil Simmons')","('Donna Baran', 'Donna Alexander')"
+,,,,"('Rachel Triechler', 'Jeff Davis')","('Donna Baran', 'Steven Brewer')"
+,,,,"('Rachel Triechler', 'Max Parson')","('Donna Baran', 'Patti Fitzgerald')"
+,,,,"('Rachel Triechler', 'John Kiedel')","('Donna Baran', 'Amanda Gorton')"
+,,,,"('Rachel Triechler', 'Sarah Vestal')","('Donna Baran', 'Vane Calhoun')"
+,,,,"('Rachel Triechler', 'Jerry Stape')","('Donna Baran', 'Fred Johnstone')"
+,,,,"('Rachel Triechler', 'Rick Willson')","('Donna Baran', 'Vince Johnson')"
+,,,,"('Rachel Triechler', 'Robert Multer')","('Ruth Craig', 'Dave Snaith')"
+,,,,"('Rachel Triechler', 'Herbie Snyder')","('Ruth Craig', 'Cindy Tucker')"
+,,,,"('Rachel Triechler', 'Dan Paddock')","('Ruth Craig', 'Debbie Trischler')"
+,,,,"('Rachel Triechler', 'Tim Dennis')","('Ruth Craig', 'James Pierce')"
+,,,,"('Rachel Triechler', 'Caryl Sutterby')","('Ruth Craig', 'Debbie Craig')"
+,,,,"('Rachel Triechler', 'Jim Crevelling')","('Ruth Craig', 'Tony Carter')"
+,,,,"('Rachel Triechler', 'Robert Nielsen')","('Ruth Craig', 'Mary Loesch')"
+,,,,"('Rachel Triechler', 'Bradley Jones')","('Ruth Craig', 'Taylor Fitch')"
+,,,,"('Rachel Triechler', 'Ron Rubin')","('Ruth Craig', 'Charles Kreuzer')"
+,,,,"('Rachel Triechler', 'Kim Crawford')","('Ruth Craig', 'Shawna Bonshak')"
+,,,,"('Rachel Triechler', 'Chris Iversen')","('Ruth Craig', 'Ed Brockman')"
+,,,,"('Rachel Triechler', 'Ray Stewart')","('Ruth Craig', 'Malcolm MacKenzie')"
+,,,,"('Rachel Triechler', 'Bill Hall')","('Ruth Craig', 'Eric Holtz')"
+,,,,"('Rachel Triechler', 'Judy Wiltberger')","('Ruth Craig', 'Steve Finnan')"
+,,,,"('Rachel Triechler', 'John Sawers')","('Ruth Craig', 'Penelope Carter')"
+,,,,"('Rachel Triechler', 'Roger McDonough')","('Ruth Craig', 'Timothy Kinton')"
+,,,,"('Rachel Triechler', 'Steve Griffin')","('Ruth Craig', 'Eleanor Craig')"
+,,,,"('Rachel Triechler', 'Jeff Kennedy')","('Ruth Craig', 'John Futko')"
+,,,,"('Rachel Triechler', 'Mark Schenk')","('Ruth Craig', 'Frank Mueller')"
+,,,,"('Rachel Triechler', 'Butch Comstock')","('Ruth Craig', 'Peter Lander')"
+,,,,"('Rachel Triechler', 'Donna Alexander')","('Ruth Craig', 'Greg Marion')"
+,,,,"('Rachel Triechler', 'Dan Banach')","('Ruth Craig', 'Gary Abraham')"
+,,,,"('Rachel Triechler', 'Kevin North')","('Ruth Craig', 'Richard Craig')"
+,,,,"('Rachel Triechler', 'Karl Tober')","('Ruth Craig', 'Michael Herzog')"
+,,,,"('Rachel Triechler', 'Patrick Killen')","('Ruth Craig', 'Jeff Hicks')"
+,,,,"('Rachel Triechler', 'Chuck Mitchell')","('Ruth Craig', 'Dave Ferry')"
+,,,,"('Rachel Triechler', 'Brian Winslow')","('Ruth Craig', 'Charles Craig')"
+,,,,"('Rachel Triechler', 'Andrew Zepp')","('Ruth Craig', 'Doug Paddock')"
+,,,,"('Rachel Triechler', 'Debbie Craig')","('Ruth Craig', 'Jerry Johnson')"
+,,,,"('Rachel Triechler', 'Marty DeVinney')","('Ruth Craig', 'Charles Rettig')"
+,,,,"('Rachel Triechler', 'Sarah Purdy')","('Ruth Craig', 'Brad Jones')"
+,,,,"('Rachel Triechler', 'Ryan Destro')","('Ruth Craig', 'Donna Alexander')"
+,,,,"('Rachel Triechler', 'Craig Densmore')","('Ruth Craig', 'Steven Brewer')"
+,,,,"('Daryl Jones', 'Douglas Paddock')","('Ruth Craig', 'Patti Fitzgerald')"
+,,,,"('Daryl Jones', 'Mark Morris')","('Ruth Craig', 'Amanda Gorton')"
+,,,,"('Daryl Jones', 'William Quinn')","('Ruth Craig', 'Vane Calhoun')"
+,,,,"('Daryl Jones', 'Philip Bailey')","('Ruth Craig', 'Fred Johnstone')"
+,,,,"('Daryl Jones', 'Doug Howells')","('Ruth Craig', 'Vince Johnson')"
+,,,,"('Daryl Jones', 'Michael Horning')","('Dave Snaith', 'Cindy Tucker')"
+,,,,"('Daryl Jones', 'Floyd Lane')","('Dave Snaith', 'Debbie Trischler')"
+,,,,"('Daryl Jones', 'Don House')","('Dave Snaith', 'James Pierce')"
+,,,,"('Daryl Jones', 'Phil Palmesano')","('Dave Snaith', 'Debbie Craig')"
+,,,,"('Daryl Jones', 'John Grabski')","('Dave Snaith', 'Tony Carter')"
+,,,,"('Daryl Jones', 'Tom O Mara')","('Dave Snaith', 'Mary Loesch')"
+,,,,"('Daryl Jones', 'Maureen Wren')","('Dave Snaith', 'Taylor Fitch')"
+,,,,"('Daryl Jones', 'Art Hunt')","('Dave Snaith', 'Charles Kreuzer')"
+,,,,"('Daryl Jones', 'Scott Falvey')","('Dave Snaith', 'Shawna Bonshak')"
+,,,,"('Daryl Jones', 'Paul Danielson')","('Dave Snaith', 'Ed Brockman')"
+,,,,"('Daryl Jones', 'Peter Gamba')","('Dave Snaith', 'Malcolm MacKenzie')"
+,,,,"('Daryl Jones', 'Frank Zifino')","('Dave Snaith', 'Eric Holtz')"
+,,,,"('Daryl Jones', 'Bruce Lyon')","('Dave Snaith', 'Steve Finnan')"
+,,,,"('Daryl Jones', 'Taylor Fitch')","('Dave Snaith', 'Penelope Carter')"
+,,,,"('Daryl Jones', 'Charles Kreuzer')","('Dave Snaith', 'Timothy Kinton')"
+,,,,"('Daryl Jones', 'Andrew Cuomo')","('Dave Snaith', 'Eleanor Craig')"
+,,,,"('Daryl Jones', 'Mike Linehan')","('Dave Snaith', 'John Futko')"
+,,,,"('Daryl Jones', 'George Mathewson')","('Dave Snaith', 'Jeff Hicks')"
+,,,,"('Daryl Jones', 'Neil Simmons')","('Dave Snaith', 'Peter Lander')"
+,,,,"('Daryl Jones', 'Jeff Davis')","('Dave Snaith', 'Greg Marion')"
+,,,,"('Daryl Jones', 'Max Parson')","('Dave Snaith', 'Gary Abraham')"
+,,,,"('Daryl Jones', 'John Kiedel')","('Dave Snaith', 'Richard Craig')"
+,,,,"('Daryl Jones', 'Sarah Vestal')","('Dave Snaith', 'Michael Herzog')"
+,,,,"('Daryl Jones', 'Jerry Stape')","('Dave Snaith', 'Frank Mueller')"
+,,,,"('Daryl Jones', 'Rick Willson')","('Dave Snaith', 'Dave Ferry')"
+,,,,"('Daryl Jones', 'Robert Multer')","('Dave Snaith', 'Charles Craig')"
+,,,,"('Daryl Jones', 'Herbie Snyder')","('Dave Snaith', 'Doug Paddock')"
+,,,,"('Daryl Jones', 'Dan Paddock')","('Dave Snaith', 'Jerry Johnson')"
+,,,,"('Daryl Jones', 'Tim Dennis')","('Dave Snaith', 'Charles Rettig')"
+,,,,"('Daryl Jones', 'Caryl Sutterby')","('Dave Snaith', 'Brad Jones')"
+,,,,"('Daryl Jones', 'Jim Crevelling')","('Dave Snaith', 'Donna Alexander')"
+,,,,"('Daryl Jones', 'Robert Nielsen')","('Dave Snaith', 'Steven Brewer')"
+,,,,"('Daryl Jones', 'Bradley Jones')","('Dave Snaith', 'Patti Fitzgerald')"
+,,,,"('Daryl Jones', 'Ron Rubin')","('Dave Snaith', 'Amanda Gorton')"
+,,,,"('Daryl Jones', 'Kim Crawford')","('Dave Snaith', 'Vane Calhoun')"
+,,,,"('Daryl Jones', 'Chris Iversen')","('Dave Snaith', 'Fred Johnstone')"
+,,,,"('Daryl Jones', 'Ray Stewart')","('Dave Snaith', 'Vince Johnson')"
+,,,,"('Daryl Jones', 'Bill Hall')","('Cindy Tucker', 'Debbie Trischler')"
+,,,,"('Daryl Jones', 'Judy Wiltberger')","('Cindy Tucker', 'James Pierce')"
+,,,,"('Daryl Jones', 'John Sawers')","('Cindy Tucker', 'Debbie Craig')"
+,,,,"('Daryl Jones', 'Roger McDonough')","('Cindy Tucker', 'Tony Carter')"
+,,,,"('Daryl Jones', 'Steve Griffin')","('Cindy Tucker', 'Mary Loesch')"
+,,,,"('Daryl Jones', 'Jeff Kennedy')","('Cindy Tucker', 'Taylor Fitch')"
+,,,,"('Daryl Jones', 'Mark Schenk')","('Cindy Tucker', 'Charles Kreuzer')"
+,,,,"('Daryl Jones', 'Butch Comstock')","('Cindy Tucker', 'Shawna Bonshak')"
+,,,,"('Daryl Jones', 'Donna Alexander')","('Cindy Tucker', 'Ed Brockman')"
+,,,,"('Daryl Jones', 'Dan Banach')","('Cindy Tucker', 'Malcolm MacKenzie')"
+,,,,"('Daryl Jones', 'Kevin North')","('Cindy Tucker', 'Eric Holtz')"
+,,,,"('Daryl Jones', 'Karl Tober')","('Cindy Tucker', 'Steve Finnan')"
+,,,,"('Daryl Jones', 'Patrick Killen')","('Cindy Tucker', 'Penelope Carter')"
+,,,,"('Daryl Jones', 'Chuck Mitchell')","('Cindy Tucker', 'Timothy Kinton')"
+,,,,"('Daryl Jones', 'Brian Winslow')","('Cindy Tucker', 'Eleanor Craig')"
+,,,,"('Daryl Jones', 'Andrew Zepp')","('Cindy Tucker', 'John Futko')"
+,,,,"('Daryl Jones', 'Debbie Craig')","('Cindy Tucker', 'Jeff Hicks')"
+,,,,"('Daryl Jones', 'Marty DeVinney')","('Cindy Tucker', 'Peter Lander')"
+,,,,"('Daryl Jones', 'Sarah Purdy')","('Cindy Tucker', 'Greg Marion')"
+,,,,"('Daryl Jones', 'Ryan Destro')","('Cindy Tucker', 'Gary Abraham')"
+,,,,"('Daryl Jones', 'Craig Densmore')","('Cindy Tucker', 'Richard Craig')"
+,,,,"('Douglas Paddock', 'George Mathewson')","('Cindy Tucker', 'Michael Herzog')"
+,,,,"('Douglas Paddock', 'Mark Morris')","('Cindy Tucker', 'Frank Mueller')"
+,,,,"('Douglas Paddock', 'William Quinn')","('Cindy Tucker', 'Dave Ferry')"
+,,,,"('Douglas Paddock', 'Philip Bailey')","('Cindy Tucker', 'Charles Craig')"
+,,,,"('Douglas Paddock', 'Doug Howells')","('Cindy Tucker', 'Doug Paddock')"
+,,,,"('Douglas Paddock', 'Michael Horning')","('Cindy Tucker', 'Jerry Johnson')"
+,,,,"('Douglas Paddock', 'Floyd Lane')","('Cindy Tucker', 'Charles Rettig')"
+,,,,"('Douglas Paddock', 'Don House')","('Cindy Tucker', 'Brad Jones')"
+,,,,"('Douglas Paddock', 'Phil Palmesano')","('Cindy Tucker', 'Donna Alexander')"
+,,,,"('Douglas Paddock', 'John Grabski')","('Cindy Tucker', 'Steven Brewer')"
+,,,,"('Douglas Paddock', 'Tom O Mara')","('Cindy Tucker', 'Patti Fitzgerald')"
+,,,,"('Douglas Paddock', 'Maureen Wren')","('Cindy Tucker', 'Amanda Gorton')"
+,,,,"('Douglas Paddock', 'Art Hunt')","('Cindy Tucker', 'Vane Calhoun')"
+,,,,"('Douglas Paddock', 'Scott Falvey')","('Cindy Tucker', 'Fred Johnstone')"
+,,,,"('Douglas Paddock', 'Paul Danielson')","('Cindy Tucker', 'Vince Johnson')"
+,,,,"('Douglas Paddock', 'Peter Gamba')","('Debbie Trischler', 'James Pierce')"
+,,,,"('Douglas Paddock', 'Frank Zifino')","('Debbie Trischler', 'Debbie Craig')"
+,,,,"('Douglas Paddock', 'Bruce Lyon')","('Debbie Trischler', 'Tony Carter')"
+,,,,"('Douglas Paddock', 'Taylor Fitch')","('Debbie Trischler', 'Mary Loesch')"
+,,,,"('Douglas Paddock', 'Charles Kreuzer')","('Debbie Trischler', 'Taylor Fitch')"
+,,,,"('Douglas Paddock', 'Andrew Cuomo')","('Debbie Trischler', 'Charles Kreuzer')"
+,,,,"('Douglas Paddock', 'Mike Linehan')","('Debbie Trischler', 'Shawna Bonshak')"
+,,,,"('Douglas Paddock', 'Neil Simmons')","('Debbie Trischler', 'Ed Brockman')"
+,,,,"('Douglas Paddock', 'Jeff Davis')","('Debbie Trischler', 'Malcolm MacKenzie')"
+,,,,"('Douglas Paddock', 'Max Parson')","('Debbie Trischler', 'Eric Holtz')"
+,,,,"('Douglas Paddock', 'John Kiedel')","('Debbie Trischler', 'Steve Finnan')"
+,,,,"('Douglas Paddock', 'Sarah Vestal')","('Debbie Trischler', 'Penelope Carter')"
+,,,,"('Douglas Paddock', 'Jerry Stape')","('Debbie Trischler', 'Timothy Kinton')"
+,,,,"('Douglas Paddock', 'Rick Willson')","('Debbie Trischler', 'Eleanor Craig')"
+,,,,"('Douglas Paddock', 'Robert Multer')","('Debbie Trischler', 'John Futko')"
+,,,,"('Douglas Paddock', 'Herbie Snyder')","('Debbie Trischler', 'Jeff Hicks')"
+,,,,"('Douglas Paddock', 'Dan Paddock')","('Debbie Trischler', 'Peter Lander')"
+,,,,"('Douglas Paddock', 'Tim Dennis')","('Debbie Trischler', 'Greg Marion')"
+,,,,"('Douglas Paddock', 'Caryl Sutterby')","('Debbie Trischler', 'Gary Abraham')"
+,,,,"('Douglas Paddock', 'Jim Crevelling')","('Debbie Trischler', 'Richard Craig')"
+,,,,"('Douglas Paddock', 'Robert Nielsen')","('Debbie Trischler', 'Michael Herzog')"
+,,,,"('Douglas Paddock', 'Bradley Jones')","('Debbie Trischler', 'Frank Mueller')"
+,,,,"('Douglas Paddock', 'Ron Rubin')","('Debbie Trischler', 'Dave Ferry')"
+,,,,"('Douglas Paddock', 'Kim Crawford')","('Debbie Trischler', 'Charles Craig')"
+,,,,"('Douglas Paddock', 'Chris Iversen')","('Debbie Trischler', 'Doug Paddock')"
+,,,,"('Douglas Paddock', 'Ray Stewart')","('Debbie Trischler', 'Jerry Johnson')"
+,,,,"('Douglas Paddock', 'Bill Hall')","('Debbie Trischler', 'Charles Rettig')"
+,,,,"('Douglas Paddock', 'Judy Wiltberger')","('Debbie Trischler', 'Brad Jones')"
+,,,,"('Douglas Paddock', 'John Sawers')","('Debbie Trischler', 'Donna Alexander')"
+,,,,"('Douglas Paddock', 'Roger McDonough')","('Debbie Trischler', 'Steven Brewer')"
+,,,,"('Douglas Paddock', 'Steve Griffin')","('Debbie Trischler', 'Patti Fitzgerald')"
+,,,,"('Douglas Paddock', 'Jeff Kennedy')","('Debbie Trischler', 'Amanda Gorton')"
+,,,,"('Douglas Paddock', 'Mark Schenk')","('Debbie Trischler', 'Vane Calhoun')"
+,,,,"('Douglas Paddock', 'Butch Comstock')","('Debbie Trischler', 'Fred Johnstone')"
+,,,,"('Douglas Paddock', 'Donna Alexander')","('Debbie Trischler', 'Vince Johnson')"
+,,,,"('Douglas Paddock', 'Dan Banach')","('James Pierce', 'Debbie Craig')"
+,,,,"('Douglas Paddock', 'Kevin North')","('James Pierce', 'Tony Carter')"
+,,,,"('Douglas Paddock', 'Karl Tober')","('James Pierce', 'Mary Loesch')"
+,,,,"('Douglas Paddock', 'Patrick Killen')","('James Pierce', 'Taylor Fitch')"
+,,,,"('Douglas Paddock', 'Chuck Mitchell')","('James Pierce', 'Charles Kreuzer')"
+,,,,"('Douglas Paddock', 'Brian Winslow')","('James Pierce', 'Shawna Bonshak')"
+,,,,"('Douglas Paddock', 'Andrew Zepp')","('James Pierce', 'Ed Brockman')"
+,,,,"('Douglas Paddock', 'Debbie Craig')","('James Pierce', 'Malcolm MacKenzie')"
+,,,,"('Douglas Paddock', 'Marty DeVinney')","('James Pierce', 'Eric Holtz')"
+,,,,"('Douglas Paddock', 'Sarah Purdy')","('James Pierce', 'Steve Finnan')"
+,,,,"('Douglas Paddock', 'Ryan Destro')","('James Pierce', 'Penelope Carter')"
+,,,,"('Douglas Paddock', 'Craig Densmore')","('James Pierce', 'Timothy Kinton')"
+,,,,"('Mark Morris', 'Tim Dennis')","('James Pierce', 'Eleanor Craig')"
+,,,,"('Mark Morris', 'William Quinn')","('James Pierce', 'John Futko')"
+,,,,"('Mark Morris', 'Philip Bailey')","('James Pierce', 'Jeff Hicks')"
+,,,,"('Mark Morris', 'Doug Howells')","('James Pierce', 'Peter Lander')"
+,,,,"('Mark Morris', 'Michael Horning')","('James Pierce', 'Greg Marion')"
+,,,,"('Mark Morris', 'Floyd Lane')","('James Pierce', 'Gary Abraham')"
+,,,,"('Mark Morris', 'Don House')","('James Pierce', 'Richard Craig')"
+,,,,"('Mark Morris', 'Phil Palmesano')","('James Pierce', 'Michael Herzog')"
+,,,,"('Mark Morris', 'John Grabski')","('James Pierce', 'Frank Mueller')"
+,,,,"('Mark Morris', 'Tom O Mara')","('James Pierce', 'Dave Ferry')"
+,,,,"('Mark Morris', 'Maureen Wren')","('James Pierce', 'Charles Craig')"
+,,,,"('Mark Morris', 'Art Hunt')","('James Pierce', 'Doug Paddock')"
+,,,,"('Mark Morris', 'Scott Falvey')","('James Pierce', 'Jerry Johnson')"
+,,,,"('Mark Morris', 'Paul Danielson')","('James Pierce', 'Charles Rettig')"
+,,,,"('Mark Morris', 'Peter Gamba')","('James Pierce', 'Brad Jones')"
+,,,,"('Mark Morris', 'Frank Zifino')","('James Pierce', 'Donna Alexander')"
+,,,,"('Mark Morris', 'Bruce Lyon')","('James Pierce', 'Steven Brewer')"
+,,,,"('Mark Morris', 'Taylor Fitch')","('James Pierce', 'Patti Fitzgerald')"
+,,,,"('Mark Morris', 'Charles Kreuzer')","('James Pierce', 'Amanda Gorton')"
+,,,,"('Mark Morris', 'Andrew Cuomo')","('James Pierce', 'Vane Calhoun')"
+,,,,"('Mark Morris', 'Mike Linehan')","('James Pierce', 'Fred Johnstone')"
+,,,,"('Mark Morris', 'George Mathewson')","('James Pierce', 'Vince Johnson')"
+,,,,"('Mark Morris', 'Neil Simmons')","('Debbie Craig', 'Tony Carter')"
+,,,,"('Mark Morris', 'Jeff Davis')","('Debbie Craig', 'Mary Loesch')"
+,,,,"('Mark Morris', 'Max Parson')","('Debbie Craig', 'Taylor Fitch')"
+,,,,"('Mark Morris', 'John Kiedel')","('Debbie Craig', 'Charles Kreuzer')"
+,,,,"('Mark Morris', 'Sarah Vestal')","('Debbie Craig', 'Shawna Bonshak')"
+,,,,"('Mark Morris', 'Jerry Stape')","('Debbie Craig', 'Ed Brockman')"
+,,,,"('Mark Morris', 'Rick Willson')","('Debbie Craig', 'Malcolm MacKenzie')"
+,,,,"('Mark Morris', 'Robert Multer')","('Debbie Craig', 'Eric Holtz')"
+,,,,"('Mark Morris', 'Herbie Snyder')","('Debbie Craig', 'Steve Finnan')"
+,,,,"('Mark Morris', 'Dan Paddock')","('Debbie Craig', 'Penelope Carter')"
+,,,,"('Mark Morris', 'Caryl Sutterby')","('Debbie Craig', 'Timothy Kinton')"
+,,,,"('Mark Morris', 'Jim Crevelling')","('Debbie Craig', 'Eleanor Craig')"
+,,,,"('Mark Morris', 'Robert Nielsen')","('Debbie Craig', 'John Futko')"
+,,,,"('Mark Morris', 'Bradley Jones')","('Debbie Craig', 'Jeff Hicks')"
+,,,,"('Mark Morris', 'Ron Rubin')","('Debbie Craig', 'Peter Lander')"
+,,,,"('Mark Morris', 'Kim Crawford')","('Debbie Craig', 'Greg Marion')"
+,,,,"('Mark Morris', 'Chris Iversen')","('Debbie Craig', 'Gary Abraham')"
+,,,,"('Mark Morris', 'Ray Stewart')","('Debbie Craig', 'Richard Craig')"
+,,,,"('Mark Morris', 'Bill Hall')","('Debbie Craig', 'Michael Herzog')"
+,,,,"('Mark Morris', 'Judy Wiltberger')","('Debbie Craig', 'Frank Mueller')"
+,,,,"('Mark Morris', 'John Sawers')","('Debbie Craig', 'Dave Ferry')"
+,,,,"('Mark Morris', 'Roger McDonough')","('Debbie Craig', 'Charles Craig')"
+,,,,"('Mark Morris', 'Steve Griffin')","('Debbie Craig', 'Doug Paddock')"
+,,,,"('Mark Morris', 'Jeff Kennedy')","('Debbie Craig', 'Jerry Johnson')"
+,,,,"('Mark Morris', 'Mark Schenk')","('Debbie Craig', 'Charles Rettig')"
+,,,,"('Mark Morris', 'Butch Comstock')","('Debbie Craig', 'Brad Jones')"
+,,,,"('Mark Morris', 'Donna Alexander')","('Debbie Craig', 'Donna Alexander')"
+,,,,"('Mark Morris', 'Dan Banach')","('Debbie Craig', 'Steven Brewer')"
+,,,,"('Mark Morris', 'Kevin North')","('Debbie Craig', 'Patti Fitzgerald')"
+,,,,"('Mark Morris', 'Karl Tober')","('Debbie Craig', 'Amanda Gorton')"
+,,,,"('Mark Morris', 'Patrick Killen')","('Debbie Craig', 'Vane Calhoun')"
+,,,,"('Mark Morris', 'Chuck Mitchell')","('Debbie Craig', 'Fred Johnstone')"
+,,,,"('Mark Morris', 'Brian Winslow')","('Debbie Craig', 'Vince Johnson')"
+,,,,"('Mark Morris', 'Andrew Zepp')","('Tony Carter', 'Mary Loesch')"
+,,,,"('Mark Morris', 'Debbie Craig')","('Tony Carter', 'Taylor Fitch')"
+,,,,"('Mark Morris', 'Marty DeVinney')","('Tony Carter', 'Charles Kreuzer')"
+,,,,"('Mark Morris', 'Sarah Purdy')","('Tony Carter', 'Shawna Bonshak')"
+,,,,"('Mark Morris', 'Ryan Destro')","('Tony Carter', 'Ed Brockman')"
+,,,,"('Mark Morris', 'Craig Densmore')","('Tony Carter', 'Malcolm MacKenzie')"
+,,,,"('William Quinn', 'Philip Bailey')","('Tony Carter', 'Eric Holtz')"
+,,,,"('William Quinn', 'Doug Howells')","('Tony Carter', 'Steve Finnan')"
+,,,,"('William Quinn', 'Michael Horning')","('Tony Carter', 'Penelope Carter')"
+,,,,"('William Quinn', 'Floyd Lane')","('Tony Carter', 'Timothy Kinton')"
+,,,,"('William Quinn', 'Don House')","('Tony Carter', 'Eleanor Craig')"
+,,,,"('William Quinn', 'Phil Palmesano')","('Tony Carter', 'John Futko')"
+,,,,"('William Quinn', 'John Grabski')","('Tony Carter', 'Frank Mueller')"
+,,,,"('William Quinn', 'Tom O Mara')","('Tony Carter', 'Peter Lander')"
+,,,,"('William Quinn', 'Maureen Wren')","('Tony Carter', 'Greg Marion')"
+,,,,"('William Quinn', 'Art Hunt')","('Tony Carter', 'Gary Abraham')"
+,,,,"('William Quinn', 'Scott Falvey')","('Tony Carter', 'Richard Craig')"
+,,,,"('William Quinn', 'Paul Danielson')","('Tony Carter', 'Michael Herzog')"
+,,,,"('William Quinn', 'Peter Gamba')","('Tony Carter', 'Jeff Hicks')"
+,,,,"('William Quinn', 'Frank Zifino')","('Tony Carter', 'Dave Ferry')"
+,,,,"('William Quinn', 'Bruce Lyon')","('Tony Carter', 'Charles Craig')"
+,,,,"('William Quinn', 'Taylor Fitch')","('Tony Carter', 'Doug Paddock')"
+,,,,"('William Quinn', 'Charles Kreuzer')","('Tony Carter', 'Jerry Johnson')"
+,,,,"('William Quinn', 'Andrew Cuomo')","('Tony Carter', 'Charles Rettig')"
+,,,,"('William Quinn', 'Mike Linehan')","('Tony Carter', 'Brad Jones')"
+,,,,"('William Quinn', 'George Mathewson')","('Tony Carter', 'Donna Alexander')"
+,,,,"('William Quinn', 'Neil Simmons')","('Tony Carter', 'Steven Brewer')"
+,,,,"('William Quinn', 'Jeff Davis')","('Tony Carter', 'Patti Fitzgerald')"
+,,,,"('William Quinn', 'Max Parson')","('Tony Carter', 'Amanda Gorton')"
+,,,,"('William Quinn', 'John Kiedel')","('Tony Carter', 'Vane Calhoun')"
+,,,,"('William Quinn', 'Sarah Vestal')","('Tony Carter', 'Fred Johnstone')"
+,,,,"('William Quinn', 'Jerry Stape')","('Tony Carter', 'Vince Johnson')"
+,,,,"('William Quinn', 'Rick Willson')","('Mary Loesch', 'Taylor Fitch')"
+,,,,"('William Quinn', 'Robert Multer')","('Mary Loesch', 'Charles Kreuzer')"
+,,,,"('William Quinn', 'Herbie Snyder')","('Mary Loesch', 'Shawna Bonshak')"
+,,,,"('William Quinn', 'Dan Paddock')","('Mary Loesch', 'Ed Brockman')"
+,,,,"('William Quinn', 'Tim Dennis')","('Mary Loesch', 'Malcolm MacKenzie')"
+,,,,"('William Quinn', 'Caryl Sutterby')","('Mary Loesch', 'Eric Holtz')"
+,,,,"('William Quinn', 'Jim Crevelling')","('Mary Loesch', 'Steve Finnan')"
+,,,,"('William Quinn', 'Robert Nielsen')","('Mary Loesch', 'Penelope Carter')"
+,,,,"('William Quinn', 'Bradley Jones')","('Mary Loesch', 'Timothy Kinton')"
+,,,,"('William Quinn', 'Ron Rubin')","('Mary Loesch', 'Eleanor Craig')"
+,,,,"('William Quinn', 'Kim Crawford')","('Mary Loesch', 'John Futko')"
+,,,,"('William Quinn', 'Chris Iversen')","('Mary Loesch', 'Frank Mueller')"
+,,,,"('William Quinn', 'Ray Stewart')","('Mary Loesch', 'Peter Lander')"
+,,,,"('William Quinn', 'Bill Hall')","('Mary Loesch', 'Greg Marion')"
+,,,,"('William Quinn', 'Judy Wiltberger')","('Mary Loesch', 'Gary Abraham')"
+,,,,"('William Quinn', 'John Sawers')","('Mary Loesch', 'Richard Craig')"
+,,,,"('William Quinn', 'Roger McDonough')","('Mary Loesch', 'Michael Herzog')"
+,,,,"('William Quinn', 'Steve Griffin')","('Mary Loesch', 'Jeff Hicks')"
+,,,,"('William Quinn', 'Jeff Kennedy')","('Mary Loesch', 'Dave Ferry')"
+,,,,"('William Quinn', 'Mark Schenk')","('Mary Loesch', 'Charles Craig')"
+,,,,"('William Quinn', 'Butch Comstock')","('Mary Loesch', 'Doug Paddock')"
+,,,,"('William Quinn', 'Donna Alexander')","('Mary Loesch', 'Jerry Johnson')"
+,,,,"('William Quinn', 'Dan Banach')","('Mary Loesch', 'Charles Rettig')"
+,,,,"('William Quinn', 'Kevin North')","('Mary Loesch', 'Brad Jones')"
+,,,,"('William Quinn', 'Karl Tober')","('Mary Loesch', 'Donna Alexander')"
+,,,,"('William Quinn', 'Patrick Killen')","('Mary Loesch', 'Steven Brewer')"
+,,,,"('William Quinn', 'Chuck Mitchell')","('Mary Loesch', 'Patti Fitzgerald')"
+,,,,"('William Quinn', 'Brian Winslow')","('Mary Loesch', 'Amanda Gorton')"
+,,,,"('William Quinn', 'Andrew Zepp')","('Mary Loesch', 'Vane Calhoun')"
+,,,,"('William Quinn', 'Debbie Craig')","('Mary Loesch', 'Fred Johnstone')"
+,,,,"('William Quinn', 'Marty DeVinney')","('Mary Loesch', 'Vince Johnson')"
+,,,,"('William Quinn', 'Sarah Purdy')","('Taylor Fitch', 'Shawna Bonshak')"
+,,,,"('William Quinn', 'Ryan Destro')","('Taylor Fitch', 'Ed Brockman')"
+,,,,"('William Quinn', 'Craig Densmore')","('Taylor Fitch', 'Malcolm MacKenzie')"
+,,,,"('Philip Bailey', 'Ray Stewart')","('Taylor Fitch', 'Eric Holtz')"
+,,,,"('Philip Bailey', 'Doug Howells')","('Taylor Fitch', 'Steve Finnan')"
+,,,,"('Philip Bailey', 'Michael Horning')","('Taylor Fitch', 'Penelope Carter')"
+,,,,"('Philip Bailey', 'Floyd Lane')","('Taylor Fitch', 'Timothy Kinton')"
+,,,,"('Philip Bailey', 'Don House')","('Taylor Fitch', 'Eleanor Craig')"
+,,,,"('Philip Bailey', 'Phil Palmesano')","('Taylor Fitch', 'John Futko')"
+,,,,"('Philip Bailey', 'John Grabski')","('Taylor Fitch', 'Frank Mueller')"
+,,,,"('Philip Bailey', 'Tom O Mara')","('Taylor Fitch', 'Peter Lander')"
+,,,,"('Philip Bailey', 'Maureen Wren')","('Taylor Fitch', 'Greg Marion')"
+,,,,"('Philip Bailey', 'Art Hunt')","('Taylor Fitch', 'Gary Abraham')"
+,,,,"('Philip Bailey', 'Scott Falvey')","('Taylor Fitch', 'Richard Craig')"
+,,,,"('Philip Bailey', 'Paul Danielson')","('Taylor Fitch', 'Michael Herzog')"
+,,,,"('Philip Bailey', 'Peter Gamba')","('Taylor Fitch', 'Jeff Hicks')"
+,,,,"('Philip Bailey', 'Frank Zifino')","('Taylor Fitch', 'Dave Ferry')"
+,,,,"('Philip Bailey', 'Bruce Lyon')","('Taylor Fitch', 'Charles Craig')"
+,,,,"('Philip Bailey', 'Taylor Fitch')","('Taylor Fitch', 'Doug Paddock')"
+,,,,"('Philip Bailey', 'Charles Kreuzer')","('Taylor Fitch', 'Jerry Johnson')"
+,,,,"('Philip Bailey', 'Andrew Cuomo')","('Taylor Fitch', 'Charles Rettig')"
+,,,,"('Philip Bailey', 'Mike Linehan')","('Taylor Fitch', 'Brad Jones')"
+,,,,"('Philip Bailey', 'George Mathewson')","('Taylor Fitch', 'Steven Brewer')"
+,,,,"('Philip Bailey', 'Neil Simmons')","('Taylor Fitch', 'Patti Fitzgerald')"
+,,,,"('Philip Bailey', 'Jeff Davis')","('Taylor Fitch', 'Amanda Gorton')"
+,,,,"('Philip Bailey', 'Max Parson')","('Taylor Fitch', 'Vane Calhoun')"
+,,,,"('Philip Bailey', 'John Kiedel')","('Taylor Fitch', 'Fred Johnstone')"
+,,,,"('Philip Bailey', 'Sarah Vestal')","('Taylor Fitch', 'Vince Johnson')"
+,,,,"('Philip Bailey', 'Jerry Stape')","('Charles Kreuzer', 'Shawna Bonshak')"
+,,,,"('Philip Bailey', 'Rick Willson')","('Charles Kreuzer', 'Ed Brockman')"
+,,,,"('Philip Bailey', 'Robert Multer')","('Charles Kreuzer', 'Malcolm MacKenzie')"
+,,,,"('Philip Bailey', 'Herbie Snyder')","('Charles Kreuzer', 'Eric Holtz')"
+,,,,"('Philip Bailey', 'Dan Paddock')","('Charles Kreuzer', 'Steve Finnan')"
+,,,,"('Philip Bailey', 'Tim Dennis')","('Charles Kreuzer', 'Penelope Carter')"
+,,,,"('Philip Bailey', 'Caryl Sutterby')","('Charles Kreuzer', 'Timothy Kinton')"
+,,,,"('Philip Bailey', 'Jim Crevelling')","('Charles Kreuzer', 'Eleanor Craig')"
+,,,,"('Philip Bailey', 'Robert Nielsen')","('Charles Kreuzer', 'John Futko')"
+,,,,"('Philip Bailey', 'Bradley Jones')","('Charles Kreuzer', 'Jeff Hicks')"
+,,,,"('Philip Bailey', 'Ron Rubin')","('Charles Kreuzer', 'Peter Lander')"
+,,,,"('Philip Bailey', 'Kim Crawford')","('Charles Kreuzer', 'Greg Marion')"
+,,,,"('Philip Bailey', 'Chris Iversen')","('Charles Kreuzer', 'Gary Abraham')"
+,,,,"('Philip Bailey', 'Bill Hall')","('Charles Kreuzer', 'Richard Craig')"
+,,,,"('Philip Bailey', 'Judy Wiltberger')","('Charles Kreuzer', 'Michael Herzog')"
+,,,,"('Philip Bailey', 'John Sawers')","('Charles Kreuzer', 'Frank Mueller')"
+,,,,"('Philip Bailey', 'Roger McDonough')","('Charles Kreuzer', 'Dave Ferry')"
+,,,,"('Philip Bailey', 'Steve Griffin')","('Charles Kreuzer', 'Charles Craig')"
+,,,,"('Philip Bailey', 'Jeff Kennedy')","('Charles Kreuzer', 'Doug Paddock')"
+,,,,"('Philip Bailey', 'Mark Schenk')","('Charles Kreuzer', 'Jerry Johnson')"
+,,,,"('Philip Bailey', 'Butch Comstock')","('Charles Kreuzer', 'Charles Rettig')"
+,,,,"('Philip Bailey', 'Donna Alexander')","('Charles Kreuzer', 'Brad Jones')"
+,,,,"('Philip Bailey', 'Dan Banach')","('Charles Kreuzer', 'Steven Brewer')"
+,,,,"('Philip Bailey', 'Kevin North')","('Charles Kreuzer', 'Patti Fitzgerald')"
+,,,,"('Philip Bailey', 'Karl Tober')","('Charles Kreuzer', 'Amanda Gorton')"
+,,,,"('Philip Bailey', 'Patrick Killen')","('Charles Kreuzer', 'Vane Calhoun')"
+,,,,"('Philip Bailey', 'Chuck Mitchell')","('Charles Kreuzer', 'Fred Johnstone')"
+,,,,"('Philip Bailey', 'Brian Winslow')","('Charles Kreuzer', 'Vince Johnson')"
+,,,,"('Philip Bailey', 'Andrew Zepp')","('Shawna Bonshak', 'Ed Brockman')"
+,,,,"('Philip Bailey', 'Debbie Craig')","('Shawna Bonshak', 'Malcolm MacKenzie')"
+,,,,"('Philip Bailey', 'Marty DeVinney')","('Shawna Bonshak', 'Eric Holtz')"
+,,,,"('Philip Bailey', 'Sarah Purdy')","('Shawna Bonshak', 'Steve Finnan')"
+,,,,"('Philip Bailey', 'Ryan Destro')","('Shawna Bonshak', 'Penelope Carter')"
+,,,,"('Philip Bailey', 'Craig Densmore')","('Shawna Bonshak', 'Timothy Kinton')"
+,,,,"('Doug Howells', 'Michael Horning')","('Shawna Bonshak', 'Eleanor Craig')"
+,,,,"('Doug Howells', 'Floyd Lane')","('Shawna Bonshak', 'John Futko')"
+,,,,"('Doug Howells', 'Don House')","('Shawna Bonshak', 'Frank Mueller')"
+,,,,"('Doug Howells', 'Phil Palmesano')","('Shawna Bonshak', 'Peter Lander')"
+,,,,"('Doug Howells', 'John Grabski')","('Shawna Bonshak', 'Greg Marion')"
+,,,,"('Doug Howells', 'Tom O Mara')","('Shawna Bonshak', 'Gary Abraham')"
+,,,,"('Doug Howells', 'Maureen Wren')","('Shawna Bonshak', 'Richard Craig')"
+,,,,"('Doug Howells', 'Art Hunt')","('Shawna Bonshak', 'Michael Herzog')"
+,,,,"('Doug Howells', 'Scott Falvey')","('Shawna Bonshak', 'Jeff Hicks')"
+,,,,"('Doug Howells', 'Paul Danielson')","('Shawna Bonshak', 'Dave Ferry')"
+,,,,"('Doug Howells', 'Peter Gamba')","('Shawna Bonshak', 'Charles Craig')"
+,,,,"('Doug Howells', 'Frank Zifino')","('Shawna Bonshak', 'Doug Paddock')"
+,,,,"('Doug Howells', 'Bruce Lyon')","('Shawna Bonshak', 'Jerry Johnson')"
+,,,,"('Doug Howells', 'Taylor Fitch')","('Shawna Bonshak', 'Charles Rettig')"
+,,,,"('Doug Howells', 'Charles Kreuzer')","('Shawna Bonshak', 'Brad Jones')"
+,,,,"('Doug Howells', 'Andrew Cuomo')","('Shawna Bonshak', 'Donna Alexander')"
+,,,,"('Doug Howells', 'Mike Linehan')","('Shawna Bonshak', 'Steven Brewer')"
+,,,,"('Doug Howells', 'George Mathewson')","('Shawna Bonshak', 'Patti Fitzgerald')"
+,,,,"('Doug Howells', 'Neil Simmons')","('Shawna Bonshak', 'Amanda Gorton')"
+,,,,"('Doug Howells', 'Jeff Davis')","('Shawna Bonshak', 'Vane Calhoun')"
+,,,,"('Doug Howells', 'Max Parson')","('Shawna Bonshak', 'Fred Johnstone')"
+,,,,"('Doug Howells', 'John Kiedel')","('Shawna Bonshak', 'Vince Johnson')"
+,,,,"('Doug Howells', 'Sarah Vestal')","('Ed Brockman', 'Malcolm MacKenzie')"
+,,,,"('Doug Howells', 'Jerry Stape')","('Ed Brockman', 'Eric Holtz')"
+,,,,"('Doug Howells', 'Rick Willson')","('Ed Brockman', 'Steve Finnan')"
+,,,,"('Doug Howells', 'Robert Multer')","('Ed Brockman', 'Penelope Carter')"
+,,,,"('Doug Howells', 'Herbie Snyder')","('Ed Brockman', 'Timothy Kinton')"
+,,,,"('Doug Howells', 'Dan Paddock')","('Ed Brockman', 'Eleanor Craig')"
+,,,,"('Doug Howells', 'Tim Dennis')","('Ed Brockman', 'John Futko')"
+,,,,"('Doug Howells', 'Caryl Sutterby')","('Ed Brockman', 'Jeff Hicks')"
+,,,,"('Doug Howells', 'Jim Crevelling')","('Ed Brockman', 'Peter Lander')"
+,,,,"('Doug Howells', 'Robert Nielsen')","('Ed Brockman', 'Greg Marion')"
+,,,,"('Doug Howells', 'Bradley Jones')","('Ed Brockman', 'Gary Abraham')"
+,,,,"('Doug Howells', 'Ron Rubin')","('Ed Brockman', 'Richard Craig')"
+,,,,"('Doug Howells', 'Kim Crawford')","('Ed Brockman', 'Michael Herzog')"
+,,,,"('Doug Howells', 'Chris Iversen')","('Ed Brockman', 'Frank Mueller')"
+,,,,"('Doug Howells', 'Ray Stewart')","('Ed Brockman', 'Dave Ferry')"
+,,,,"('Doug Howells', 'Bill Hall')","('Ed Brockman', 'Charles Craig')"
+,,,,"('Doug Howells', 'Judy Wiltberger')","('Ed Brockman', 'Doug Paddock')"
+,,,,"('Doug Howells', 'John Sawers')","('Ed Brockman', 'Jerry Johnson')"
+,,,,"('Doug Howells', 'Roger McDonough')","('Ed Brockman', 'Charles Rettig')"
+,,,,"('Doug Howells', 'Steve Griffin')","('Ed Brockman', 'Brad Jones')"
+,,,,"('Doug Howells', 'Jeff Kennedy')","('Ed Brockman', 'Donna Alexander')"
+,,,,"('Doug Howells', 'Mark Schenk')","('Ed Brockman', 'Steven Brewer')"
+,,,,"('Doug Howells', 'Butch Comstock')","('Ed Brockman', 'Patti Fitzgerald')"
+,,,,"('Doug Howells', 'Donna Alexander')","('Ed Brockman', 'Amanda Gorton')"
+,,,,"('Doug Howells', 'Dan Banach')","('Ed Brockman', 'Vane Calhoun')"
+,,,,"('Doug Howells', 'Kevin North')","('Ed Brockman', 'Fred Johnstone')"
+,,,,"('Doug Howells', 'Karl Tober')","('Ed Brockman', 'Vince Johnson')"
+,,,,"('Doug Howells', 'Patrick Killen')","('Malcolm MacKenzie', 'Eric Holtz')"
+,,,,"('Doug Howells', 'Chuck Mitchell')","('Malcolm MacKenzie', 'Steve Finnan')"
+,,,,"('Doug Howells', 'Brian Winslow')","('Malcolm MacKenzie', 'Penelope Carter')"
+,,,,"('Doug Howells', 'Andrew Zepp')","('Malcolm MacKenzie', 'Timothy Kinton')"
+,,,,"('Doug Howells', 'Debbie Craig')","('Malcolm MacKenzie', 'Eleanor Craig')"
+,,,,"('Doug Howells', 'Marty DeVinney')","('Malcolm MacKenzie', 'John Futko')"
+,,,,"('Doug Howells', 'Sarah Purdy')","('Malcolm MacKenzie', 'Frank Mueller')"
+,,,,"('Doug Howells', 'Ryan Destro')","('Malcolm MacKenzie', 'Peter Lander')"
+,,,,"('Doug Howells', 'Craig Densmore')","('Malcolm MacKenzie', 'Greg Marion')"
+,,,,"('Michael Horning', 'Paul Danielson')","('Malcolm MacKenzie', 'Gary Abraham')"
+,,,,"('Michael Horning', 'Floyd Lane')","('Malcolm MacKenzie', 'Richard Craig')"
+,,,,"('Michael Horning', 'Don House')","('Malcolm MacKenzie', 'Michael Herzog')"
+,,,,"('Michael Horning', 'Phil Palmesano')","('Malcolm MacKenzie', 'Jeff Hicks')"
+,,,,"('Michael Horning', 'John Grabski')","('Malcolm MacKenzie', 'Dave Ferry')"
+,,,,"('Michael Horning', 'Tom O Mara')","('Malcolm MacKenzie', 'Charles Craig')"
+,,,,"('Michael Horning', 'Maureen Wren')","('Malcolm MacKenzie', 'Doug Paddock')"
+,,,,"('Michael Horning', 'Art Hunt')","('Malcolm MacKenzie', 'Jerry Johnson')"
+,,,,"('Michael Horning', 'Scott Falvey')","('Malcolm MacKenzie', 'Charles Rettig')"
+,,,,"('Michael Horning', 'Peter Gamba')","('Malcolm MacKenzie', 'Brad Jones')"
+,,,,"('Michael Horning', 'Frank Zifino')","('Malcolm MacKenzie', 'Donna Alexander')"
+,,,,"('Michael Horning', 'Bruce Lyon')","('Malcolm MacKenzie', 'Steven Brewer')"
+,,,,"('Michael Horning', 'Taylor Fitch')","('Malcolm MacKenzie', 'Patti Fitzgerald')"
+,,,,"('Michael Horning', 'Charles Kreuzer')","('Malcolm MacKenzie', 'Amanda Gorton')"
+,,,,"('Michael Horning', 'Andrew Cuomo')","('Malcolm MacKenzie', 'Vane Calhoun')"
+,,,,"('Michael Horning', 'Mike Linehan')","('Malcolm MacKenzie', 'Fred Johnstone')"
+,,,,"('Michael Horning', 'George Mathewson')","('Malcolm MacKenzie', 'Vince Johnson')"
+,,,,"('Michael Horning', 'Neil Simmons')","('Eric Holtz', 'Steve Finnan')"
+,,,,"('Michael Horning', 'Jeff Davis')","('Eric Holtz', 'Penelope Carter')"
+,,,,"('Michael Horning', 'Max Parson')","('Eric Holtz', 'Timothy Kinton')"
+,,,,"('Michael Horning', 'John Kiedel')","('Eric Holtz', 'Eleanor Craig')"
+,,,,"('Michael Horning', 'Sarah Vestal')","('Eric Holtz', 'John Futko')"
+,,,,"('Michael Horning', 'Jerry Stape')","('Eric Holtz', 'Frank Mueller')"
+,,,,"('Michael Horning', 'Rick Willson')","('Eric Holtz', 'Peter Lander')"
+,,,,"('Michael Horning', 'Robert Multer')","('Eric Holtz', 'Greg Marion')"
+,,,,"('Michael Horning', 'Herbie Snyder')","('Eric Holtz', 'Gary Abraham')"
+,,,,"('Michael Horning', 'Dan Paddock')","('Eric Holtz', 'Richard Craig')"
+,,,,"('Michael Horning', 'Tim Dennis')","('Eric Holtz', 'Michael Herzog')"
+,,,,"('Michael Horning', 'Caryl Sutterby')","('Eric Holtz', 'Jeff Hicks')"
+,,,,"('Michael Horning', 'Jim Crevelling')","('Eric Holtz', 'Dave Ferry')"
+,,,,"('Michael Horning', 'Robert Nielsen')","('Eric Holtz', 'Charles Craig')"
+,,,,"('Michael Horning', 'Bradley Jones')","('Eric Holtz', 'Doug Paddock')"
+,,,,"('Michael Horning', 'Ron Rubin')","('Eric Holtz', 'Jerry Johnson')"
+,,,,"('Michael Horning', 'Kim Crawford')","('Eric Holtz', 'Charles Rettig')"
+,,,,"('Michael Horning', 'Chris Iversen')","('Eric Holtz', 'Brad Jones')"
+,,,,"('Michael Horning', 'Ray Stewart')","('Eric Holtz', 'Donna Alexander')"
+,,,,"('Michael Horning', 'Bill Hall')","('Eric Holtz', 'Steven Brewer')"
+,,,,"('Michael Horning', 'Judy Wiltberger')","('Eric Holtz', 'Patti Fitzgerald')"
+,,,,"('Michael Horning', 'John Sawers')","('Eric Holtz', 'Amanda Gorton')"
+,,,,"('Michael Horning', 'Roger McDonough')","('Eric Holtz', 'Vane Calhoun')"
+,,,,"('Michael Horning', 'Steve Griffin')","('Eric Holtz', 'Fred Johnstone')"
+,,,,"('Michael Horning', 'Jeff Kennedy')","('Eric Holtz', 'Vince Johnson')"
+,,,,"('Michael Horning', 'Mark Schenk')","('Steve Finnan', 'Penelope Carter')"
+,,,,"('Michael Horning', 'Butch Comstock')","('Steve Finnan', 'Timothy Kinton')"
+,,,,"('Michael Horning', 'Donna Alexander')","('Steve Finnan', 'Eleanor Craig')"
+,,,,"('Michael Horning', 'Dan Banach')","('Steve Finnan', 'John Futko')"
+,,,,"('Michael Horning', 'Kevin North')","('Steve Finnan', 'Frank Mueller')"
+,,,,"('Michael Horning', 'Karl Tober')","('Steve Finnan', 'Peter Lander')"
+,,,,"('Michael Horning', 'Patrick Killen')","('Steve Finnan', 'Greg Marion')"
+,,,,"('Michael Horning', 'Chuck Mitchell')","('Steve Finnan', 'Gary Abraham')"
+,,,,"('Michael Horning', 'Brian Winslow')","('Steve Finnan', 'Richard Craig')"
+,,,,"('Michael Horning', 'Andrew Zepp')","('Steve Finnan', 'Michael Herzog')"
+,,,,"('Michael Horning', 'Debbie Craig')","('Steve Finnan', 'Jeff Hicks')"
+,,,,"('Michael Horning', 'Marty DeVinney')","('Steve Finnan', 'Dave Ferry')"
+,,,,"('Michael Horning', 'Sarah Purdy')","('Steve Finnan', 'Charles Craig')"
+,,,,"('Michael Horning', 'Ryan Destro')","('Steve Finnan', 'Doug Paddock')"
+,,,,"('Michael Horning', 'Craig Densmore')","('Steve Finnan', 'Jerry Johnson')"
+,,,,"('Floyd Lane', 'Tim Dennis')","('Steve Finnan', 'Charles Rettig')"
+,,,,"('Floyd Lane', 'Don House')","('Steve Finnan', 'Brad Jones')"
+,,,,"('Floyd Lane', 'Phil Palmesano')","('Steve Finnan', 'Donna Alexander')"
+,,,,"('Floyd Lane', 'John Grabski')","('Steve Finnan', 'Steven Brewer')"
+,,,,"('Floyd Lane', 'Tom O Mara')","('Steve Finnan', 'Patti Fitzgerald')"
+,,,,"('Floyd Lane', 'Maureen Wren')","('Steve Finnan', 'Amanda Gorton')"
+,,,,"('Floyd Lane', 'Art Hunt')","('Steve Finnan', 'Vane Calhoun')"
+,,,,"('Floyd Lane', 'Scott Falvey')","('Steve Finnan', 'Fred Johnstone')"
+,,,,"('Floyd Lane', 'Paul Danielson')","('Steve Finnan', 'Vince Johnson')"
+,,,,"('Floyd Lane', 'Peter Gamba')","('Penelope Carter', 'Timothy Kinton')"
+,,,,"('Floyd Lane', 'Frank Zifino')","('Penelope Carter', 'Eleanor Craig')"
+,,,,"('Floyd Lane', 'Bruce Lyon')","('Penelope Carter', 'John Futko')"
+,,,,"('Floyd Lane', 'Taylor Fitch')","('Penelope Carter', 'Frank Mueller')"
+,,,,"('Floyd Lane', 'Charles Kreuzer')","('Penelope Carter', 'Peter Lander')"
+,,,,"('Floyd Lane', 'Andrew Cuomo')","('Penelope Carter', 'Greg Marion')"
+,,,,"('Floyd Lane', 'Mike Linehan')","('Penelope Carter', 'Gary Abraham')"
+,,,,"('Floyd Lane', 'George Mathewson')","('Penelope Carter', 'Richard Craig')"
+,,,,"('Floyd Lane', 'Neil Simmons')","('Penelope Carter', 'Michael Herzog')"
+,,,,"('Floyd Lane', 'Jeff Davis')","('Penelope Carter', 'Jeff Hicks')"
+,,,,"('Floyd Lane', 'Max Parson')","('Penelope Carter', 'Dave Ferry')"
+,,,,"('Floyd Lane', 'John Kiedel')","('Penelope Carter', 'Charles Craig')"
+,,,,"('Floyd Lane', 'Sarah Vestal')","('Penelope Carter', 'Doug Paddock')"
+,,,,"('Floyd Lane', 'Jerry Stape')","('Penelope Carter', 'Jerry Johnson')"
+,,,,"('Floyd Lane', 'Rick Willson')","('Penelope Carter', 'Charles Rettig')"
+,,,,"('Floyd Lane', 'Robert Multer')","('Penelope Carter', 'Brad Jones')"
+,,,,"('Floyd Lane', 'Herbie Snyder')","('Penelope Carter', 'Donna Alexander')"
+,,,,"('Floyd Lane', 'Dan Paddock')","('Penelope Carter', 'Steven Brewer')"
+,,,,"('Floyd Lane', 'Caryl Sutterby')","('Penelope Carter', 'Patti Fitzgerald')"
+,,,,"('Floyd Lane', 'Jim Crevelling')","('Penelope Carter', 'Amanda Gorton')"
+,,,,"('Floyd Lane', 'Robert Nielsen')","('Penelope Carter', 'Vane Calhoun')"
+,,,,"('Floyd Lane', 'Bradley Jones')","('Penelope Carter', 'Fred Johnstone')"
+,,,,"('Floyd Lane', 'Ron Rubin')","('Penelope Carter', 'Vince Johnson')"
+,,,,"('Floyd Lane', 'Kim Crawford')","('Timothy Kinton', 'Eleanor Craig')"
+,,,,"('Floyd Lane', 'Chris Iversen')","('Timothy Kinton', 'John Futko')"
+,,,,"('Floyd Lane', 'Ray Stewart')","('Timothy Kinton', 'Frank Mueller')"
+,,,,"('Floyd Lane', 'Bill Hall')","('Timothy Kinton', 'Peter Lander')"
+,,,,"('Floyd Lane', 'Judy Wiltberger')","('Timothy Kinton', 'Greg Marion')"
+,,,,"('Floyd Lane', 'John Sawers')","('Timothy Kinton', 'Gary Abraham')"
+,,,,"('Floyd Lane', 'Roger McDonough')","('Timothy Kinton', 'Richard Craig')"
+,,,,"('Floyd Lane', 'Steve Griffin')","('Timothy Kinton', 'Michael Herzog')"
+,,,,"('Floyd Lane', 'Jeff Kennedy')","('Timothy Kinton', 'Jeff Hicks')"
+,,,,"('Floyd Lane', 'Mark Schenk')","('Timothy Kinton', 'Dave Ferry')"
+,,,,"('Floyd Lane', 'Butch Comstock')","('Timothy Kinton', 'Charles Craig')"
+,,,,"('Floyd Lane', 'Donna Alexander')","('Timothy Kinton', 'Doug Paddock')"
+,,,,"('Floyd Lane', 'Dan Banach')","('Timothy Kinton', 'Jerry Johnson')"
+,,,,"('Floyd Lane', 'Kevin North')","('Timothy Kinton', 'Charles Rettig')"
+,,,,"('Floyd Lane', 'Karl Tober')","('Timothy Kinton', 'Brad Jones')"
+,,,,"('Floyd Lane', 'Patrick Killen')","('Timothy Kinton', 'Donna Alexander')"
+,,,,"('Floyd Lane', 'Chuck Mitchell')","('Timothy Kinton', 'Steven Brewer')"
+,,,,"('Floyd Lane', 'Brian Winslow')","('Timothy Kinton', 'Patti Fitzgerald')"
+,,,,"('Floyd Lane', 'Andrew Zepp')","('Timothy Kinton', 'Amanda Gorton')"
+,,,,"('Floyd Lane', 'Debbie Craig')","('Timothy Kinton', 'Vane Calhoun')"
+,,,,"('Floyd Lane', 'Marty DeVinney')","('Timothy Kinton', 'Fred Johnstone')"
+,,,,"('Floyd Lane', 'Sarah Purdy')","('Timothy Kinton', 'Vince Johnson')"
+,,,,"('Floyd Lane', 'Ryan Destro')","('Eleanor Craig', 'John Futko')"
+,,,,"('Floyd Lane', 'Craig Densmore')","('Eleanor Craig', 'Jeff Hicks')"
+,,,,"('Don House', 'Phil Palmesano')","('Eleanor Craig', 'Peter Lander')"
+,,,,"('Don House', 'John Grabski')","('Eleanor Craig', 'Greg Marion')"
+,,,,"('Don House', 'Tom O Mara')","('Eleanor Craig', 'Gary Abraham')"
+,,,,"('Don House', 'Maureen Wren')","('Eleanor Craig', 'Richard Craig')"
+,,,,"('Don House', 'Art Hunt')","('Eleanor Craig', 'Michael Herzog')"
+,,,,"('Don House', 'Scott Falvey')","('Eleanor Craig', 'Frank Mueller')"
+,,,,"('Don House', 'Paul Danielson')","('Eleanor Craig', 'Dave Ferry')"
+,,,,"('Don House', 'Peter Gamba')","('Eleanor Craig', 'Charles Craig')"
+,,,,"('Don House', 'Frank Zifino')","('Eleanor Craig', 'Doug Paddock')"
+,,,,"('Don House', 'Bruce Lyon')","('Eleanor Craig', 'Jerry Johnson')"
+,,,,"('Don House', 'Taylor Fitch')","('Eleanor Craig', 'Charles Rettig')"
+,,,,"('Don House', 'Charles Kreuzer')","('Eleanor Craig', 'Brad Jones')"
+,,,,"('Don House', 'Andrew Cuomo')","('Eleanor Craig', 'Donna Alexander')"
+,,,,"('Don House', 'Mike Linehan')","('Eleanor Craig', 'Steven Brewer')"
+,,,,"('Don House', 'George Mathewson')","('Eleanor Craig', 'Patti Fitzgerald')"
+,,,,"('Don House', 'Neil Simmons')","('Eleanor Craig', 'Amanda Gorton')"
+,,,,"('Don House', 'Jeff Davis')","('Eleanor Craig', 'Vane Calhoun')"
+,,,,"('Don House', 'Max Parson')","('Eleanor Craig', 'Fred Johnstone')"
+,,,,"('Don House', 'John Kiedel')","('Eleanor Craig', 'Vince Johnson')"
+,,,,"('Don House', 'Sarah Vestal')","('John Futko', 'Frank Mueller')"
+,,,,"('Don House', 'Jerry Stape')","('John Futko', 'Peter Lander')"
+,,,,"('Don House', 'Rick Willson')","('John Futko', 'Greg Marion')"
+,,,,"('Don House', 'Robert Multer')","('John Futko', 'Gary Abraham')"
+,,,,"('Don House', 'Herbie Snyder')","('John Futko', 'Richard Craig')"
+,,,,"('Don House', 'Dan Paddock')","('John Futko', 'Michael Herzog')"
+,,,,"('Don House', 'Tim Dennis')","('John Futko', 'Jeff Hicks')"
+,,,,"('Don House', 'Caryl Sutterby')","('John Futko', 'Dave Ferry')"
+,,,,"('Don House', 'Jim Crevelling')","('John Futko', 'Charles Craig')"
+,,,,"('Don House', 'Robert Nielsen')","('John Futko', 'Doug Paddock')"
+,,,,"('Don House', 'Bradley Jones')","('John Futko', 'Jerry Johnson')"
+,,,,"('Don House', 'Ron Rubin')","('John Futko', 'Charles Rettig')"
+,,,,"('Don House', 'Kim Crawford')","('John Futko', 'Brad Jones')"
+,,,,"('Don House', 'Chris Iversen')","('John Futko', 'Donna Alexander')"
+,,,,"('Don House', 'Ray Stewart')","('John Futko', 'Steven Brewer')"
+,,,,"('Don House', 'Bill Hall')","('John Futko', 'Patti Fitzgerald')"
+,,,,"('Don House', 'Judy Wiltberger')","('John Futko', 'Amanda Gorton')"
+,,,,"('Don House', 'John Sawers')","('John Futko', 'Vane Calhoun')"
+,,,,"('Don House', 'Roger McDonough')","('John Futko', 'Fred Johnstone')"
+,,,,"('Don House', 'Steve Griffin')","('John Futko', 'Vince Johnson')"
+,,,,"('Don House', 'Jeff Kennedy')","('Frank Mueller', 'Jeff Hicks')"
+,,,,"('Don House', 'Mark Schenk')","('Frank Mueller', 'Peter Lander')"
+,,,,"('Don House', 'Butch Comstock')","('Frank Mueller', 'Greg Marion')"
+,,,,"('Don House', 'Donna Alexander')","('Frank Mueller', 'Gary Abraham')"
+,,,,"('Don House', 'Dan Banach')","('Frank Mueller', 'Richard Craig')"
+,,,,"('Don House', 'Kevin North')","('Frank Mueller', 'Michael Herzog')"
+,,,,"('Don House', 'Karl Tober')","('Frank Mueller', 'Dave Ferry')"
+,,,,"('Don House', 'Patrick Killen')","('Frank Mueller', 'Charles Craig')"
+,,,,"('Don House', 'Chuck Mitchell')","('Frank Mueller', 'Doug Paddock')"
+,,,,"('Don House', 'Brian Winslow')","('Frank Mueller', 'Jerry Johnson')"
+,,,,"('Don House', 'Andrew Zepp')","('Frank Mueller', 'Charles Rettig')"
+,,,,"('Don House', 'Debbie Craig')","('Frank Mueller', 'Brad Jones')"
+,,,,"('Don House', 'Marty DeVinney')","('Frank Mueller', 'Donna Alexander')"
+,,,,"('Don House', 'Sarah Purdy')","('Frank Mueller', 'Steven Brewer')"
+,,,,"('Don House', 'Ryan Destro')","('Frank Mueller', 'Patti Fitzgerald')"
+,,,,"('Don House', 'Craig Densmore')","('Frank Mueller', 'Amanda Gorton')"
+,,,,"('Phil Palmesano', 'John Grabski')","('Frank Mueller', 'Vane Calhoun')"
+,,,,"('Phil Palmesano', 'Tom O Mara')","('Frank Mueller', 'Fred Johnstone')"
+,,,,"('Phil Palmesano', 'Maureen Wren')","('Frank Mueller', 'Vince Johnson')"
+,,,,"('Phil Palmesano', 'Art Hunt')","('Peter Lander', 'Greg Marion')"
+,,,,"('Phil Palmesano', 'Scott Falvey')","('Peter Lander', 'Gary Abraham')"
+,,,,"('Phil Palmesano', 'Paul Danielson')","('Peter Lander', 'Richard Craig')"
+,,,,"('Phil Palmesano', 'Peter Gamba')","('Peter Lander', 'Michael Herzog')"
+,,,,"('Phil Palmesano', 'Frank Zifino')","('Peter Lander', 'Jeff Hicks')"
+,,,,"('Phil Palmesano', 'Bruce Lyon')","('Peter Lander', 'Dave Ferry')"
+,,,,"('Phil Palmesano', 'Taylor Fitch')","('Peter Lander', 'Charles Craig')"
+,,,,"('Phil Palmesano', 'Charles Kreuzer')","('Peter Lander', 'Doug Paddock')"
+,,,,"('Phil Palmesano', 'Andrew Cuomo')","('Peter Lander', 'Jerry Johnson')"
+,,,,"('Phil Palmesano', 'Mike Linehan')","('Peter Lander', 'Charles Rettig')"
+,,,,"('Phil Palmesano', 'George Mathewson')","('Peter Lander', 'Brad Jones')"
+,,,,"('Phil Palmesano', 'Neil Simmons')","('Peter Lander', 'Donna Alexander')"
+,,,,"('Phil Palmesano', 'Jeff Davis')","('Peter Lander', 'Steven Brewer')"
+,,,,"('Phil Palmesano', 'Max Parson')","('Peter Lander', 'Patti Fitzgerald')"
+,,,,"('Phil Palmesano', 'John Kiedel')","('Peter Lander', 'Amanda Gorton')"
+,,,,"('Phil Palmesano', 'Sarah Vestal')","('Peter Lander', 'Vane Calhoun')"
+,,,,"('Phil Palmesano', 'Jerry Stape')","('Peter Lander', 'Fred Johnstone')"
+,,,,"('Phil Palmesano', 'Rick Willson')","('Peter Lander', 'Vince Johnson')"
+,,,,"('Phil Palmesano', 'Robert Multer')","('Greg Marion', 'Jeff Hicks')"
+,,,,"('Phil Palmesano', 'Herbie Snyder')","('Greg Marion', 'Gary Abraham')"
+,,,,"('Phil Palmesano', 'Dan Paddock')","('Greg Marion', 'Richard Craig')"
+,,,,"('Phil Palmesano', 'Tim Dennis')","('Greg Marion', 'Michael Herzog')"
+,,,,"('Phil Palmesano', 'Caryl Sutterby')","('Greg Marion', 'Dave Ferry')"
+,,,,"('Phil Palmesano', 'Jim Crevelling')","('Greg Marion', 'Charles Craig')"
+,,,,"('Phil Palmesano', 'Robert Nielsen')","('Greg Marion', 'Doug Paddock')"
+,,,,"('Phil Palmesano', 'Bradley Jones')","('Greg Marion', 'Jerry Johnson')"
+,,,,"('Phil Palmesano', 'Ron Rubin')","('Greg Marion', 'Charles Rettig')"
+,,,,"('Phil Palmesano', 'Kim Crawford')","('Greg Marion', 'Brad Jones')"
+,,,,"('Phil Palmesano', 'Chris Iversen')","('Greg Marion', 'Donna Alexander')"
+,,,,"('Phil Palmesano', 'Ray Stewart')","('Greg Marion', 'Steven Brewer')"
+,,,,"('Phil Palmesano', 'Bill Hall')","('Greg Marion', 'Patti Fitzgerald')"
+,,,,"('Phil Palmesano', 'Judy Wiltberger')","('Greg Marion', 'Amanda Gorton')"
+,,,,"('Phil Palmesano', 'John Sawers')","('Greg Marion', 'Vane Calhoun')"
+,,,,"('Phil Palmesano', 'Roger McDonough')","('Greg Marion', 'Fred Johnstone')"
+,,,,"('Phil Palmesano', 'Steve Griffin')","('Greg Marion', 'Vince Johnson')"
+,,,,"('Phil Palmesano', 'Jeff Kennedy')","('Gary Abraham', 'Jeff Hicks')"
+,,,,"('Phil Palmesano', 'Mark Schenk')","('Gary Abraham', 'Richard Craig')"
+,,,,"('Phil Palmesano', 'Butch Comstock')","('Gary Abraham', 'Michael Herzog')"
+,,,,"('Phil Palmesano', 'Donna Alexander')","('Gary Abraham', 'Dave Ferry')"
+,,,,"('Phil Palmesano', 'Dan Banach')","('Gary Abraham', 'Charles Craig')"
+,,,,"('Phil Palmesano', 'Kevin North')","('Gary Abraham', 'Doug Paddock')"
+,,,,"('Phil Palmesano', 'Karl Tober')","('Gary Abraham', 'Jerry Johnson')"
+,,,,"('Phil Palmesano', 'Patrick Killen')","('Gary Abraham', 'Charles Rettig')"
+,,,,"('Phil Palmesano', 'Chuck Mitchell')","('Gary Abraham', 'Brad Jones')"
+,,,,"('Phil Palmesano', 'Brian Winslow')","('Gary Abraham', 'Donna Alexander')"
+,,,,"('Phil Palmesano', 'Andrew Zepp')","('Gary Abraham', 'Steven Brewer')"
+,,,,"('Phil Palmesano', 'Debbie Craig')","('Gary Abraham', 'Patti Fitzgerald')"
+,,,,"('Phil Palmesano', 'Marty DeVinney')","('Gary Abraham', 'Amanda Gorton')"
+,,,,"('Phil Palmesano', 'Sarah Purdy')","('Gary Abraham', 'Vane Calhoun')"
+,,,,"('Phil Palmesano', 'Ryan Destro')","('Gary Abraham', 'Fred Johnstone')"
+,,,,"('Phil Palmesano', 'Craig Densmore')","('Gary Abraham', 'Vince Johnson')"
+,,,,"('John Grabski', 'Tom O Mara')","('Richard Craig', 'Michael Herzog')"
+,,,,"('John Grabski', 'Maureen Wren')","('Richard Craig', 'Jeff Hicks')"
+,,,,"('John Grabski', 'Art Hunt')","('Richard Craig', 'Dave Ferry')"
+,,,,"('John Grabski', 'Scott Falvey')","('Richard Craig', 'Charles Craig')"
+,,,,"('John Grabski', 'Paul Danielson')","('Richard Craig', 'Doug Paddock')"
+,,,,"('John Grabski', 'Peter Gamba')","('Richard Craig', 'Jerry Johnson')"
+,,,,"('John Grabski', 'Frank Zifino')","('Richard Craig', 'Charles Rettig')"
+,,,,"('John Grabski', 'Bruce Lyon')","('Richard Craig', 'Brad Jones')"
+,,,,"('John Grabski', 'Taylor Fitch')","('Richard Craig', 'Donna Alexander')"
+,,,,"('John Grabski', 'Charles Kreuzer')","('Richard Craig', 'Steven Brewer')"
+,,,,"('John Grabski', 'Andrew Cuomo')","('Richard Craig', 'Patti Fitzgerald')"
+,,,,"('John Grabski', 'Mike Linehan')","('Richard Craig', 'Amanda Gorton')"
+,,,,"('John Grabski', 'George Mathewson')","('Richard Craig', 'Vane Calhoun')"
+,,,,"('John Grabski', 'Neil Simmons')","('Richard Craig', 'Fred Johnstone')"
+,,,,"('John Grabski', 'Jeff Davis')","('Richard Craig', 'Vince Johnson')"
+,,,,"('John Grabski', 'Max Parson')","('Michael Herzog', 'Jeff Hicks')"
+,,,,"('John Grabski', 'John Kiedel')","('Michael Herzog', 'Dave Ferry')"
+,,,,"('John Grabski', 'Sarah Vestal')","('Michael Herzog', 'Charles Craig')"
+,,,,"('John Grabski', 'Jerry Stape')","('Michael Herzog', 'Doug Paddock')"
+,,,,"('John Grabski', 'Rick Willson')","('Michael Herzog', 'Jerry Johnson')"
+,,,,"('John Grabski', 'Robert Multer')","('Michael Herzog', 'Charles Rettig')"
+,,,,"('John Grabski', 'Herbie Snyder')","('Michael Herzog', 'Brad Jones')"
+,,,,"('John Grabski', 'Dan Paddock')","('Michael Herzog', 'Donna Alexander')"
+,,,,"('John Grabski', 'Tim Dennis')","('Michael Herzog', 'Steven Brewer')"
+,,,,"('John Grabski', 'Caryl Sutterby')","('Michael Herzog', 'Patti Fitzgerald')"
+,,,,"('John Grabski', 'Jim Crevelling')","('Michael Herzog', 'Amanda Gorton')"
+,,,,"('John Grabski', 'Robert Nielsen')","('Michael Herzog', 'Vane Calhoun')"
+,,,,"('John Grabski', 'Bradley Jones')","('Michael Herzog', 'Fred Johnstone')"
+,,,,"('John Grabski', 'Ron Rubin')","('Michael Herzog', 'Vince Johnson')"
+,,,,"('John Grabski', 'Kim Crawford')","('Jeff Hicks', 'Dave Ferry')"
+,,,,"('John Grabski', 'Chris Iversen')","('Jeff Hicks', 'Charles Craig')"
+,,,,"('John Grabski', 'Ray Stewart')","('Jeff Hicks', 'Doug Paddock')"
+,,,,"('John Grabski', 'Bill Hall')","('Jeff Hicks', 'Jerry Johnson')"
+,,,,"('John Grabski', 'Judy Wiltberger')","('Jeff Hicks', 'Charles Rettig')"
+,,,,"('John Grabski', 'John Sawers')","('Jeff Hicks', 'Brad Jones')"
+,,,,"('John Grabski', 'Roger McDonough')","('Jeff Hicks', 'Donna Alexander')"
+,,,,"('John Grabski', 'Steve Griffin')","('Jeff Hicks', 'Steven Brewer')"
+,,,,"('John Grabski', 'Jeff Kennedy')","('Jeff Hicks', 'Patti Fitzgerald')"
+,,,,"('John Grabski', 'Mark Schenk')","('Jeff Hicks', 'Amanda Gorton')"
+,,,,"('John Grabski', 'Butch Comstock')","('Jeff Hicks', 'Vane Calhoun')"
+,,,,"('John Grabski', 'Donna Alexander')","('Jeff Hicks', 'Fred Johnstone')"
+,,,,"('John Grabski', 'Dan Banach')","('Jeff Hicks', 'Vince Johnson')"
+,,,,"('John Grabski', 'Kevin North')","('Dave Ferry', 'Charles Craig')"
+,,,,"('John Grabski', 'Karl Tober')","('Dave Ferry', 'Doug Paddock')"
+,,,,"('John Grabski', 'Patrick Killen')","('Dave Ferry', 'Jerry Johnson')"
+,,,,"('John Grabski', 'Chuck Mitchell')","('Dave Ferry', 'Charles Rettig')"
+,,,,"('John Grabski', 'Brian Winslow')","('Dave Ferry', 'Brad Jones')"
+,,,,"('John Grabski', 'Andrew Zepp')","('Dave Ferry', 'Donna Alexander')"
+,,,,"('John Grabski', 'Debbie Craig')","('Dave Ferry', 'Steven Brewer')"
+,,,,"('John Grabski', 'Marty DeVinney')","('Dave Ferry', 'Patti Fitzgerald')"
+,,,,"('John Grabski', 'Sarah Purdy')","('Dave Ferry', 'Amanda Gorton')"
+,,,,"('John Grabski', 'Ryan Destro')","('Dave Ferry', 'Vane Calhoun')"
+,,,,"('John Grabski', 'Craig Densmore')","('Dave Ferry', 'Fred Johnstone')"
+,,,,"('Tom O Mara', 'Maureen Wren')","('Dave Ferry', 'Vince Johnson')"
+,,,,"('Tom O Mara', 'Art Hunt')","('Charles Craig', 'Doug Paddock')"
+,,,,"('Tom O Mara', 'Scott Falvey')","('Charles Craig', 'Jerry Johnson')"
+,,,,"('Tom O Mara', 'Paul Danielson')","('Charles Craig', 'Charles Rettig')"
+,,,,"('Tom O Mara', 'Peter Gamba')","('Charles Craig', 'Brad Jones')"
+,,,,"('Tom O Mara', 'Frank Zifino')","('Charles Craig', 'Donna Alexander')"
+,,,,"('Tom O Mara', 'Bruce Lyon')","('Charles Craig', 'Steven Brewer')"
+,,,,"('Tom O Mara', 'Taylor Fitch')","('Charles Craig', 'Patti Fitzgerald')"
+,,,,"('Tom O Mara', 'Charles Kreuzer')","('Charles Craig', 'Amanda Gorton')"
+,,,,"('Tom O Mara', 'Andrew Cuomo')","('Charles Craig', 'Vane Calhoun')"
+,,,,"('Tom O Mara', 'Mike Linehan')","('Charles Craig', 'Fred Johnstone')"
+,,,,"('Tom O Mara', 'George Mathewson')","('Charles Craig', 'Vince Johnson')"
+,,,,"('Tom O Mara', 'Neil Simmons')","('Doug Paddock', 'Jerry Johnson')"
+,,,,"('Tom O Mara', 'Jeff Davis')","('Doug Paddock', 'Charles Rettig')"
+,,,,"('Tom O Mara', 'Max Parson')","('Doug Paddock', 'Brad Jones')"
+,,,,"('Tom O Mara', 'John Kiedel')","('Doug Paddock', 'Donna Alexander')"
+,,,,"('Tom O Mara', 'Sarah Vestal')","('Doug Paddock', 'Steven Brewer')"
+,,,,"('Tom O Mara', 'Jerry Stape')","('Doug Paddock', 'Patti Fitzgerald')"
+,,,,"('Tom O Mara', 'Rick Willson')","('Doug Paddock', 'Amanda Gorton')"
+,,,,"('Tom O Mara', 'Robert Multer')","('Doug Paddock', 'Vane Calhoun')"
+,,,,"('Tom O Mara', 'Herbie Snyder')","('Doug Paddock', 'Fred Johnstone')"
+,,,,"('Tom O Mara', 'Dan Paddock')","('Doug Paddock', 'Vince Johnson')"
+,,,,"('Tom O Mara', 'Tim Dennis')","('Jerry Johnson', 'Charles Rettig')"
+,,,,"('Tom O Mara', 'Caryl Sutterby')","('Jerry Johnson', 'Brad Jones')"
+,,,,"('Tom O Mara', 'Jim Crevelling')","('Jerry Johnson', 'Donna Alexander')"
+,,,,"('Tom O Mara', 'Robert Nielsen')","('Jerry Johnson', 'Steven Brewer')"
+,,,,"('Tom O Mara', 'Bradley Jones')","('Jerry Johnson', 'Patti Fitzgerald')"
+,,,,"('Tom O Mara', 'Ron Rubin')","('Jerry Johnson', 'Amanda Gorton')"
+,,,,"('Tom O Mara', 'Kim Crawford')","('Jerry Johnson', 'Vane Calhoun')"
+,,,,"('Tom O Mara', 'Chris Iversen')","('Jerry Johnson', 'Fred Johnstone')"
+,,,,"('Tom O Mara', 'Ray Stewart')","('Jerry Johnson', 'Vince Johnson')"
+,,,,"('Tom O Mara', 'Bill Hall')","('Charles Rettig', 'Brad Jones')"
+,,,,"('Tom O Mara', 'Judy Wiltberger')","('Charles Rettig', 'Donna Alexander')"
+,,,,"('Tom O Mara', 'John Sawers')","('Charles Rettig', 'Steven Brewer')"
+,,,,"('Tom O Mara', 'Roger McDonough')","('Charles Rettig', 'Patti Fitzgerald')"
+,,,,"('Tom O Mara', 'Steve Griffin')","('Charles Rettig', 'Amanda Gorton')"
+,,,,"('Tom O Mara', 'Jeff Kennedy')","('Charles Rettig', 'Vane Calhoun')"
+,,,,"('Tom O Mara', 'Mark Schenk')","('Charles Rettig', 'Fred Johnstone')"
+,,,,"('Tom O Mara', 'Butch Comstock')","('Charles Rettig', 'Vince Johnson')"
+,,,,"('Tom O Mara', 'Donna Alexander')","('Brad Jones', 'Donna Alexander')"
+,,,,"('Tom O Mara', 'Dan Banach')","('Brad Jones', 'Steven Brewer')"
+,,,,"('Tom O Mara', 'Kevin North')","('Brad Jones', 'Patti Fitzgerald')"
+,,,,"('Tom O Mara', 'Karl Tober')","('Brad Jones', 'Amanda Gorton')"
+,,,,"('Tom O Mara', 'Patrick Killen')","('Brad Jones', 'Vane Calhoun')"
+,,,,"('Tom O Mara', 'Chuck Mitchell')","('Brad Jones', 'Fred Johnstone')"
+,,,,"('Tom O Mara', 'Brian Winslow')","('Brad Jones', 'Vince Johnson')"
+,,,,"('Tom O Mara', 'Andrew Zepp')","('Donna Alexander', 'Steven Brewer')"
+,,,,"('Tom O Mara', 'Debbie Craig')","('Donna Alexander', 'Patti Fitzgerald')"
+,,,,"('Tom O Mara', 'Marty DeVinney')","('Donna Alexander', 'Amanda Gorton')"
+,,,,"('Tom O Mara', 'Sarah Purdy')","('Donna Alexander', 'Vane Calhoun')"
+,,,,"('Tom O Mara', 'Ryan Destro')","('Donna Alexander', 'Fred Johnstone')"
+,,,,"('Tom O Mara', 'Craig Densmore')","('Donna Alexander', 'Vince Johnson')"
+,,,,"('Maureen Wren', 'Patrick Killen')","('Steven Brewer', 'Patti Fitzgerald')"
+,,,,"('Maureen Wren', 'Art Hunt')","('Steven Brewer', 'Amanda Gorton')"
+,,,,"('Maureen Wren', 'Scott Falvey')","('Steven Brewer', 'Vane Calhoun')"
+,,,,"('Maureen Wren', 'Paul Danielson')","('Steven Brewer', 'Fred Johnstone')"
+,,,,"('Maureen Wren', 'Peter Gamba')","('Steven Brewer', 'Vince Johnson')"
+,,,,"('Maureen Wren', 'Frank Zifino')","('Patti Fitzgerald', 'Amanda Gorton')"
+,,,,"('Maureen Wren', 'Bruce Lyon')","('Patti Fitzgerald', 'Vane Calhoun')"
+,,,,"('Maureen Wren', 'Taylor Fitch')","('Patti Fitzgerald', 'Fred Johnstone')"
+,,,,"('Maureen Wren', 'Charles Kreuzer')","('Patti Fitzgerald', 'Vince Johnson')"
+,,,,"('Maureen Wren', 'Andrew Cuomo')","('Amanda Gorton', 'Vane Calhoun')"
+,,,,"('Maureen Wren', 'Mike Linehan')","('Amanda Gorton', 'Fred Johnstone')"
+,,,,"('Maureen Wren', 'George Mathewson')","('Amanda Gorton', 'Vince Johnson')"
+,,,,"('Maureen Wren', 'Neil Simmons')","('Vane Calhoun', 'Fred Johnstone')"
+,,,,"('Maureen Wren', 'Jeff Davis')","('Vane Calhoun', 'Vince Johnson')"
+,,,,"('Maureen Wren', 'Max Parson')","('Fred Johnstone', 'Vince Johnson')"
+,,,,"('Maureen Wren', 'John Kiedel')",
+,,,,"('Maureen Wren', 'Sarah Vestal')",
+,,,,"('Maureen Wren', 'Jerry Stape')",
+,,,,"('Maureen Wren', 'Rick Willson')",
+,,,,"('Maureen Wren', 'Robert Multer')",
+,,,,"('Maureen Wren', 'Herbie Snyder')",
+,,,,"('Maureen Wren', 'Dan Paddock')",
+,,,,"('Maureen Wren', 'Tim Dennis')",
+,,,,"('Maureen Wren', 'Caryl Sutterby')",
+,,,,"('Maureen Wren', 'Jim Crevelling')",
+,,,,"('Maureen Wren', 'Robert Nielsen')",
+,,,,"('Maureen Wren', 'Bradley Jones')",
+,,,,"('Maureen Wren', 'Ron Rubin')",
+,,,,"('Maureen Wren', 'Kim Crawford')",
+,,,,"('Maureen Wren', 'Chris Iversen')",
+,,,,"('Maureen Wren', 'Ray Stewart')",
+,,,,"('Maureen Wren', 'Bill Hall')",
+,,,,"('Maureen Wren', 'Judy Wiltberger')",
+,,,,"('Maureen Wren', 'John Sawers')",
+,,,,"('Maureen Wren', 'Roger McDonough')",
+,,,,"('Maureen Wren', 'Steve Griffin')",
+,,,,"('Maureen Wren', 'Jeff Kennedy')",
+,,,,"('Maureen Wren', 'Mark Schenk')",
+,,,,"('Maureen Wren', 'Butch Comstock')",
+,,,,"('Maureen Wren', 'Donna Alexander')",
+,,,,"('Maureen Wren', 'Dan Banach')",
+,,,,"('Maureen Wren', 'Kevin North')",
+,,,,"('Maureen Wren', 'Karl Tober')",
+,,,,"('Maureen Wren', 'Chuck Mitchell')",
+,,,,"('Maureen Wren', 'Brian Winslow')",
+,,,,"('Maureen Wren', 'Andrew Zepp')",
+,,,,"('Maureen Wren', 'Debbie Craig')",
+,,,,"('Maureen Wren', 'Marty DeVinney')",
+,,,,"('Maureen Wren', 'Sarah Purdy')",
+,,,,"('Maureen Wren', 'Ryan Destro')",
+,,,,"('Maureen Wren', 'Craig Densmore')",
+,,,,"('Art Hunt', 'Scott Falvey')",
+,,,,"('Art Hunt', 'Paul Danielson')",
+,,,,"('Art Hunt', 'Peter Gamba')",
+,,,,"('Art Hunt', 'Frank Zifino')",
+,,,,"('Art Hunt', 'Bruce Lyon')",
+,,,,"('Art Hunt', 'Taylor Fitch')",
+,,,,"('Art Hunt', 'Charles Kreuzer')",
+,,,,"('Art Hunt', 'Andrew Cuomo')",
+,,,,"('Art Hunt', 'Mike Linehan')",
+,,,,"('Art Hunt', 'George Mathewson')",
+,,,,"('Art Hunt', 'Neil Simmons')",
+,,,,"('Art Hunt', 'Jeff Davis')",
+,,,,"('Art Hunt', 'Max Parson')",
+,,,,"('Art Hunt', 'John Kiedel')",
+,,,,"('Art Hunt', 'Sarah Vestal')",
+,,,,"('Art Hunt', 'Jerry Stape')",
+,,,,"('Art Hunt', 'Rick Willson')",
+,,,,"('Art Hunt', 'Robert Multer')",
+,,,,"('Art Hunt', 'Herbie Snyder')",
+,,,,"('Art Hunt', 'Dan Paddock')",
+,,,,"('Art Hunt', 'Tim Dennis')",
+,,,,"('Art Hunt', 'Caryl Sutterby')",
+,,,,"('Art Hunt', 'Jim Crevelling')",
+,,,,"('Art Hunt', 'Robert Nielsen')",
+,,,,"('Art Hunt', 'Bradley Jones')",
+,,,,"('Art Hunt', 'Ron Rubin')",
+,,,,"('Art Hunt', 'Kim Crawford')",
+,,,,"('Art Hunt', 'Chris Iversen')",
+,,,,"('Art Hunt', 'Ray Stewart')",
+,,,,"('Art Hunt', 'Bill Hall')",
+,,,,"('Art Hunt', 'Judy Wiltberger')",
+,,,,"('Art Hunt', 'John Sawers')",
+,,,,"('Art Hunt', 'Roger McDonough')",
+,,,,"('Art Hunt', 'Steve Griffin')",
+,,,,"('Art Hunt', 'Jeff Kennedy')",
+,,,,"('Art Hunt', 'Mark Schenk')",
+,,,,"('Art Hunt', 'Butch Comstock')",
+,,,,"('Art Hunt', 'Donna Alexander')",
+,,,,"('Art Hunt', 'Dan Banach')",
+,,,,"('Art Hunt', 'Kevin North')",
+,,,,"('Art Hunt', 'Karl Tober')",
+,,,,"('Art Hunt', 'Patrick Killen')",
+,,,,"('Art Hunt', 'Chuck Mitchell')",
+,,,,"('Art Hunt', 'Brian Winslow')",
+,,,,"('Art Hunt', 'Andrew Zepp')",
+,,,,"('Art Hunt', 'Debbie Craig')",
+,,,,"('Art Hunt', 'Marty DeVinney')",
+,,,,"('Art Hunt', 'Sarah Purdy')",
+,,,,"('Art Hunt', 'Ryan Destro')",
+,,,,"('Art Hunt', 'Craig Densmore')",
+,,,,"('Scott Falvey', 'Tim Dennis')",
+,,,,"('Scott Falvey', 'Paul Danielson')",
+,,,,"('Scott Falvey', 'Peter Gamba')",
+,,,,"('Scott Falvey', 'Frank Zifino')",
+,,,,"('Scott Falvey', 'Bruce Lyon')",
+,,,,"('Scott Falvey', 'Taylor Fitch')",
+,,,,"('Scott Falvey', 'Charles Kreuzer')",
+,,,,"('Scott Falvey', 'Andrew Cuomo')",
+,,,,"('Scott Falvey', 'Mike Linehan')",
+,,,,"('Scott Falvey', 'George Mathewson')",
+,,,,"('Scott Falvey', 'Neil Simmons')",
+,,,,"('Scott Falvey', 'Jeff Davis')",
+,,,,"('Scott Falvey', 'Max Parson')",
+,,,,"('Scott Falvey', 'John Kiedel')",
+,,,,"('Scott Falvey', 'Sarah Vestal')",
+,,,,"('Scott Falvey', 'Jerry Stape')",
+,,,,"('Scott Falvey', 'Rick Willson')",
+,,,,"('Scott Falvey', 'Robert Multer')",
+,,,,"('Scott Falvey', 'Herbie Snyder')",
+,,,,"('Scott Falvey', 'Dan Paddock')",
+,,,,"('Scott Falvey', 'Caryl Sutterby')",
+,,,,"('Scott Falvey', 'Jim Crevelling')",
+,,,,"('Scott Falvey', 'Robert Nielsen')",
+,,,,"('Scott Falvey', 'Bradley Jones')",
+,,,,"('Scott Falvey', 'Ron Rubin')",
+,,,,"('Scott Falvey', 'Kim Crawford')",
+,,,,"('Scott Falvey', 'Chris Iversen')",
+,,,,"('Scott Falvey', 'Ray Stewart')",
+,,,,"('Scott Falvey', 'Bill Hall')",
+,,,,"('Scott Falvey', 'Judy Wiltberger')",
+,,,,"('Scott Falvey', 'John Sawers')",
+,,,,"('Scott Falvey', 'Roger McDonough')",
+,,,,"('Scott Falvey', 'Steve Griffin')",
+,,,,"('Scott Falvey', 'Jeff Kennedy')",
+,,,,"('Scott Falvey', 'Mark Schenk')",
+,,,,"('Scott Falvey', 'Butch Comstock')",
+,,,,"('Scott Falvey', 'Donna Alexander')",
+,,,,"('Scott Falvey', 'Dan Banach')",
+,,,,"('Scott Falvey', 'Kevin North')",
+,,,,"('Scott Falvey', 'Karl Tober')",
+,,,,"('Scott Falvey', 'Patrick Killen')",
+,,,,"('Scott Falvey', 'Chuck Mitchell')",
+,,,,"('Scott Falvey', 'Brian Winslow')",
+,,,,"('Scott Falvey', 'Andrew Zepp')",
+,,,,"('Scott Falvey', 'Debbie Craig')",
+,,,,"('Scott Falvey', 'Marty DeVinney')",
+,,,,"('Scott Falvey', 'Sarah Purdy')",
+,,,,"('Scott Falvey', 'Ryan Destro')",
+,,,,"('Scott Falvey', 'Craig Densmore')",
+,,,,"('Paul Danielson', 'Peter Gamba')",
+,,,,"('Paul Danielson', 'Frank Zifino')",
+,,,,"('Paul Danielson', 'Bruce Lyon')",
+,,,,"('Paul Danielson', 'Taylor Fitch')",
+,,,,"('Paul Danielson', 'Charles Kreuzer')",
+,,,,"('Paul Danielson', 'Andrew Cuomo')",
+,,,,"('Paul Danielson', 'Mike Linehan')",
+,,,,"('Paul Danielson', 'George Mathewson')",
+,,,,"('Paul Danielson', 'Neil Simmons')",
+,,,,"('Paul Danielson', 'Jeff Davis')",
+,,,,"('Paul Danielson', 'Max Parson')",
+,,,,"('Paul Danielson', 'John Kiedel')",
+,,,,"('Paul Danielson', 'Sarah Vestal')",
+,,,,"('Paul Danielson', 'Jerry Stape')",
+,,,,"('Paul Danielson', 'Rick Willson')",
+,,,,"('Paul Danielson', 'Robert Multer')",
+,,,,"('Paul Danielson', 'Herbie Snyder')",
+,,,,"('Paul Danielson', 'Dan Paddock')",
+,,,,"('Paul Danielson', 'Tim Dennis')",
+,,,,"('Paul Danielson', 'Caryl Sutterby')",
+,,,,"('Paul Danielson', 'Jim Crevelling')",
+,,,,"('Paul Danielson', 'Robert Nielsen')",
+,,,,"('Paul Danielson', 'Bradley Jones')",
+,,,,"('Paul Danielson', 'Ron Rubin')",
+,,,,"('Paul Danielson', 'Kim Crawford')",
+,,,,"('Paul Danielson', 'Chris Iversen')",
+,,,,"('Paul Danielson', 'Ray Stewart')",
+,,,,"('Paul Danielson', 'Bill Hall')",
+,,,,"('Paul Danielson', 'Judy Wiltberger')",
+,,,,"('Paul Danielson', 'John Sawers')",
+,,,,"('Paul Danielson', 'Roger McDonough')",
+,,,,"('Paul Danielson', 'Steve Griffin')",
+,,,,"('Paul Danielson', 'Jeff Kennedy')",
+,,,,"('Paul Danielson', 'Mark Schenk')",
+,,,,"('Paul Danielson', 'Butch Comstock')",
+,,,,"('Paul Danielson', 'Donna Alexander')",
+,,,,"('Paul Danielson', 'Dan Banach')",
+,,,,"('Paul Danielson', 'Kevin North')",
+,,,,"('Paul Danielson', 'Karl Tober')",
+,,,,"('Paul Danielson', 'Patrick Killen')",
+,,,,"('Paul Danielson', 'Chuck Mitchell')",
+,,,,"('Paul Danielson', 'Brian Winslow')",
+,,,,"('Paul Danielson', 'Andrew Zepp')",
+,,,,"('Paul Danielson', 'Debbie Craig')",
+,,,,"('Paul Danielson', 'Marty DeVinney')",
+,,,,"('Paul Danielson', 'Sarah Purdy')",
+,,,,"('Paul Danielson', 'Ryan Destro')",
+,,,,"('Paul Danielson', 'Craig Densmore')",
+,,,,"('Peter Gamba', 'Frank Zifino')",
+,,,,"('Peter Gamba', 'Bruce Lyon')",
+,,,,"('Peter Gamba', 'Taylor Fitch')",
+,,,,"('Peter Gamba', 'Charles Kreuzer')",
+,,,,"('Peter Gamba', 'Andrew Cuomo')",
+,,,,"('Peter Gamba', 'Mike Linehan')",
+,,,,"('Peter Gamba', 'George Mathewson')",
+,,,,"('Peter Gamba', 'Neil Simmons')",
+,,,,"('Peter Gamba', 'Jeff Davis')",
+,,,,"('Peter Gamba', 'Max Parson')",
+,,,,"('Peter Gamba', 'John Kiedel')",
+,,,,"('Peter Gamba', 'Sarah Vestal')",
+,,,,"('Peter Gamba', 'Jerry Stape')",
+,,,,"('Peter Gamba', 'Rick Willson')",
+,,,,"('Peter Gamba', 'Robert Multer')",
+,,,,"('Peter Gamba', 'Herbie Snyder')",
+,,,,"('Peter Gamba', 'Dan Paddock')",
+,,,,"('Peter Gamba', 'Tim Dennis')",
+,,,,"('Peter Gamba', 'Caryl Sutterby')",
+,,,,"('Peter Gamba', 'Jim Crevelling')",
+,,,,"('Peter Gamba', 'Robert Nielsen')",
+,,,,"('Peter Gamba', 'Bradley Jones')",
+,,,,"('Peter Gamba', 'Ron Rubin')",
+,,,,"('Peter Gamba', 'Kim Crawford')",
+,,,,"('Peter Gamba', 'Chris Iversen')",
+,,,,"('Peter Gamba', 'Ray Stewart')",
+,,,,"('Peter Gamba', 'Bill Hall')",
+,,,,"('Peter Gamba', 'Judy Wiltberger')",
+,,,,"('Peter Gamba', 'John Sawers')",
+,,,,"('Peter Gamba', 'Roger McDonough')",
+,,,,"('Peter Gamba', 'Steve Griffin')",
+,,,,"('Peter Gamba', 'Jeff Kennedy')",
+,,,,"('Peter Gamba', 'Mark Schenk')",
+,,,,"('Peter Gamba', 'Butch Comstock')",
+,,,,"('Peter Gamba', 'Donna Alexander')",
+,,,,"('Peter Gamba', 'Dan Banach')",
+,,,,"('Peter Gamba', 'Kevin North')",
+,,,,"('Peter Gamba', 'Karl Tober')",
+,,,,"('Peter Gamba', 'Patrick Killen')",
+,,,,"('Peter Gamba', 'Chuck Mitchell')",
+,,,,"('Peter Gamba', 'Brian Winslow')",
+,,,,"('Peter Gamba', 'Andrew Zepp')",
+,,,,"('Peter Gamba', 'Debbie Craig')",
+,,,,"('Peter Gamba', 'Marty DeVinney')",
+,,,,"('Peter Gamba', 'Sarah Purdy')",
+,,,,"('Peter Gamba', 'Ryan Destro')",
+,,,,"('Peter Gamba', 'Craig Densmore')",
+,,,,"('Frank Zifino', 'Ron Rubin')",
+,,,,"('Frank Zifino', 'Bruce Lyon')",
+,,,,"('Frank Zifino', 'Taylor Fitch')",
+,,,,"('Frank Zifino', 'Charles Kreuzer')",
+,,,,"('Frank Zifino', 'Andrew Cuomo')",
+,,,,"('Frank Zifino', 'Mike Linehan')",
+,,,,"('Frank Zifino', 'George Mathewson')",
+,,,,"('Frank Zifino', 'Neil Simmons')",
+,,,,"('Frank Zifino', 'Jeff Davis')",
+,,,,"('Frank Zifino', 'Max Parson')",
+,,,,"('Frank Zifino', 'John Kiedel')",
+,,,,"('Frank Zifino', 'Sarah Vestal')",
+,,,,"('Frank Zifino', 'Jerry Stape')",
+,,,,"('Frank Zifino', 'Rick Willson')",
+,,,,"('Frank Zifino', 'Robert Multer')",
+,,,,"('Frank Zifino', 'Herbie Snyder')",
+,,,,"('Frank Zifino', 'Dan Paddock')",
+,,,,"('Frank Zifino', 'Tim Dennis')",
+,,,,"('Frank Zifino', 'Caryl Sutterby')",
+,,,,"('Frank Zifino', 'Jim Crevelling')",
+,,,,"('Frank Zifino', 'Robert Nielsen')",
+,,,,"('Frank Zifino', 'Bradley Jones')",
+,,,,"('Frank Zifino', 'Kim Crawford')",
+,,,,"('Frank Zifino', 'Chris Iversen')",
+,,,,"('Frank Zifino', 'Ray Stewart')",
+,,,,"('Frank Zifino', 'Bill Hall')",
+,,,,"('Frank Zifino', 'Judy Wiltberger')",
+,,,,"('Frank Zifino', 'John Sawers')",
+,,,,"('Frank Zifino', 'Roger McDonough')",
+,,,,"('Frank Zifino', 'Steve Griffin')",
+,,,,"('Frank Zifino', 'Jeff Kennedy')",
+,,,,"('Frank Zifino', 'Mark Schenk')",
+,,,,"('Frank Zifino', 'Butch Comstock')",
+,,,,"('Frank Zifino', 'Donna Alexander')",
+,,,,"('Frank Zifino', 'Dan Banach')",
+,,,,"('Frank Zifino', 'Kevin North')",
+,,,,"('Frank Zifino', 'Karl Tober')",
+,,,,"('Frank Zifino', 'Patrick Killen')",
+,,,,"('Frank Zifino', 'Chuck Mitchell')",
+,,,,"('Frank Zifino', 'Brian Winslow')",
+,,,,"('Frank Zifino', 'Andrew Zepp')",
+,,,,"('Frank Zifino', 'Debbie Craig')",
+,,,,"('Frank Zifino', 'Marty DeVinney')",
+,,,,"('Frank Zifino', 'Sarah Purdy')",
+,,,,"('Frank Zifino', 'Ryan Destro')",
+,,,,"('Frank Zifino', 'Craig Densmore')",
+,,,,"('Bruce Lyon', 'Taylor Fitch')",
+,,,,"('Bruce Lyon', 'Charles Kreuzer')",
+,,,,"('Bruce Lyon', 'Andrew Cuomo')",
+,,,,"('Bruce Lyon', 'Mike Linehan')",
+,,,,"('Bruce Lyon', 'George Mathewson')",
+,,,,"('Bruce Lyon', 'Neil Simmons')",
+,,,,"('Bruce Lyon', 'Jeff Davis')",
+,,,,"('Bruce Lyon', 'Max Parson')",
+,,,,"('Bruce Lyon', 'John Kiedel')",
+,,,,"('Bruce Lyon', 'Sarah Vestal')",
+,,,,"('Bruce Lyon', 'Jerry Stape')",
+,,,,"('Bruce Lyon', 'Rick Willson')",
+,,,,"('Bruce Lyon', 'Robert Multer')",
+,,,,"('Bruce Lyon', 'Herbie Snyder')",
+,,,,"('Bruce Lyon', 'Dan Paddock')",
+,,,,"('Bruce Lyon', 'Tim Dennis')",
+,,,,"('Bruce Lyon', 'Caryl Sutterby')",
+,,,,"('Bruce Lyon', 'Jim Crevelling')",
+,,,,"('Bruce Lyon', 'Robert Nielsen')",
+,,,,"('Bruce Lyon', 'Bradley Jones')",
+,,,,"('Bruce Lyon', 'Ron Rubin')",
+,,,,"('Bruce Lyon', 'Kim Crawford')",
+,,,,"('Bruce Lyon', 'Chris Iversen')",
+,,,,"('Bruce Lyon', 'Ray Stewart')",
+,,,,"('Bruce Lyon', 'Bill Hall')",
+,,,,"('Bruce Lyon', 'Judy Wiltberger')",
+,,,,"('Bruce Lyon', 'John Sawers')",
+,,,,"('Bruce Lyon', 'Roger McDonough')",
+,,,,"('Bruce Lyon', 'Steve Griffin')",
+,,,,"('Bruce Lyon', 'Jeff Kennedy')",
+,,,,"('Bruce Lyon', 'Mark Schenk')",
+,,,,"('Bruce Lyon', 'Butch Comstock')",
+,,,,"('Bruce Lyon', 'Donna Alexander')",
+,,,,"('Bruce Lyon', 'Dan Banach')",
+,,,,"('Bruce Lyon', 'Kevin North')",
+,,,,"('Bruce Lyon', 'Karl Tober')",
+,,,,"('Bruce Lyon', 'Patrick Killen')",
+,,,,"('Bruce Lyon', 'Chuck Mitchell')",
+,,,,"('Bruce Lyon', 'Brian Winslow')",
+,,,,"('Bruce Lyon', 'Andrew Zepp')",
+,,,,"('Bruce Lyon', 'Debbie Craig')",
+,,,,"('Bruce Lyon', 'Marty DeVinney')",
+,,,,"('Bruce Lyon', 'Sarah Purdy')",
+,,,,"('Bruce Lyon', 'Ryan Destro')",
+,,,,"('Bruce Lyon', 'Craig Densmore')",
+,,,,"('Taylor Fitch', 'Tim Dennis')",
+,,,,"('Taylor Fitch', 'Andrew Cuomo')",
+,,,,"('Taylor Fitch', 'Mike Linehan')",
+,,,,"('Taylor Fitch', 'George Mathewson')",
+,,,,"('Taylor Fitch', 'Neil Simmons')",
+,,,,"('Taylor Fitch', 'Jeff Davis')",
+,,,,"('Taylor Fitch', 'Max Parson')",
+,,,,"('Taylor Fitch', 'John Kiedel')",
+,,,,"('Taylor Fitch', 'Sarah Vestal')",
+,,,,"('Taylor Fitch', 'Jerry Stape')",
+,,,,"('Taylor Fitch', 'Rick Willson')",
+,,,,"('Taylor Fitch', 'Robert Multer')",
+,,,,"('Taylor Fitch', 'Herbie Snyder')",
+,,,,"('Taylor Fitch', 'Dan Paddock')",
+,,,,"('Taylor Fitch', 'Caryl Sutterby')",
+,,,,"('Taylor Fitch', 'Jim Crevelling')",
+,,,,"('Taylor Fitch', 'Robert Nielsen')",
+,,,,"('Taylor Fitch', 'Bradley Jones')",
+,,,,"('Taylor Fitch', 'Ron Rubin')",
+,,,,"('Taylor Fitch', 'Kim Crawford')",
+,,,,"('Taylor Fitch', 'Chris Iversen')",
+,,,,"('Taylor Fitch', 'Ray Stewart')",
+,,,,"('Taylor Fitch', 'Bill Hall')",
+,,,,"('Taylor Fitch', 'Judy Wiltberger')",
+,,,,"('Taylor Fitch', 'John Sawers')",
+,,,,"('Taylor Fitch', 'Roger McDonough')",
+,,,,"('Taylor Fitch', 'Steve Griffin')",
+,,,,"('Taylor Fitch', 'Jeff Kennedy')",
+,,,,"('Taylor Fitch', 'Mark Schenk')",
+,,,,"('Taylor Fitch', 'Butch Comstock')",
+,,,,"('Taylor Fitch', 'Dan Banach')",
+,,,,"('Taylor Fitch', 'Kevin North')",
+,,,,"('Taylor Fitch', 'Karl Tober')",
+,,,,"('Taylor Fitch', 'Patrick Killen')",
+,,,,"('Taylor Fitch', 'Chuck Mitchell')",
+,,,,"('Taylor Fitch', 'Brian Winslow')",
+,,,,"('Taylor Fitch', 'Andrew Zepp')",
+,,,,"('Taylor Fitch', 'Debbie Craig')",
+,,,,"('Taylor Fitch', 'Marty DeVinney')",
+,,,,"('Taylor Fitch', 'Sarah Purdy')",
+,,,,"('Taylor Fitch', 'Ryan Destro')",
+,,,,"('Taylor Fitch', 'Craig Densmore')",
+,,,,"('Charles Kreuzer', 'Jim Crevelling')",
+,,,,"('Charles Kreuzer', 'Andrew Cuomo')",
+,,,,"('Charles Kreuzer', 'Mike Linehan')",
+,,,,"('Charles Kreuzer', 'George Mathewson')",
+,,,,"('Charles Kreuzer', 'Neil Simmons')",
+,,,,"('Charles Kreuzer', 'Jeff Davis')",
+,,,,"('Charles Kreuzer', 'Max Parson')",
+,,,,"('Charles Kreuzer', 'John Kiedel')",
+,,,,"('Charles Kreuzer', 'Sarah Vestal')",
+,,,,"('Charles Kreuzer', 'Jerry Stape')",
+,,,,"('Charles Kreuzer', 'Rick Willson')",
+,,,,"('Charles Kreuzer', 'Robert Multer')",
+,,,,"('Charles Kreuzer', 'Herbie Snyder')",
+,,,,"('Charles Kreuzer', 'Dan Paddock')",
+,,,,"('Charles Kreuzer', 'Tim Dennis')",
+,,,,"('Charles Kreuzer', 'Caryl Sutterby')",
+,,,,"('Charles Kreuzer', 'Robert Nielsen')",
+,,,,"('Charles Kreuzer', 'Bradley Jones')",
+,,,,"('Charles Kreuzer', 'Ron Rubin')",
+,,,,"('Charles Kreuzer', 'Kim Crawford')",
+,,,,"('Charles Kreuzer', 'Chris Iversen')",
+,,,,"('Charles Kreuzer', 'Ray Stewart')",
+,,,,"('Charles Kreuzer', 'Bill Hall')",
+,,,,"('Charles Kreuzer', 'Judy Wiltberger')",
+,,,,"('Charles Kreuzer', 'John Sawers')",
+,,,,"('Charles Kreuzer', 'Roger McDonough')",
+,,,,"('Charles Kreuzer', 'Steve Griffin')",
+,,,,"('Charles Kreuzer', 'Jeff Kennedy')",
+,,,,"('Charles Kreuzer', 'Mark Schenk')",
+,,,,"('Charles Kreuzer', 'Butch Comstock')",
+,,,,"('Charles Kreuzer', 'Dan Banach')",
+,,,,"('Charles Kreuzer', 'Kevin North')",
+,,,,"('Charles Kreuzer', 'Karl Tober')",
+,,,,"('Charles Kreuzer', 'Patrick Killen')",
+,,,,"('Charles Kreuzer', 'Chuck Mitchell')",
+,,,,"('Charles Kreuzer', 'Brian Winslow')",
+,,,,"('Charles Kreuzer', 'Andrew Zepp')",
+,,,,"('Charles Kreuzer', 'Debbie Craig')",
+,,,,"('Charles Kreuzer', 'Marty DeVinney')",
+,,,,"('Charles Kreuzer', 'Sarah Purdy')",
+,,,,"('Charles Kreuzer', 'Ryan Destro')",
+,,,,"('Charles Kreuzer', 'Craig Densmore')",
+,,,,"('Andrew Cuomo', 'Jeff Davis')",
+,,,,"('Andrew Cuomo', 'Mike Linehan')",
+,,,,"('Andrew Cuomo', 'George Mathewson')",
+,,,,"('Andrew Cuomo', 'Neil Simmons')",
+,,,,"('Andrew Cuomo', 'Max Parson')",
+,,,,"('Andrew Cuomo', 'John Kiedel')",
+,,,,"('Andrew Cuomo', 'Sarah Vestal')",
+,,,,"('Andrew Cuomo', 'Jerry Stape')",
+,,,,"('Andrew Cuomo', 'Rick Willson')",
+,,,,"('Andrew Cuomo', 'Robert Multer')",
+,,,,"('Andrew Cuomo', 'Herbie Snyder')",
+,,,,"('Andrew Cuomo', 'Dan Paddock')",
+,,,,"('Andrew Cuomo', 'Tim Dennis')",
+,,,,"('Andrew Cuomo', 'Caryl Sutterby')",
+,,,,"('Andrew Cuomo', 'Jim Crevelling')",
+,,,,"('Andrew Cuomo', 'Robert Nielsen')",
+,,,,"('Andrew Cuomo', 'Bradley Jones')",
+,,,,"('Andrew Cuomo', 'Ron Rubin')",
+,,,,"('Andrew Cuomo', 'Kim Crawford')",
+,,,,"('Andrew Cuomo', 'Chris Iversen')",
+,,,,"('Andrew Cuomo', 'Ray Stewart')",
+,,,,"('Andrew Cuomo', 'Bill Hall')",
+,,,,"('Andrew Cuomo', 'Judy Wiltberger')",
+,,,,"('Andrew Cuomo', 'John Sawers')",
+,,,,"('Andrew Cuomo', 'Roger McDonough')",
+,,,,"('Andrew Cuomo', 'Steve Griffin')",
+,,,,"('Andrew Cuomo', 'Jeff Kennedy')",
+,,,,"('Andrew Cuomo', 'Mark Schenk')",
+,,,,"('Andrew Cuomo', 'Butch Comstock')",
+,,,,"('Andrew Cuomo', 'Donna Alexander')",
+,,,,"('Andrew Cuomo', 'Dan Banach')",
+,,,,"('Andrew Cuomo', 'Kevin North')",
+,,,,"('Andrew Cuomo', 'Karl Tober')",
+,,,,"('Andrew Cuomo', 'Patrick Killen')",
+,,,,"('Andrew Cuomo', 'Chuck Mitchell')",
+,,,,"('Andrew Cuomo', 'Brian Winslow')",
+,,,,"('Andrew Cuomo', 'Andrew Zepp')",
+,,,,"('Andrew Cuomo', 'Debbie Craig')",
+,,,,"('Andrew Cuomo', 'Marty DeVinney')",
+,,,,"('Andrew Cuomo', 'Sarah Purdy')",
+,,,,"('Andrew Cuomo', 'Ryan Destro')",
+,,,,"('Andrew Cuomo', 'Craig Densmore')",
+,,,,"('Mike Linehan', 'Tim Dennis')",
+,,,,"('Mike Linehan', 'George Mathewson')",
+,,,,"('Mike Linehan', 'Neil Simmons')",
+,,,,"('Mike Linehan', 'Jeff Davis')",
+,,,,"('Mike Linehan', 'Max Parson')",
+,,,,"('Mike Linehan', 'John Kiedel')",
+,,,,"('Mike Linehan', 'Sarah Vestal')",
+,,,,"('Mike Linehan', 'Jerry Stape')",
+,,,,"('Mike Linehan', 'Rick Willson')",
+,,,,"('Mike Linehan', 'Robert Multer')",
+,,,,"('Mike Linehan', 'Herbie Snyder')",
+,,,,"('Mike Linehan', 'Dan Paddock')",
+,,,,"('Mike Linehan', 'Caryl Sutterby')",
+,,,,"('Mike Linehan', 'Jim Crevelling')",
+,,,,"('Mike Linehan', 'Robert Nielsen')",
+,,,,"('Mike Linehan', 'Bradley Jones')",
+,,,,"('Mike Linehan', 'Ron Rubin')",
+,,,,"('Mike Linehan', 'Kim Crawford')",
+,,,,"('Mike Linehan', 'Chris Iversen')",
+,,,,"('Mike Linehan', 'Ray Stewart')",
+,,,,"('Mike Linehan', 'Bill Hall')",
+,,,,"('Mike Linehan', 'Judy Wiltberger')",
+,,,,"('Mike Linehan', 'John Sawers')",
+,,,,"('Mike Linehan', 'Roger McDonough')",
+,,,,"('Mike Linehan', 'Steve Griffin')",
+,,,,"('Mike Linehan', 'Jeff Kennedy')",
+,,,,"('Mike Linehan', 'Mark Schenk')",
+,,,,"('Mike Linehan', 'Butch Comstock')",
+,,,,"('Mike Linehan', 'Donna Alexander')",
+,,,,"('Mike Linehan', 'Dan Banach')",
+,,,,"('Mike Linehan', 'Kevin North')",
+,,,,"('Mike Linehan', 'Karl Tober')",
+,,,,"('Mike Linehan', 'Patrick Killen')",
+,,,,"('Mike Linehan', 'Chuck Mitchell')",
+,,,,"('Mike Linehan', 'Brian Winslow')",
+,,,,"('Mike Linehan', 'Andrew Zepp')",
+,,,,"('Mike Linehan', 'Debbie Craig')",
+,,,,"('Mike Linehan', 'Marty DeVinney')",
+,,,,"('Mike Linehan', 'Sarah Purdy')",
+,,,,"('Mike Linehan', 'Ryan Destro')",
+,,,,"('Mike Linehan', 'Craig Densmore')",
+,,,,"('George Mathewson', 'Neil Simmons')",
+,,,,"('George Mathewson', 'Jeff Davis')",
+,,,,"('George Mathewson', 'Max Parson')",
+,,,,"('George Mathewson', 'John Kiedel')",
+,,,,"('George Mathewson', 'Sarah Vestal')",
+,,,,"('George Mathewson', 'Jerry Stape')",
+,,,,"('George Mathewson', 'Rick Willson')",
+,,,,"('George Mathewson', 'Robert Multer')",
+,,,,"('George Mathewson', 'Herbie Snyder')",
+,,,,"('George Mathewson', 'Dan Paddock')",
+,,,,"('George Mathewson', 'Tim Dennis')",
+,,,,"('George Mathewson', 'Caryl Sutterby')",
+,,,,"('George Mathewson', 'Jim Crevelling')",
+,,,,"('George Mathewson', 'Robert Nielsen')",
+,,,,"('George Mathewson', 'Bradley Jones')",
+,,,,"('George Mathewson', 'Ron Rubin')",
+,,,,"('George Mathewson', 'Kim Crawford')",
+,,,,"('George Mathewson', 'Chris Iversen')",
+,,,,"('George Mathewson', 'Ray Stewart')",
+,,,,"('George Mathewson', 'Bill Hall')",
+,,,,"('George Mathewson', 'Judy Wiltberger')",
+,,,,"('George Mathewson', 'John Sawers')",
+,,,,"('George Mathewson', 'Roger McDonough')",
+,,,,"('George Mathewson', 'Steve Griffin')",
+,,,,"('George Mathewson', 'Jeff Kennedy')",
+,,,,"('George Mathewson', 'Mark Schenk')",
+,,,,"('George Mathewson', 'Butch Comstock')",
+,,,,"('George Mathewson', 'Donna Alexander')",
+,,,,"('George Mathewson', 'Dan Banach')",
+,,,,"('George Mathewson', 'Kevin North')",
+,,,,"('George Mathewson', 'Karl Tober')",
+,,,,"('George Mathewson', 'Patrick Killen')",
+,,,,"('George Mathewson', 'Chuck Mitchell')",
+,,,,"('George Mathewson', 'Brian Winslow')",
+,,,,"('George Mathewson', 'Andrew Zepp')",
+,,,,"('George Mathewson', 'Debbie Craig')",
+,,,,"('George Mathewson', 'Marty DeVinney')",
+,,,,"('George Mathewson', 'Sarah Purdy')",
+,,,,"('George Mathewson', 'Ryan Destro')",
+,,,,"('George Mathewson', 'Craig Densmore')",
+,,,,"('Neil Simmons', 'Robert Nielsen')",
+,,,,"('Neil Simmons', 'Jeff Davis')",
+,,,,"('Neil Simmons', 'Max Parson')",
+,,,,"('Neil Simmons', 'John Kiedel')",
+,,,,"('Neil Simmons', 'Sarah Vestal')",
+,,,,"('Neil Simmons', 'Jerry Stape')",
+,,,,"('Neil Simmons', 'Rick Willson')",
+,,,,"('Neil Simmons', 'Robert Multer')",
+,,,,"('Neil Simmons', 'Herbie Snyder')",
+,,,,"('Neil Simmons', 'Dan Paddock')",
+,,,,"('Neil Simmons', 'Tim Dennis')",
+,,,,"('Neil Simmons', 'Caryl Sutterby')",
+,,,,"('Neil Simmons', 'Jim Crevelling')",
+,,,,"('Neil Simmons', 'Bradley Jones')",
+,,,,"('Neil Simmons', 'Ron Rubin')",
+,,,,"('Neil Simmons', 'Kim Crawford')",
+,,,,"('Neil Simmons', 'Chris Iversen')",
+,,,,"('Neil Simmons', 'Ray Stewart')",
+,,,,"('Neil Simmons', 'Bill Hall')",
+,,,,"('Neil Simmons', 'Judy Wiltberger')",
+,,,,"('Neil Simmons', 'John Sawers')",
+,,,,"('Neil Simmons', 'Roger McDonough')",
+,,,,"('Neil Simmons', 'Steve Griffin')",
+,,,,"('Neil Simmons', 'Jeff Kennedy')",
+,,,,"('Neil Simmons', 'Mark Schenk')",
+,,,,"('Neil Simmons', 'Butch Comstock')",
+,,,,"('Neil Simmons', 'Donna Alexander')",
+,,,,"('Neil Simmons', 'Dan Banach')",
+,,,,"('Neil Simmons', 'Kevin North')",
+,,,,"('Neil Simmons', 'Karl Tober')",
+,,,,"('Neil Simmons', 'Patrick Killen')",
+,,,,"('Neil Simmons', 'Chuck Mitchell')",
+,,,,"('Neil Simmons', 'Brian Winslow')",
+,,,,"('Neil Simmons', 'Andrew Zepp')",
+,,,,"('Neil Simmons', 'Debbie Craig')",
+,,,,"('Neil Simmons', 'Marty DeVinney')",
+,,,,"('Neil Simmons', 'Sarah Purdy')",
+,,,,"('Neil Simmons', 'Ryan Destro')",
+,,,,"('Neil Simmons', 'Craig Densmore')",
+,,,,"('Jeff Davis', 'Max Parson')",
+,,,,"('Jeff Davis', 'John Kiedel')",
+,,,,"('Jeff Davis', 'Sarah Vestal')",
+,,,,"('Jeff Davis', 'Jerry Stape')",
+,,,,"('Jeff Davis', 'Rick Willson')",
+,,,,"('Jeff Davis', 'Robert Multer')",
+,,,,"('Jeff Davis', 'Herbie Snyder')",
+,,,,"('Jeff Davis', 'Dan Paddock')",
+,,,,"('Jeff Davis', 'Tim Dennis')",
+,,,,"('Jeff Davis', 'Caryl Sutterby')",
+,,,,"('Jeff Davis', 'Jim Crevelling')",
+,,,,"('Jeff Davis', 'Robert Nielsen')",
+,,,,"('Jeff Davis', 'Bradley Jones')",
+,,,,"('Jeff Davis', 'Ron Rubin')",
+,,,,"('Jeff Davis', 'Kim Crawford')",
+,,,,"('Jeff Davis', 'Chris Iversen')",
+,,,,"('Jeff Davis', 'Ray Stewart')",
+,,,,"('Jeff Davis', 'Bill Hall')",
+,,,,"('Jeff Davis', 'Judy Wiltberger')",
+,,,,"('Jeff Davis', 'John Sawers')",
+,,,,"('Jeff Davis', 'Roger McDonough')",
+,,,,"('Jeff Davis', 'Steve Griffin')",
+,,,,"('Jeff Davis', 'Jeff Kennedy')",
+,,,,"('Jeff Davis', 'Mark Schenk')",
+,,,,"('Jeff Davis', 'Butch Comstock')",
+,,,,"('Jeff Davis', 'Donna Alexander')",
+,,,,"('Jeff Davis', 'Dan Banach')",
+,,,,"('Jeff Davis', 'Kevin North')",
+,,,,"('Jeff Davis', 'Karl Tober')",
+,,,,"('Jeff Davis', 'Patrick Killen')",
+,,,,"('Jeff Davis', 'Chuck Mitchell')",
+,,,,"('Jeff Davis', 'Brian Winslow')",
+,,,,"('Jeff Davis', 'Andrew Zepp')",
+,,,,"('Jeff Davis', 'Debbie Craig')",
+,,,,"('Jeff Davis', 'Marty DeVinney')",
+,,,,"('Jeff Davis', 'Sarah Purdy')",
+,,,,"('Jeff Davis', 'Ryan Destro')",
+,,,,"('Jeff Davis', 'Craig Densmore')",
+,,,,"('Max Parson', 'John Kiedel')",
+,,,,"('Max Parson', 'Sarah Vestal')",
+,,,,"('Max Parson', 'Jerry Stape')",
+,,,,"('Max Parson', 'Rick Willson')",
+,,,,"('Max Parson', 'Robert Multer')",
+,,,,"('Max Parson', 'Herbie Snyder')",
+,,,,"('Max Parson', 'Dan Paddock')",
+,,,,"('Max Parson', 'Tim Dennis')",
+,,,,"('Max Parson', 'Caryl Sutterby')",
+,,,,"('Max Parson', 'Jim Crevelling')",
+,,,,"('Max Parson', 'Robert Nielsen')",
+,,,,"('Max Parson', 'Bradley Jones')",
+,,,,"('Max Parson', 'Ron Rubin')",
+,,,,"('Max Parson', 'Kim Crawford')",
+,,,,"('Max Parson', 'Chris Iversen')",
+,,,,"('Max Parson', 'Ray Stewart')",
+,,,,"('Max Parson', 'Bill Hall')",
+,,,,"('Max Parson', 'Judy Wiltberger')",
+,,,,"('Max Parson', 'John Sawers')",
+,,,,"('Max Parson', 'Roger McDonough')",
+,,,,"('Max Parson', 'Steve Griffin')",
+,,,,"('Max Parson', 'Jeff Kennedy')",
+,,,,"('Max Parson', 'Mark Schenk')",
+,,,,"('Max Parson', 'Butch Comstock')",
+,,,,"('Max Parson', 'Donna Alexander')",
+,,,,"('Max Parson', 'Dan Banach')",
+,,,,"('Max Parson', 'Kevin North')",
+,,,,"('Max Parson', 'Karl Tober')",
+,,,,"('Max Parson', 'Patrick Killen')",
+,,,,"('Max Parson', 'Chuck Mitchell')",
+,,,,"('Max Parson', 'Brian Winslow')",
+,,,,"('Max Parson', 'Andrew Zepp')",
+,,,,"('Max Parson', 'Debbie Craig')",
+,,,,"('Max Parson', 'Marty DeVinney')",
+,,,,"('Max Parson', 'Sarah Purdy')",
+,,,,"('Max Parson', 'Ryan Destro')",
+,,,,"('Max Parson', 'Craig Densmore')",
+,,,,"('John Kiedel', 'Sarah Vestal')",
+,,,,"('John Kiedel', 'Tim Dennis')",
+,,,,"('John Kiedel', 'Jerry Stape')",
+,,,,"('John Kiedel', 'Rick Willson')",
+,,,,"('John Kiedel', 'Robert Multer')",
+,,,,"('John Kiedel', 'Herbie Snyder')",
+,,,,"('John Kiedel', 'Dan Paddock')",
+,,,,"('John Kiedel', 'Caryl Sutterby')",
+,,,,"('John Kiedel', 'Jim Crevelling')",
+,,,,"('John Kiedel', 'Robert Nielsen')",
+,,,,"('John Kiedel', 'Bradley Jones')",
+,,,,"('John Kiedel', 'Ron Rubin')",
+,,,,"('John Kiedel', 'Kim Crawford')",
+,,,,"('John Kiedel', 'Chris Iversen')",
+,,,,"('John Kiedel', 'Ray Stewart')",
+,,,,"('John Kiedel', 'Bill Hall')",
+,,,,"('John Kiedel', 'Judy Wiltberger')",
+,,,,"('John Kiedel', 'John Sawers')",
+,,,,"('John Kiedel', 'Roger McDonough')",
+,,,,"('John Kiedel', 'Steve Griffin')",
+,,,,"('John Kiedel', 'Jeff Kennedy')",
+,,,,"('John Kiedel', 'Mark Schenk')",
+,,,,"('John Kiedel', 'Butch Comstock')",
+,,,,"('John Kiedel', 'Donna Alexander')",
+,,,,"('John Kiedel', 'Dan Banach')",
+,,,,"('John Kiedel', 'Kevin North')",
+,,,,"('John Kiedel', 'Karl Tober')",
+,,,,"('John Kiedel', 'Patrick Killen')",
+,,,,"('John Kiedel', 'Chuck Mitchell')",
+,,,,"('John Kiedel', 'Brian Winslow')",
+,,,,"('John Kiedel', 'Andrew Zepp')",
+,,,,"('John Kiedel', 'Debbie Craig')",
+,,,,"('John Kiedel', 'Marty DeVinney')",
+,,,,"('John Kiedel', 'Sarah Purdy')",
+,,,,"('John Kiedel', 'Ryan Destro')",
+,,,,"('John Kiedel', 'Craig Densmore')",
+,,,,"('Sarah Vestal', 'Tim Dennis')",
+,,,,"('Sarah Vestal', 'Jerry Stape')",
+,,,,"('Sarah Vestal', 'Rick Willson')",
+,,,,"('Sarah Vestal', 'Robert Multer')",
+,,,,"('Sarah Vestal', 'Herbie Snyder')",
+,,,,"('Sarah Vestal', 'Dan Paddock')",
+,,,,"('Sarah Vestal', 'Caryl Sutterby')",
+,,,,"('Sarah Vestal', 'Jim Crevelling')",
+,,,,"('Sarah Vestal', 'Robert Nielsen')",
+,,,,"('Sarah Vestal', 'Bradley Jones')",
+,,,,"('Sarah Vestal', 'Ron Rubin')",
+,,,,"('Sarah Vestal', 'Kim Crawford')",
+,,,,"('Sarah Vestal', 'Chris Iversen')",
+,,,,"('Sarah Vestal', 'Ray Stewart')",
+,,,,"('Sarah Vestal', 'Bill Hall')",
+,,,,"('Sarah Vestal', 'Judy Wiltberger')",
+,,,,"('Sarah Vestal', 'John Sawers')",
+,,,,"('Sarah Vestal', 'Roger McDonough')",
+,,,,"('Sarah Vestal', 'Steve Griffin')",
+,,,,"('Sarah Vestal', 'Jeff Kennedy')",
+,,,,"('Sarah Vestal', 'Mark Schenk')",
+,,,,"('Sarah Vestal', 'Butch Comstock')",
+,,,,"('Sarah Vestal', 'Donna Alexander')",
+,,,,"('Sarah Vestal', 'Dan Banach')",
+,,,,"('Sarah Vestal', 'Kevin North')",
+,,,,"('Sarah Vestal', 'Karl Tober')",
+,,,,"('Sarah Vestal', 'Patrick Killen')",
+,,,,"('Sarah Vestal', 'Chuck Mitchell')",
+,,,,"('Sarah Vestal', 'Brian Winslow')",
+,,,,"('Sarah Vestal', 'Andrew Zepp')",
+,,,,"('Sarah Vestal', 'Debbie Craig')",
+,,,,"('Sarah Vestal', 'Marty DeVinney')",
+,,,,"('Sarah Vestal', 'Sarah Purdy')",
+,,,,"('Sarah Vestal', 'Ryan Destro')",
+,,,,"('Sarah Vestal', 'Craig Densmore')",
+,,,,"('Jerry Stape', 'Rick Willson')",
+,,,,"('Jerry Stape', 'Robert Multer')",
+,,,,"('Jerry Stape', 'Herbie Snyder')",
+,,,,"('Jerry Stape', 'Dan Paddock')",
+,,,,"('Jerry Stape', 'Tim Dennis')",
+,,,,"('Jerry Stape', 'Caryl Sutterby')",
+,,,,"('Jerry Stape', 'Jim Crevelling')",
+,,,,"('Jerry Stape', 'Robert Nielsen')",
+,,,,"('Jerry Stape', 'Bradley Jones')",
+,,,,"('Jerry Stape', 'Ron Rubin')",
+,,,,"('Jerry Stape', 'Kim Crawford')",
+,,,,"('Jerry Stape', 'Chris Iversen')",
+,,,,"('Jerry Stape', 'Ray Stewart')",
+,,,,"('Jerry Stape', 'Bill Hall')",
+,,,,"('Jerry Stape', 'Judy Wiltberger')",
+,,,,"('Jerry Stape', 'John Sawers')",
+,,,,"('Jerry Stape', 'Roger McDonough')",
+,,,,"('Jerry Stape', 'Steve Griffin')",
+,,,,"('Jerry Stape', 'Jeff Kennedy')",
+,,,,"('Jerry Stape', 'Mark Schenk')",
+,,,,"('Jerry Stape', 'Butch Comstock')",
+,,,,"('Jerry Stape', 'Donna Alexander')",
+,,,,"('Jerry Stape', 'Dan Banach')",
+,,,,"('Jerry Stape', 'Kevin North')",
+,,,,"('Jerry Stape', 'Karl Tober')",
+,,,,"('Jerry Stape', 'Patrick Killen')",
+,,,,"('Jerry Stape', 'Chuck Mitchell')",
+,,,,"('Jerry Stape', 'Brian Winslow')",
+,,,,"('Jerry Stape', 'Andrew Zepp')",
+,,,,"('Jerry Stape', 'Debbie Craig')",
+,,,,"('Jerry Stape', 'Marty DeVinney')",
+,,,,"('Jerry Stape', 'Sarah Purdy')",
+,,,,"('Jerry Stape', 'Ryan Destro')",
+,,,,"('Jerry Stape', 'Craig Densmore')",
+,,,,"('Rick Willson', 'Robert Multer')",
+,,,,"('Rick Willson', 'Herbie Snyder')",
+,,,,"('Rick Willson', 'Dan Paddock')",
+,,,,"('Rick Willson', 'Tim Dennis')",
+,,,,"('Rick Willson', 'Caryl Sutterby')",
+,,,,"('Rick Willson', 'Jim Crevelling')",
+,,,,"('Rick Willson', 'Robert Nielsen')",
+,,,,"('Rick Willson', 'Bradley Jones')",
+,,,,"('Rick Willson', 'Ron Rubin')",
+,,,,"('Rick Willson', 'Kim Crawford')",
+,,,,"('Rick Willson', 'Chris Iversen')",
+,,,,"('Rick Willson', 'Ray Stewart')",
+,,,,"('Rick Willson', 'Bill Hall')",
+,,,,"('Rick Willson', 'Judy Wiltberger')",
+,,,,"('Rick Willson', 'John Sawers')",
+,,,,"('Rick Willson', 'Roger McDonough')",
+,,,,"('Rick Willson', 'Steve Griffin')",
+,,,,"('Rick Willson', 'Jeff Kennedy')",
+,,,,"('Rick Willson', 'Mark Schenk')",
+,,,,"('Rick Willson', 'Butch Comstock')",
+,,,,"('Rick Willson', 'Donna Alexander')",
+,,,,"('Rick Willson', 'Dan Banach')",
+,,,,"('Rick Willson', 'Kevin North')",
+,,,,"('Rick Willson', 'Karl Tober')",
+,,,,"('Rick Willson', 'Patrick Killen')",
+,,,,"('Rick Willson', 'Chuck Mitchell')",
+,,,,"('Rick Willson', 'Brian Winslow')",
+,,,,"('Rick Willson', 'Andrew Zepp')",
+,,,,"('Rick Willson', 'Debbie Craig')",
+,,,,"('Rick Willson', 'Marty DeVinney')",
+,,,,"('Rick Willson', 'Sarah Purdy')",
+,,,,"('Rick Willson', 'Ryan Destro')",
+,,,,"('Rick Willson', 'Craig Densmore')",
+,,,,"('Robert Multer', 'Herbie Snyder')",
+,,,,"('Robert Multer', 'Dan Paddock')",
+,,,,"('Robert Multer', 'Tim Dennis')",
+,,,,"('Robert Multer', 'Caryl Sutterby')",
+,,,,"('Robert Multer', 'Jim Crevelling')",
+,,,,"('Robert Multer', 'Robert Nielsen')",
+,,,,"('Robert Multer', 'Bradley Jones')",
+,,,,"('Robert Multer', 'Ron Rubin')",
+,,,,"('Robert Multer', 'Kim Crawford')",
+,,,,"('Robert Multer', 'Chris Iversen')",
+,,,,"('Robert Multer', 'Ray Stewart')",
+,,,,"('Robert Multer', 'Bill Hall')",
+,,,,"('Robert Multer', 'Judy Wiltberger')",
+,,,,"('Robert Multer', 'John Sawers')",
+,,,,"('Robert Multer', 'Roger McDonough')",
+,,,,"('Robert Multer', 'Steve Griffin')",
+,,,,"('Robert Multer', 'Jeff Kennedy')",
+,,,,"('Robert Multer', 'Mark Schenk')",
+,,,,"('Robert Multer', 'Butch Comstock')",
+,,,,"('Robert Multer', 'Donna Alexander')",
+,,,,"('Robert Multer', 'Dan Banach')",
+,,,,"('Robert Multer', 'Kevin North')",
+,,,,"('Robert Multer', 'Karl Tober')",
+,,,,"('Robert Multer', 'Patrick Killen')",
+,,,,"('Robert Multer', 'Chuck Mitchell')",
+,,,,"('Robert Multer', 'Brian Winslow')",
+,,,,"('Robert Multer', 'Andrew Zepp')",
+,,,,"('Robert Multer', 'Debbie Craig')",
+,,,,"('Robert Multer', 'Marty DeVinney')",
+,,,,"('Robert Multer', 'Sarah Purdy')",
+,,,,"('Robert Multer', 'Ryan Destro')",
+,,,,"('Robert Multer', 'Craig Densmore')",
+,,,,"('Herbie Snyder', 'Dan Paddock')",
+,,,,"('Herbie Snyder', 'Tim Dennis')",
+,,,,"('Herbie Snyder', 'Caryl Sutterby')",
+,,,,"('Herbie Snyder', 'Jim Crevelling')",
+,,,,"('Herbie Snyder', 'Robert Nielsen')",
+,,,,"('Herbie Snyder', 'Bradley Jones')",
+,,,,"('Herbie Snyder', 'Ron Rubin')",
+,,,,"('Herbie Snyder', 'Kim Crawford')",
+,,,,"('Herbie Snyder', 'Chris Iversen')",
+,,,,"('Herbie Snyder', 'Ray Stewart')",
+,,,,"('Herbie Snyder', 'Bill Hall')",
+,,,,"('Herbie Snyder', 'Judy Wiltberger')",
+,,,,"('Herbie Snyder', 'John Sawers')",
+,,,,"('Herbie Snyder', 'Roger McDonough')",
+,,,,"('Herbie Snyder', 'Steve Griffin')",
+,,,,"('Herbie Snyder', 'Jeff Kennedy')",
+,,,,"('Herbie Snyder', 'Mark Schenk')",
+,,,,"('Herbie Snyder', 'Butch Comstock')",
+,,,,"('Herbie Snyder', 'Donna Alexander')",
+,,,,"('Herbie Snyder', 'Dan Banach')",
+,,,,"('Herbie Snyder', 'Kevin North')",
+,,,,"('Herbie Snyder', 'Karl Tober')",
+,,,,"('Herbie Snyder', 'Patrick Killen')",
+,,,,"('Herbie Snyder', 'Chuck Mitchell')",
+,,,,"('Herbie Snyder', 'Brian Winslow')",
+,,,,"('Herbie Snyder', 'Andrew Zepp')",
+,,,,"('Herbie Snyder', 'Debbie Craig')",
+,,,,"('Herbie Snyder', 'Marty DeVinney')",
+,,,,"('Herbie Snyder', 'Sarah Purdy')",
+,,,,"('Herbie Snyder', 'Ryan Destro')",
+,,,,"('Herbie Snyder', 'Craig Densmore')",
+,,,,"('Dan Paddock', 'Tim Dennis')",
+,,,,"('Dan Paddock', 'Caryl Sutterby')",
+,,,,"('Dan Paddock', 'Jim Crevelling')",
+,,,,"('Dan Paddock', 'Robert Nielsen')",
+,,,,"('Dan Paddock', 'Bradley Jones')",
+,,,,"('Dan Paddock', 'Ron Rubin')",
+,,,,"('Dan Paddock', 'Kim Crawford')",
+,,,,"('Dan Paddock', 'Chris Iversen')",
+,,,,"('Dan Paddock', 'Ray Stewart')",
+,,,,"('Dan Paddock', 'Bill Hall')",
+,,,,"('Dan Paddock', 'Judy Wiltberger')",
+,,,,"('Dan Paddock', 'John Sawers')",
+,,,,"('Dan Paddock', 'Roger McDonough')",
+,,,,"('Dan Paddock', 'Steve Griffin')",
+,,,,"('Dan Paddock', 'Jeff Kennedy')",
+,,,,"('Dan Paddock', 'Mark Schenk')",
+,,,,"('Dan Paddock', 'Butch Comstock')",
+,,,,"('Dan Paddock', 'Donna Alexander')",
+,,,,"('Dan Paddock', 'Dan Banach')",
+,,,,"('Dan Paddock', 'Kevin North')",
+,,,,"('Dan Paddock', 'Karl Tober')",
+,,,,"('Dan Paddock', 'Patrick Killen')",
+,,,,"('Dan Paddock', 'Chuck Mitchell')",
+,,,,"('Dan Paddock', 'Brian Winslow')",
+,,,,"('Dan Paddock', 'Andrew Zepp')",
+,,,,"('Dan Paddock', 'Debbie Craig')",
+,,,,"('Dan Paddock', 'Marty DeVinney')",
+,,,,"('Dan Paddock', 'Sarah Purdy')",
+,,,,"('Dan Paddock', 'Ryan Destro')",
+,,,,"('Dan Paddock', 'Craig Densmore')",
+,,,,"('Tim Dennis', 'Caryl Sutterby')",
+,,,,"('Tim Dennis', 'Jim Crevelling')",
+,,,,"('Tim Dennis', 'Robert Nielsen')",
+,,,,"('Tim Dennis', 'Bradley Jones')",
+,,,,"('Tim Dennis', 'Ron Rubin')",
+,,,,"('Tim Dennis', 'Kim Crawford')",
+,,,,"('Tim Dennis', 'Chris Iversen')",
+,,,,"('Tim Dennis', 'Ray Stewart')",
+,,,,"('Tim Dennis', 'Bill Hall')",
+,,,,"('Tim Dennis', 'Judy Wiltberger')",
+,,,,"('Tim Dennis', 'John Sawers')",
+,,,,"('Tim Dennis', 'Roger McDonough')",
+,,,,"('Tim Dennis', 'Steve Griffin')",
+,,,,"('Tim Dennis', 'Jeff Kennedy')",
+,,,,"('Tim Dennis', 'Mark Schenk')",
+,,,,"('Tim Dennis', 'Butch Comstock')",
+,,,,"('Tim Dennis', 'Donna Alexander')",
+,,,,"('Tim Dennis', 'Dan Banach')",
+,,,,"('Tim Dennis', 'Kevin North')",
+,,,,"('Tim Dennis', 'Karl Tober')",
+,,,,"('Tim Dennis', 'Patrick Killen')",
+,,,,"('Tim Dennis', 'Chuck Mitchell')",
+,,,,"('Tim Dennis', 'Brian Winslow')",
+,,,,"('Tim Dennis', 'Andrew Zepp')",
+,,,,"('Tim Dennis', 'Debbie Craig')",
+,,,,"('Tim Dennis', 'Marty DeVinney')",
+,,,,"('Tim Dennis', 'Sarah Purdy')",
+,,,,"('Tim Dennis', 'Ryan Destro')",
+,,,,"('Tim Dennis', 'Craig Densmore')",
+,,,,"('Caryl Sutterby', 'Jim Crevelling')",
+,,,,"('Caryl Sutterby', 'Robert Nielsen')",
+,,,,"('Caryl Sutterby', 'Bradley Jones')",
+,,,,"('Caryl Sutterby', 'Ron Rubin')",
+,,,,"('Caryl Sutterby', 'Kim Crawford')",
+,,,,"('Caryl Sutterby', 'Chris Iversen')",
+,,,,"('Caryl Sutterby', 'Ray Stewart')",
+,,,,"('Caryl Sutterby', 'Bill Hall')",
+,,,,"('Caryl Sutterby', 'Judy Wiltberger')",
+,,,,"('Caryl Sutterby', 'John Sawers')",
+,,,,"('Caryl Sutterby', 'Roger McDonough')",
+,,,,"('Caryl Sutterby', 'Steve Griffin')",
+,,,,"('Caryl Sutterby', 'Jeff Kennedy')",
+,,,,"('Caryl Sutterby', 'Mark Schenk')",
+,,,,"('Caryl Sutterby', 'Butch Comstock')",
+,,,,"('Caryl Sutterby', 'Donna Alexander')",
+,,,,"('Caryl Sutterby', 'Dan Banach')",
+,,,,"('Caryl Sutterby', 'Kevin North')",
+,,,,"('Caryl Sutterby', 'Karl Tober')",
+,,,,"('Caryl Sutterby', 'Patrick Killen')",
+,,,,"('Caryl Sutterby', 'Chuck Mitchell')",
+,,,,"('Caryl Sutterby', 'Brian Winslow')",
+,,,,"('Caryl Sutterby', 'Andrew Zepp')",
+,,,,"('Caryl Sutterby', 'Debbie Craig')",
+,,,,"('Caryl Sutterby', 'Marty DeVinney')",
+,,,,"('Caryl Sutterby', 'Sarah Purdy')",
+,,,,"('Caryl Sutterby', 'Ryan Destro')",
+,,,,"('Caryl Sutterby', 'Craig Densmore')",
+,,,,"('Jim Crevelling', 'Robert Nielsen')",
+,,,,"('Jim Crevelling', 'Bradley Jones')",
+,,,,"('Jim Crevelling', 'Ron Rubin')",
+,,,,"('Jim Crevelling', 'Kim Crawford')",
+,,,,"('Jim Crevelling', 'Chris Iversen')",
+,,,,"('Jim Crevelling', 'Ray Stewart')",
+,,,,"('Jim Crevelling', 'Bill Hall')",
+,,,,"('Jim Crevelling', 'Judy Wiltberger')",
+,,,,"('Jim Crevelling', 'John Sawers')",
+,,,,"('Jim Crevelling', 'Roger McDonough')",
+,,,,"('Jim Crevelling', 'Steve Griffin')",
+,,,,"('Jim Crevelling', 'Jeff Kennedy')",
+,,,,"('Jim Crevelling', 'Mark Schenk')",
+,,,,"('Jim Crevelling', 'Butch Comstock')",
+,,,,"('Jim Crevelling', 'Donna Alexander')",
+,,,,"('Jim Crevelling', 'Dan Banach')",
+,,,,"('Jim Crevelling', 'Kevin North')",
+,,,,"('Jim Crevelling', 'Karl Tober')",
+,,,,"('Jim Crevelling', 'Patrick Killen')",
+,,,,"('Jim Crevelling', 'Chuck Mitchell')",
+,,,,"('Jim Crevelling', 'Brian Winslow')",
+,,,,"('Jim Crevelling', 'Andrew Zepp')",
+,,,,"('Jim Crevelling', 'Debbie Craig')",
+,,,,"('Jim Crevelling', 'Marty DeVinney')",
+,,,,"('Jim Crevelling', 'Sarah Purdy')",
+,,,,"('Jim Crevelling', 'Ryan Destro')",
+,,,,"('Jim Crevelling', 'Craig Densmore')",
+,,,,"('Robert Nielsen', 'Bradley Jones')",
+,,,,"('Robert Nielsen', 'Ron Rubin')",
+,,,,"('Robert Nielsen', 'Kim Crawford')",
+,,,,"('Robert Nielsen', 'Chris Iversen')",
+,,,,"('Robert Nielsen', 'Ray Stewart')",
+,,,,"('Robert Nielsen', 'Bill Hall')",
+,,,,"('Robert Nielsen', 'Judy Wiltberger')",
+,,,,"('Robert Nielsen', 'John Sawers')",
+,,,,"('Robert Nielsen', 'Roger McDonough')",
+,,,,"('Robert Nielsen', 'Steve Griffin')",
+,,,,"('Robert Nielsen', 'Jeff Kennedy')",
+,,,,"('Robert Nielsen', 'Mark Schenk')",
+,,,,"('Robert Nielsen', 'Butch Comstock')",
+,,,,"('Robert Nielsen', 'Donna Alexander')",
+,,,,"('Robert Nielsen', 'Dan Banach')",
+,,,,"('Robert Nielsen', 'Kevin North')",
+,,,,"('Robert Nielsen', 'Karl Tober')",
+,,,,"('Robert Nielsen', 'Patrick Killen')",
+,,,,"('Robert Nielsen', 'Chuck Mitchell')",
+,,,,"('Robert Nielsen', 'Brian Winslow')",
+,,,,"('Robert Nielsen', 'Andrew Zepp')",
+,,,,"('Robert Nielsen', 'Debbie Craig')",
+,,,,"('Robert Nielsen', 'Marty DeVinney')",
+,,,,"('Robert Nielsen', 'Sarah Purdy')",
+,,,,"('Robert Nielsen', 'Ryan Destro')",
+,,,,"('Robert Nielsen', 'Craig Densmore')",
+,,,,"('Bradley Jones', 'Ron Rubin')",
+,,,,"('Bradley Jones', 'Kim Crawford')",
+,,,,"('Bradley Jones', 'Chris Iversen')",
+,,,,"('Bradley Jones', 'Ray Stewart')",
+,,,,"('Bradley Jones', 'Bill Hall')",
+,,,,"('Bradley Jones', 'Judy Wiltberger')",
+,,,,"('Bradley Jones', 'John Sawers')",
+,,,,"('Bradley Jones', 'Roger McDonough')",
+,,,,"('Bradley Jones', 'Steve Griffin')",
+,,,,"('Bradley Jones', 'Jeff Kennedy')",
+,,,,"('Bradley Jones', 'Mark Schenk')",
+,,,,"('Bradley Jones', 'Butch Comstock')",
+,,,,"('Bradley Jones', 'Donna Alexander')",
+,,,,"('Bradley Jones', 'Dan Banach')",
+,,,,"('Bradley Jones', 'Kevin North')",
+,,,,"('Bradley Jones', 'Karl Tober')",
+,,,,"('Bradley Jones', 'Patrick Killen')",
+,,,,"('Bradley Jones', 'Chuck Mitchell')",
+,,,,"('Bradley Jones', 'Brian Winslow')",
+,,,,"('Bradley Jones', 'Andrew Zepp')",
+,,,,"('Bradley Jones', 'Debbie Craig')",
+,,,,"('Bradley Jones', 'Marty DeVinney')",
+,,,,"('Bradley Jones', 'Sarah Purdy')",
+,,,,"('Bradley Jones', 'Ryan Destro')",
+,,,,"('Bradley Jones', 'Craig Densmore')",
+,,,,"('Ron Rubin', 'Kim Crawford')",
+,,,,"('Ron Rubin', 'Chris Iversen')",
+,,,,"('Ron Rubin', 'Ray Stewart')",
+,,,,"('Ron Rubin', 'Bill Hall')",
+,,,,"('Ron Rubin', 'Judy Wiltberger')",
+,,,,"('Ron Rubin', 'John Sawers')",
+,,,,"('Ron Rubin', 'Roger McDonough')",
+,,,,"('Ron Rubin', 'Steve Griffin')",
+,,,,"('Ron Rubin', 'Jeff Kennedy')",
+,,,,"('Ron Rubin', 'Mark Schenk')",
+,,,,"('Ron Rubin', 'Butch Comstock')",
+,,,,"('Ron Rubin', 'Donna Alexander')",
+,,,,"('Ron Rubin', 'Dan Banach')",
+,,,,"('Ron Rubin', 'Kevin North')",
+,,,,"('Ron Rubin', 'Karl Tober')",
+,,,,"('Ron Rubin', 'Patrick Killen')",
+,,,,"('Ron Rubin', 'Chuck Mitchell')",
+,,,,"('Ron Rubin', 'Brian Winslow')",
+,,,,"('Ron Rubin', 'Andrew Zepp')",
+,,,,"('Ron Rubin', 'Debbie Craig')",
+,,,,"('Ron Rubin', 'Marty DeVinney')",
+,,,,"('Ron Rubin', 'Sarah Purdy')",
+,,,,"('Ron Rubin', 'Ryan Destro')",
+,,,,"('Ron Rubin', 'Craig Densmore')",
+,,,,"('Kim Crawford', 'Patrick Killen')",
+,,,,"('Kim Crawford', 'Chris Iversen')",
+,,,,"('Kim Crawford', 'Ray Stewart')",
+,,,,"('Kim Crawford', 'Bill Hall')",
+,,,,"('Kim Crawford', 'Judy Wiltberger')",
+,,,,"('Kim Crawford', 'John Sawers')",
+,,,,"('Kim Crawford', 'Roger McDonough')",
+,,,,"('Kim Crawford', 'Steve Griffin')",
+,,,,"('Kim Crawford', 'Jeff Kennedy')",
+,,,,"('Kim Crawford', 'Mark Schenk')",
+,,,,"('Kim Crawford', 'Butch Comstock')",
+,,,,"('Kim Crawford', 'Donna Alexander')",
+,,,,"('Kim Crawford', 'Dan Banach')",
+,,,,"('Kim Crawford', 'Kevin North')",
+,,,,"('Kim Crawford', 'Karl Tober')",
+,,,,"('Kim Crawford', 'Chuck Mitchell')",
+,,,,"('Kim Crawford', 'Brian Winslow')",
+,,,,"('Kim Crawford', 'Andrew Zepp')",
+,,,,"('Kim Crawford', 'Debbie Craig')",
+,,,,"('Kim Crawford', 'Marty DeVinney')",
+,,,,"('Kim Crawford', 'Sarah Purdy')",
+,,,,"('Kim Crawford', 'Ryan Destro')",
+,,,,"('Kim Crawford', 'Craig Densmore')",
+,,,,"('Chris Iversen', 'Ray Stewart')",
+,,,,"('Chris Iversen', 'Bill Hall')",
+,,,,"('Chris Iversen', 'Judy Wiltberger')",
+,,,,"('Chris Iversen', 'John Sawers')",
+,,,,"('Chris Iversen', 'Roger McDonough')",
+,,,,"('Chris Iversen', 'Steve Griffin')",
+,,,,"('Chris Iversen', 'Jeff Kennedy')",
+,,,,"('Chris Iversen', 'Mark Schenk')",
+,,,,"('Chris Iversen', 'Butch Comstock')",
+,,,,"('Chris Iversen', 'Donna Alexander')",
+,,,,"('Chris Iversen', 'Dan Banach')",
+,,,,"('Chris Iversen', 'Kevin North')",
+,,,,"('Chris Iversen', 'Karl Tober')",
+,,,,"('Chris Iversen', 'Patrick Killen')",
+,,,,"('Chris Iversen', 'Chuck Mitchell')",
+,,,,"('Chris Iversen', 'Brian Winslow')",
+,,,,"('Chris Iversen', 'Andrew Zepp')",
+,,,,"('Chris Iversen', 'Debbie Craig')",
+,,,,"('Chris Iversen', 'Marty DeVinney')",
+,,,,"('Chris Iversen', 'Sarah Purdy')",
+,,,,"('Chris Iversen', 'Ryan Destro')",
+,,,,"('Chris Iversen', 'Craig Densmore')",
+,,,,"('Ray Stewart', 'Bill Hall')",
+,,,,"('Ray Stewart', 'Judy Wiltberger')",
+,,,,"('Ray Stewart', 'John Sawers')",
+,,,,"('Ray Stewart', 'Roger McDonough')",
+,,,,"('Ray Stewart', 'Steve Griffin')",
+,,,,"('Ray Stewart', 'Jeff Kennedy')",
+,,,,"('Ray Stewart', 'Mark Schenk')",
+,,,,"('Ray Stewart', 'Butch Comstock')",
+,,,,"('Ray Stewart', 'Donna Alexander')",
+,,,,"('Ray Stewart', 'Dan Banach')",
+,,,,"('Ray Stewart', 'Kevin North')",
+,,,,"('Ray Stewart', 'Karl Tober')",
+,,,,"('Ray Stewart', 'Patrick Killen')",
+,,,,"('Ray Stewart', 'Chuck Mitchell')",
+,,,,"('Ray Stewart', 'Brian Winslow')",
+,,,,"('Ray Stewart', 'Andrew Zepp')",
+,,,,"('Ray Stewart', 'Debbie Craig')",
+,,,,"('Ray Stewart', 'Marty DeVinney')",
+,,,,"('Ray Stewart', 'Sarah Purdy')",
+,,,,"('Ray Stewart', 'Ryan Destro')",
+,,,,"('Ray Stewart', 'Craig Densmore')",
+,,,,"('Bill Hall', 'Judy Wiltberger')",
+,,,,"('Bill Hall', 'John Sawers')",
+,,,,"('Bill Hall', 'Roger McDonough')",
+,,,,"('Bill Hall', 'Steve Griffin')",
+,,,,"('Bill Hall', 'Jeff Kennedy')",
+,,,,"('Bill Hall', 'Mark Schenk')",
+,,,,"('Bill Hall', 'Butch Comstock')",
+,,,,"('Bill Hall', 'Donna Alexander')",
+,,,,"('Bill Hall', 'Dan Banach')",
+,,,,"('Bill Hall', 'Kevin North')",
+,,,,"('Bill Hall', 'Karl Tober')",
+,,,,"('Bill Hall', 'Patrick Killen')",
+,,,,"('Bill Hall', 'Chuck Mitchell')",
+,,,,"('Bill Hall', 'Brian Winslow')",
+,,,,"('Bill Hall', 'Andrew Zepp')",
+,,,,"('Bill Hall', 'Debbie Craig')",
+,,,,"('Bill Hall', 'Marty DeVinney')",
+,,,,"('Bill Hall', 'Sarah Purdy')",
+,,,,"('Bill Hall', 'Ryan Destro')",
+,,,,"('Bill Hall', 'Craig Densmore')",
+,,,,"('Judy Wiltberger', 'John Sawers')",
+,,,,"('Judy Wiltberger', 'Roger McDonough')",
+,,,,"('Judy Wiltberger', 'Steve Griffin')",
+,,,,"('Judy Wiltberger', 'Jeff Kennedy')",
+,,,,"('Judy Wiltberger', 'Mark Schenk')",
+,,,,"('Judy Wiltberger', 'Butch Comstock')",
+,,,,"('Judy Wiltberger', 'Donna Alexander')",
+,,,,"('Judy Wiltberger', 'Dan Banach')",
+,,,,"('Judy Wiltberger', 'Kevin North')",
+,,,,"('Judy Wiltberger', 'Karl Tober')",
+,,,,"('Judy Wiltberger', 'Patrick Killen')",
+,,,,"('Judy Wiltberger', 'Chuck Mitchell')",
+,,,,"('Judy Wiltberger', 'Brian Winslow')",
+,,,,"('Judy Wiltberger', 'Andrew Zepp')",
+,,,,"('Judy Wiltberger', 'Debbie Craig')",
+,,,,"('Judy Wiltberger', 'Marty DeVinney')",
+,,,,"('Judy Wiltberger', 'Sarah Purdy')",
+,,,,"('Judy Wiltberger', 'Ryan Destro')",
+,,,,"('Judy Wiltberger', 'Craig Densmore')",
+,,,,"('John Sawers', 'Patrick Killen')",
+,,,,"('John Sawers', 'Roger McDonough')",
+,,,,"('John Sawers', 'Steve Griffin')",
+,,,,"('John Sawers', 'Jeff Kennedy')",
+,,,,"('John Sawers', 'Mark Schenk')",
+,,,,"('John Sawers', 'Butch Comstock')",
+,,,,"('John Sawers', 'Donna Alexander')",
+,,,,"('John Sawers', 'Dan Banach')",
+,,,,"('John Sawers', 'Kevin North')",
+,,,,"('John Sawers', 'Karl Tober')",
+,,,,"('John Sawers', 'Chuck Mitchell')",
+,,,,"('John Sawers', 'Brian Winslow')",
+,,,,"('John Sawers', 'Andrew Zepp')",
+,,,,"('John Sawers', 'Debbie Craig')",
+,,,,"('John Sawers', 'Marty DeVinney')",
+,,,,"('John Sawers', 'Sarah Purdy')",
+,,,,"('John Sawers', 'Ryan Destro')",
+,,,,"('John Sawers', 'Craig Densmore')",
+,,,,"('Roger McDonough', 'Steve Griffin')",
+,,,,"('Roger McDonough', 'Jeff Kennedy')",
+,,,,"('Roger McDonough', 'Mark Schenk')",
+,,,,"('Roger McDonough', 'Butch Comstock')",
+,,,,"('Roger McDonough', 'Donna Alexander')",
+,,,,"('Roger McDonough', 'Dan Banach')",
+,,,,"('Roger McDonough', 'Kevin North')",
+,,,,"('Roger McDonough', 'Karl Tober')",
+,,,,"('Roger McDonough', 'Patrick Killen')",
+,,,,"('Roger McDonough', 'Chuck Mitchell')",
+,,,,"('Roger McDonough', 'Brian Winslow')",
+,,,,"('Roger McDonough', 'Andrew Zepp')",
+,,,,"('Roger McDonough', 'Debbie Craig')",
+,,,,"('Roger McDonough', 'Marty DeVinney')",
+,,,,"('Roger McDonough', 'Sarah Purdy')",
+,,,,"('Roger McDonough', 'Ryan Destro')",
+,,,,"('Roger McDonough', 'Craig Densmore')",
+,,,,"('Steve Griffin', 'Jeff Kennedy')",
+,,,,"('Steve Griffin', 'Mark Schenk')",
+,,,,"('Steve Griffin', 'Butch Comstock')",
+,,,,"('Steve Griffin', 'Donna Alexander')",
+,,,,"('Steve Griffin', 'Dan Banach')",
+,,,,"('Steve Griffin', 'Kevin North')",
+,,,,"('Steve Griffin', 'Karl Tober')",
+,,,,"('Steve Griffin', 'Patrick Killen')",
+,,,,"('Steve Griffin', 'Chuck Mitchell')",
+,,,,"('Steve Griffin', 'Brian Winslow')",
+,,,,"('Steve Griffin', 'Andrew Zepp')",
+,,,,"('Steve Griffin', 'Debbie Craig')",
+,,,,"('Steve Griffin', 'Marty DeVinney')",
+,,,,"('Steve Griffin', 'Sarah Purdy')",
+,,,,"('Steve Griffin', 'Ryan Destro')",
+,,,,"('Steve Griffin', 'Craig Densmore')",
+,,,,"('Jeff Kennedy', 'Mark Schenk')",
+,,,,"('Jeff Kennedy', 'Butch Comstock')",
+,,,,"('Jeff Kennedy', 'Donna Alexander')",
+,,,,"('Jeff Kennedy', 'Dan Banach')",
+,,,,"('Jeff Kennedy', 'Kevin North')",
+,,,,"('Jeff Kennedy', 'Karl Tober')",
+,,,,"('Jeff Kennedy', 'Patrick Killen')",
+,,,,"('Jeff Kennedy', 'Chuck Mitchell')",
+,,,,"('Jeff Kennedy', 'Brian Winslow')",
+,,,,"('Jeff Kennedy', 'Andrew Zepp')",
+,,,,"('Jeff Kennedy', 'Debbie Craig')",
+,,,,"('Jeff Kennedy', 'Marty DeVinney')",
+,,,,"('Jeff Kennedy', 'Sarah Purdy')",
+,,,,"('Jeff Kennedy', 'Ryan Destro')",
+,,,,"('Jeff Kennedy', 'Craig Densmore')",
+,,,,"('Mark Schenk', 'Butch Comstock')",
+,,,,"('Mark Schenk', 'Donna Alexander')",
+,,,,"('Mark Schenk', 'Dan Banach')",
+,,,,"('Mark Schenk', 'Kevin North')",
+,,,,"('Mark Schenk', 'Karl Tober')",
+,,,,"('Mark Schenk', 'Patrick Killen')",
+,,,,"('Mark Schenk', 'Chuck Mitchell')",
+,,,,"('Mark Schenk', 'Brian Winslow')",
+,,,,"('Mark Schenk', 'Andrew Zepp')",
+,,,,"('Mark Schenk', 'Debbie Craig')",
+,,,,"('Mark Schenk', 'Marty DeVinney')",
+,,,,"('Mark Schenk', 'Sarah Purdy')",
+,,,,"('Mark Schenk', 'Ryan Destro')",
+,,,,"('Mark Schenk', 'Craig Densmore')",
+,,,,"('Butch Comstock', 'Donna Alexander')",
+,,,,"('Butch Comstock', 'Dan Banach')",
+,,,,"('Butch Comstock', 'Kevin North')",
+,,,,"('Butch Comstock', 'Karl Tober')",
+,,,,"('Butch Comstock', 'Patrick Killen')",
+,,,,"('Butch Comstock', 'Chuck Mitchell')",
+,,,,"('Butch Comstock', 'Brian Winslow')",
+,,,,"('Butch Comstock', 'Andrew Zepp')",
+,,,,"('Butch Comstock', 'Debbie Craig')",
+,,,,"('Butch Comstock', 'Marty DeVinney')",
+,,,,"('Butch Comstock', 'Sarah Purdy')",
+,,,,"('Butch Comstock', 'Ryan Destro')",
+,,,,"('Butch Comstock', 'Craig Densmore')",
+,,,,"('Donna Alexander', 'Dan Banach')",
+,,,,"('Donna Alexander', 'Kevin North')",
+,,,,"('Donna Alexander', 'Karl Tober')",
+,,,,"('Donna Alexander', 'Patrick Killen')",
+,,,,"('Donna Alexander', 'Chuck Mitchell')",
+,,,,"('Donna Alexander', 'Brian Winslow')",
+,,,,"('Donna Alexander', 'Andrew Zepp')",
+,,,,"('Donna Alexander', 'Debbie Craig')",
+,,,,"('Donna Alexander', 'Marty DeVinney')",
+,,,,"('Donna Alexander', 'Sarah Purdy')",
+,,,,"('Donna Alexander', 'Ryan Destro')",
+,,,,"('Donna Alexander', 'Craig Densmore')",
+,,,,"('Dan Banach', 'Kevin North')",
+,,,,"('Dan Banach', 'Karl Tober')",
+,,,,"('Dan Banach', 'Patrick Killen')",
+,,,,"('Dan Banach', 'Chuck Mitchell')",
+,,,,"('Dan Banach', 'Brian Winslow')",
+,,,,"('Dan Banach', 'Andrew Zepp')",
+,,,,"('Dan Banach', 'Debbie Craig')",
+,,,,"('Dan Banach', 'Marty DeVinney')",
+,,,,"('Dan Banach', 'Sarah Purdy')",
+,,,,"('Dan Banach', 'Ryan Destro')",
+,,,,"('Dan Banach', 'Craig Densmore')",
+,,,,"('Kevin North', 'Karl Tober')",
+,,,,"('Kevin North', 'Patrick Killen')",
+,,,,"('Kevin North', 'Chuck Mitchell')",
+,,,,"('Kevin North', 'Brian Winslow')",
+,,,,"('Kevin North', 'Andrew Zepp')",
+,,,,"('Kevin North', 'Debbie Craig')",
+,,,,"('Kevin North', 'Marty DeVinney')",
+,,,,"('Kevin North', 'Sarah Purdy')",
+,,,,"('Kevin North', 'Ryan Destro')",
+,,,,"('Kevin North', 'Craig Densmore')",
+,,,,"('Karl Tober', 'Patrick Killen')",
+,,,,"('Karl Tober', 'Chuck Mitchell')",
+,,,,"('Karl Tober', 'Brian Winslow')",
+,,,,"('Karl Tober', 'Andrew Zepp')",
+,,,,"('Karl Tober', 'Debbie Craig')",
+,,,,"('Karl Tober', 'Marty DeVinney')",
+,,,,"('Karl Tober', 'Sarah Purdy')",
+,,,,"('Karl Tober', 'Ryan Destro')",
+,,,,"('Karl Tober', 'Craig Densmore')",
+,,,,"('Patrick Killen', 'Chuck Mitchell')",
+,,,,"('Patrick Killen', 'Brian Winslow')",
+,,,,"('Patrick Killen', 'Andrew Zepp')",
+,,,,"('Patrick Killen', 'Debbie Craig')",
+,,,,"('Patrick Killen', 'Marty DeVinney')",
+,,,,"('Patrick Killen', 'Sarah Purdy')",
+,,,,"('Patrick Killen', 'Ryan Destro')",
+,,,,"('Patrick Killen', 'Craig Densmore')",
+,,,,"('Chuck Mitchell', 'Brian Winslow')",
+,,,,"('Chuck Mitchell', 'Andrew Zepp')",
+,,,,"('Chuck Mitchell', 'Debbie Craig')",
+,,,,"('Chuck Mitchell', 'Marty DeVinney')",
+,,,,"('Chuck Mitchell', 'Sarah Purdy')",
+,,,,"('Chuck Mitchell', 'Ryan Destro')",
+,,,,"('Chuck Mitchell', 'Craig Densmore')",
+,,,,"('Brian Winslow', 'Andrew Zepp')",
+,,,,"('Brian Winslow', 'Debbie Craig')",
+,,,,"('Brian Winslow', 'Marty DeVinney')",
+,,,,"('Brian Winslow', 'Sarah Purdy')",
+,,,,"('Brian Winslow', 'Ryan Destro')",
+,,,,"('Brian Winslow', 'Craig Densmore')",
+,,,,"('Andrew Zepp', 'Debbie Craig')",
+,,,,"('Andrew Zepp', 'Marty DeVinney')",
+,,,,"('Andrew Zepp', 'Sarah Purdy')",
+,,,,"('Andrew Zepp', 'Ryan Destro')",
+,,,,"('Andrew Zepp', 'Craig Densmore')",
+,,,,"('Debbie Craig', 'Marty DeVinney')",
+,,,,"('Debbie Craig', 'Sarah Purdy')",
+,,,,"('Debbie Craig', 'Ryan Destro')",
+,,,,"('Debbie Craig', 'Craig Densmore')",
+,,,,"('Marty DeVinney', 'Sarah Purdy')",
+,,,,"('Marty DeVinney', 'Ryan Destro')",
+,,,,"('Marty DeVinney', 'Craig Densmore')",
+,,,,"('Sarah Purdy', 'Ryan Destro')",
+,,,,"('Sarah Purdy', 'Craig Densmore')",
+,,,,"('Ryan Destro', 'Craig Densmore')",

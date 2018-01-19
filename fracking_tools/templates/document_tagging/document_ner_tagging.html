@@ -3,76 +3,13 @@
   <head>
     {% load static %}
     <title>Fracking Tools: Document Utilities > Tag Documents with NER</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="{% static 'home/css/style.css' %}">
-    <link rel="shortcut icon" type="image/png" href="{% static 'home/img/fracking-tools logo.png' %}"/>
+    {% include 'global/head.html' %}
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-bg-custom">
-      <a class="navbar-brand" href="{% url 'home:index' %}">
-        <img src="{% static 'home/img/fracking-tools logo.png' %}" alt="">
-        Fracking Tools
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto mr-2 text-center">
-          <li class="nav-item m-2">
-            <div class="btn-group nav-item">
-              <a href="{% url 'network_builder:network_builder' %}" class="btn btn-primary">Network Utilities</a>
-              <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <span class="sr-only">Toggle Dropdown</span>
-              </button>
-              <div class="dropdown-menu dropdown-menu-right">
-                <a class="dropdown-item" href="{% url 'network_builder:events' %}">Build Networks from Events</a>
-                <a class="dropdown-item" href="{% url 'network_builder:pairs' %}">Build Networks from Individual Pairs</a>
-                <a class="dropdown-item" href="{% url 'network_builder:netcomp' %}">Compare Networks</a>
-              </div>
-            </div>
-          </li>
-          <li class="nav-item m-2">
-            <div class="btn-group nav-item">
-              <a href="{% url 'document_utilities:docutils' %}" class="btn btn-light">Document Utilities</a>
-              <button type="button" class="btn btn-light dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <span class="sr-only">Toggle Dropdown</span>
-              </button>
-              <div class="dropdown-menu dropdown-menu-right">
-                <a class="dropdown-item" href="{% url 'document_utilities:doccomp' %}">Compare Documents</a>
-                <a class="dropdown-item" href="{% url 'document_utilities:doctag' %}">Tag Documents for Keywords</a>
-                <a class="dropdown-item" href="{% url 'network_builder:netcomp' %}">Tag Documents Using NER</a>
-                <a class="dropdown-item" href="{% url 'document_utilities:docstats' %}">Compute Document Statistics</a>
-                <a class="dropdown-item" href="#">OCR Documents</a>
-              </div>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    {% include 'global/navbar.html' %}
     <div id="wrapper">
       <div id="header">
-        <div class="jumbotron jumbotron-fluid" id="home-banner">
-          <div class="container text-center">
-            <h1 class="display-4 text-dark">Fracking Tools: Tag Documents with NER</h1>
-            <p class="lead text-dark">Tag one or many documents using Stanford's Named Entity Recognizer (NER)</p>
-            <p>
-              <a href="{% url 'document_utilities:doccomp' %}" class="btn btn-primary my-4">Compare Documents</a>
-              <a href="{% url 'document_utilities:doctag' %}" class="btn btn-success my-4">Tag Documents for Keywords</a>
-              <a href="{% url 'document_utilities:docstats' %}" class="btn btn-danger my-4">Compute Document Statistics</a>
-              <a href="#" class="btn btn-dark my-4">OCR Documents</a>
-            </p>
-            <p class="lead text-light">By <strong>Rudy Huezo</strong></p>
-          </div>
-        </div>
+        {% include 'document_tagging_ner/jumbotron.html' %}
       </div>
       <div id="content">
         <div class="container text-center">
@@ -95,128 +32,12 @@
             </button>
           </div>
           {% endif %}
-          <div id="empty-fields-alert" class="alert alert-danger alert-dismissible fade show" role="alert">
-            <i class="fa fa-times-circle" aria-hidden="true"></i> You must upload at least <strong>1</strong> file to tag, and choose an output .zip name!
-            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="card w-100 my-4 border-warning">
-            <div class="card-body text-left">
-              <h4 class="card-title mb-4">0. Before You Begin</h4>
-              <p class="card-text">
-                Before tagging documents you <strong>MUST</strong> follow the exact instructions provided below.
-              </p>
-            </div>
-            <div class="card-footer">
-              <div class="text-center">
-                <button class="btn btn-warning btn-block" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="fa fa-info-circle" aria-hidden="true"></i> Instructions</button>
-              </div>
-            </div>
-          </div>
-          <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Instructions</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body text-left">
-                  <p>1. Select all the files you want to tag. Your files must be <strong>.txt</strong> or <strong>.docx</strong>.</p>
-                  <p>2. Choose a name for the output <strong>.zip</strong> file.</p>
-
-                  <p>
-                    3. Once you choose which files to upload and enter an output <strong>.zip</strong>
-                    name, you can click on <kbd>Tag <i class="fa fa-tags" aria-hidden="true"></i></kbd> to tag your files using NER.
-                  </p>
-                  <p>
-                    4. The output zip file will contain all the tagged documents.
-                  </p>
-                  <hr>
-                  <h6 class="text-center">Some Background Information</h6><br>
-                  <p>NER can tag documents for persons, organizations, dates, percentages, locations, money, and times.</p>
-                  <p>As an example, look at the following text </p>
-                  <div class="container">
-                    <p class="lead">
-                      In bringing his distinct vision to the Western genre, writer-director Jim Jarmusch has created a quasi-mystical avant-garde drama that remains a deeply spiritual viewing experience. After losing his parents and fiancée, a Cleveland accountant named William Blake (a remarkable Johnny Depp) spends all his money and takes a train to the frontier town of Machine in order to work at a factory.
-                    </p>
-                  </div>
-                  <p>Applying NER to this text would yield</p>
-                  <div class="container">
-                    <p class="lead">
-                      <!-- <pre> -->
-                        In bringing his distinct vision to the Western genre, writer-director <strong>&lt;PERSON>Jim Jarmusch&lt;/PERSON></strong> has created a quasi-mystical avant-garde drama that remains a deeply spiritual viewing experience. After losing his parents and fiancée, a <strong>&lt;LOCATION>Cleveland&lt;/LOCATION></strong> accountant named <strong>&lt;PERSON>William Blake&lt;/PERSON></strong> (a remarkable <strong>&lt;PERSON>Johnny Depp&lt;/PERSON></strong>) spends all his money and takes a train to the frontier town of Machine in order to work at a factory.
-                      <!-- </pre> -->
-                    </p>
-                  </div>
-
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <form id="tag-files-form" action="{% url 'document_utilities:tagner' %}" method="post" enctype="multipart/form-data">
-            {% csrf_token %}
-            <div class="card w-100 my-4">
-              <div class="card-body text-left">
-                <h4 class="card-title mb-4">1. Upload Documents to Tag</h4>
-                <p class="card-text">
-                  Upload the files you want to tag. Valid file formats are <strong>.txt</strong>, and <strong>.docx</strong>.
-                </p>
-              </div>
-              <div class="card-footer">
-                <div class="text-center">
-                  <input class="form-control" type="file" id="tag-documents" name="tag-documents" accept=".txt,.docx" multiple required>
-                </div>
-              </div>
-            </div>
-
-            <div class="card mb-4 w-100 my-4">
-              <div class="card-body text-left">
-                <h4 class="card-title mb-4">2. Choose a Name for the Output <strong>.zip</strong> File</h4>
-                <p class="card-text">
-                  Enter the output .zip name without a file extension.
-                </p>
-              </div>
-              <div class="card-footer">
-                <div class="text-center">
-                  <input class="form-control" type="text" id="output-zip-name" name="output-zip-name" placeholder="Enter a .zip name" required>
-                </div>
-              </div>
-            </div>
-            <div class="card mb-4 w-100 my-4">
-              <div class="card-body text-left">
-                <h4 class="card-title mb-4">3. Tag Documents</h4>
-              </div>
-              <div class="card-footer">
-                <div class="text-center">
-                  <button type="button" onclick="submit_form();" class="btn btn-dark btn-block" name="button">Tag <i class="fa fa-tags" aria-hidden="true"></i></button>
-                </div>
-              </div>
-            </div>
-          </form>
+          {% include 'document_tagging_ner/alerts.html' %}
+          {% include 'document_tagging_ner/steps.html' %}
         </div>
       </div>
       <div id="footer">
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-sm-6">
-              <i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:rahuezo@ucdavis.edu">rahuezo@ucdavis.edu</a>
-            </div>
-            <div class="col-sm-6">
-              <i class="fa fa-globe" aria-hidden="true"></i> <a href="http://rudyhuezo.work">rudyhuezo.work</a>
-            </div>
-          </div>
-          <div class="row mt-4">
-            <div class="col-sm-12 text-muted">
-              © 2017 Fracking Tools All rights reserved.
-            </div>
-          </div>
-        </div>
+        {% include 'global/footer.html' %}
       </div>
     </div>
 
@@ -225,62 +46,6 @@
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-
-    <script type="text/javascript">
-
-    $(document).ready(function(){
-      $(window).keydown(function(event){
-        if(event.keyCode == 13) {
-          event.preventDefault();
-          return false;
-        }
-      });
-    });
-
-    function keywordEntryHandler(element) {
-      if($(element).text() == 'From File') {
-        $(element).text('Manually Input Keywords');
-        $(element).removeClass('btn-secondary').addClass('btn-dark');
-        $('#manual-keywords').addClass('invisible');
-        $('#file-keywords').removeClass('invisible');
-        $('#file-keyword-list').val('');
-        $('#keywords-type').val('file');
-
-      } else {
-        $(element).text('From File');
-        $(element).removeClass('btn-dark').addClass('btn-secondary');
-        $('#file-keywords').addClass('invisible');
-        $('#manual-keywords').removeClass('invisible');
-        $('#manual-keyword-list').val('');
-        $('#keywords-type').val('manual');
-      }
-    }
-
-    function submit_form() {
-      let tag_files_form = $('#tag-files-form');
-
-      // console.log('Files to tag: ', $('#tag-documents')[0].files.length > 0)
-      // console.log('keywords file: ', $('#file-keyword-list')[0].files.length > 0)
-      // console.log('manual keywords: ', $('#manual-keyword-list').val().length > 0)
-      // console.log('zip output: ', $('#output-zip-name').val().length > 0)
-
-
-      if($('#tag-documents')[0].files.length > 0
-        && $('#output-zip-name').val().length > 0) {
-        $('#number-of-files').text($('#tag-documents')[0].files.length);
-        tag_files_form.submit();
-        tag_files_form[0].reset();
-        $('#empty-fields-alert').fadeOut();
-        $('#networks-built-alert').fadeIn();
-
-      } else {
-        $('#empty-fields-alert').fadeIn();
-      }
-    }
-
-    $(function () {
-      $('[data-toggle="popover"]').popover()
-    })
-    </script>
+    <script src="{% static 'document_tagging_ner/js/main.js' %}" charset="utf-8"></script>
   </body>
 </html>

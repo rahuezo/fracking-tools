@@ -1,0 +1,147 @@
+<div class="card w-100 my-4 border-warning">
+  <div class="card-body text-left">
+    <h4 class="card-title mb-4">0. Before You Begin</h4>
+    <p class="card-text">
+      Before building networks from events you <strong>MUST</strong> follow the exact instructions provided below.
+    </p>
+  </div>
+  <div class="card-footer">
+    <div class="text-center">
+      <button class="btn btn-warning btn-block" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="fa fa-info-circle" aria-hidden="true"></i> Instructions</button>
+    </div>
+  </div>
+</div>
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Instructions</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body text-left">
+        <p>1. Your event files must be in <strong>.csv</strong> format.</p>
+        <p>2. Each event file must be a spreadsheet with the following format</p>
+        <p>
+          <table class="table">
+            <thead>
+              <th>Event 1</th>
+              <th>Event 2</th>
+              <th>Event 3</th>
+            </thead>
+            <tr>
+              <td>Person A</td>
+              <td>Person B</td>
+              <td>Person C</td>
+            </tr>
+            <tr>
+              <td>Person B</td>
+              <td>Person C</td>
+              <td>Person B</td>
+            </tr>
+            <tr>
+              <td>Person D</td>
+              <td></td>
+              <td>Person D</td>
+            </tr>
+          </table>
+        </p>
+        <p>
+          3. Once you choose which files to upload and enter an output <strong>.zip</strong>
+          name, you can click on <kbd>Build >></kbd> to build your event networks.
+        </p>
+        <p>
+          4. A resulting output .zip
+          file will be automatically downloaded to your computer.
+        </p>
+        <p>
+          5. Each event network will look something like the following
+        </p>
+        <p>
+          <table class="table">
+            <thead>
+              <th></th>
+              <th>A</th>
+              <th>B</th>
+              <th>C</th>
+              <th>D</th>
+            </thead>
+            <tr>
+              <td>A</td>
+              <td>0</td>
+              <td>1</td>
+              <td>0</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>B</td>
+              <td>1</td>
+              <td>0</td>
+              <td>1</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>C</td>
+              <td>0</td>
+              <td>1</td>
+              <td>0</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>D</td>
+              <td>1</td>
+              <td>1</td>
+              <td>1</td>
+              <td>0</td>
+            </tr>
+          </table>
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<form id="events-form" action="{% url 'network_builder:build_enet' %}" method="post" enctype="multipart/form-data">
+  {% csrf_token %}
+  <div class="card w-100 my-4">
+    <div class="card-body text-left">
+      <h4 class="card-title mb-4">1. Upload Event Files</h4>
+      <p class="card-text">
+        Upload <strong>.csv</strong> spreadsheet where each column is
+        an event and each cell under an event is an individual that attended
+        that event.
+      </p>
+    </div>
+    <div class="card-footer">
+      <div class="text-center">
+        <input class="form-control" type="file" name="event-csvs" value="" multiple required>
+      </div>
+    </div>
+  </div>
+  <div class="card mb-4 w-100 my-4">
+    <div class="card-body text-left">
+      <h4 class="card-title mb-4">2. Choose Output <strong>.zip</strong> Name</h4>
+      <p class="card-text">
+        Enter the output .zip name without a file extension.
+      </p>
+    </div>
+    <div class="card-footer">
+      <div class="text-center">
+        <input class="form-control" type="text" name="events-output-zip-name" placeholder="Enter a .zip name" required>
+      </div>
+    </div>
+  </div>
+  <div class="card mb-4 w-100 my-4">
+    <div class="card-body text-left">
+      <h4 class="card-title mb-4">3. Build Event Networks</h4>
+    </div>
+    <div class="card-footer">
+      <div class="text-center">
+        <button type="button" onclick="submit_form();" class="btn btn-dark btn-block" name="button">Build <i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
+      </div>
+    </div>
+  </div>
+</form>

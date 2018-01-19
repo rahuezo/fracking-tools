@@ -3,10 +3,13 @@ import csv
 
 
 class NetworkComparison:
-    def __init__(self, network_name, network_a, network_b):
+    def __init__(self, network_name, network_a, network_b, network_a_label, network_b_label):
         self.network_name = AdjacencyMatrix.clean_text(network_name).title()
         self.network_a = network_a
         self.network_b = network_b
+
+        self.network_a_label = network_a_label
+        self.network_b_label = network_b_label
 
     def get_ab_actor_overlap(self):
         return list(set(self.network_a.nodes()) & set(self.network_b.nodes()))
@@ -29,8 +32,10 @@ class NetworkComparison:
             return source
 
         summary_name = '{0} -- network comparison summary.csv'.format(self.network_name)
-        header = ['AB Actor Overlap', 'AB Relationship Overlap', 'Unique A Actors',
-                  'Unique B Actors', 'Unique A Relationships', 'Unique B Relationships']
+        header = ['Actor Overlap', 'Relationship Overlap', 'Unique {0} Actors'.format(self.network_a_label),
+                  'Unique {0} Actors'.format(self.network_b_label),
+                  'Unique {0} Relationships'.format(self.network_a_label),
+                  'Unique {0} Relationships'.format(self.network_a_label)]
 
         actor_overlap = self.get_ab_actor_overlap()
         relationship_overlap = self.get_ab_relationship_overlap()

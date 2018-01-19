@@ -1,0 +1,107 @@
+<div class="card-deck">
+  <div class="card mb-4">
+    <div class="card-body text-left">
+      <h4 class="card-title mb-4">Compare Documents</h4>
+      <p class="card-text">
+        This utility allows you to compare two documents for content similarity
+        and for textual similarity.
+      </p>
+      <p class="card-text">
+        <strong>Content similarity</strong> uses the Vector Space Model (VSM) and Cosine Similarity
+        to determine how similar two or a set of documents are to each other based
+        on their topics.
+      </p>
+      <p class="card-text">
+        <strong>Textual similarity</strong> uses Near Duplicate Detection to determine if two or a set
+        of documents are almost identical. A numerical representation of textual similarity
+        is given by computing the Jaccard similarity of documents.
+      </p>
+    </div>
+    <div class="card-footer">
+      <div class="text-center">
+        <a href="{% url 'document_utilities:doccomp' %}" class="btn btn-dark">Compare <i class="fa fa-exchange" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="card mb-4">
+    <div class="card-body text-left">
+      <h4 class="card-title mb-4">Tag Documents for Keywords</h4>
+      <p class="card-text">
+        This utility takes in one or a set of documents (.pdf, .docx, .txt)
+        and a list of keywords. It then reads the documents and looks for
+        the keywords within the document's text.
+      </p>
+      <p class="card-text">
+        If any keywords are found, a <strong>.docx</strong> version of the document
+        is created with a list of found keywords as the header of this document.
+        Additionally, the found keywords are capitalized and boldened for easier
+        human lookup.
+      </p>
+    </div>
+    <div class="card-footer">
+      <div class="text-center">
+        <a href="{% url 'document_utilities:doctag' %}" class="btn btn-dark">Tag <i class="fa fa-tag" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="card mb-4">
+    <div class="card-body text-left">
+      <h4 class="card-title mb-4">Tag Documents Using NER</h4>
+      <p class="card-text">
+        This utility allows you to tag one or a set of documents for
+        named entities using Stanford's Named Entity Recognizer (NER).
+      </p>
+      <p class="card-text">
+        The utility outputs <strong>.txt</strong> versions of the inputed
+        documents with named entities wrapped around XML tags that show
+        whether the named entity is a <strong>Location</strong>, a <strong>Person</strong>,
+        an <strong>Organization</strong>, <strong>Money</strong>, a <strong>Percent</strong>,
+        a <strong>Date</strong>, or a <strong>Time</strong>.
+      </p>
+    </div>
+    <div class="card-footer">
+      <div class="text-center">
+        <a href="{% url 'document_utilities:nertag' %}" class="btn btn-dark">Tag <i class="fa fa-tag" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="card-deck">
+  <div class="card mb-4">
+    <div class="card-body text-left">
+      <h4 class="card-title mb-4">Compute Document Statistics</h4>
+      <p class="card-text">
+        You can analyze one or more documents to determine its reading level, word count, word occurrance count, polarity,
+        subjectivity, and positive/negative tone classification.
+      </p>
+      <p>- Reading level is determined using the Flesch-Kincaid grade level formula.</p>
+      <p>- Word count is determined by separating strings at spaces.</p>
+      <p>- By providing a list of keywords, this utility outputs how often a keyword appears in the text.</p>
+      <p>- Polarity, subjectivity, and positive/negative classification are determined using Python's Textblob library.</p>
+      <p>This utility outputs a <strong>.csv</strong> file where each row represents the analysis of a single document.</p>
+    </div>
+    <div class="card-footer">
+      <div class="text-center">
+        <a href="{% url 'document_utilities:docstats' %}" class="btn btn-dark">Compute <i class="fa fa-bar-chart" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="card mb-4 blurred">
+    <div class="card-body text-left">
+      <h4 class="card-title mb-4">OCR Documents</h4>
+      <p class="card-text">
+        You can make scanned pdfs, and images with text readable by performing
+        optical character (OCR) recognition on them.
+      </p>
+      <p class="card-text">
+        Supported image files include <strong>JPEGS</strong>, <strong>TIFFs</strong>, and <strong>PNGs</strong>.
+      </p>
+    </div>
+    <div class="card-footer">
+      <div class="text-center">
+        <a href="#" class="btn btn-dark">OCR <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </div>
+</div>

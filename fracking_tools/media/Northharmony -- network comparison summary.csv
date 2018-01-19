@@ -1,0 +1,625 @@
+Actor Overlap,Relationship Overlap,Unique Newspaper Network Actors,Unique Meeting Minute Network Actors,Unique Newspaper Network Relationships,Unique Newspaper Network Relationships
+Kim Sherwood,"('Pierre Chagnon', 'Dan Strickland')",Glenn Wahl,Duncan McNeill,"('Glenn Wahl', 'Fred Croscut')","('Duncan McNeill', 'Diane Miller')"
+Dan Strickland,"('Kim Sherwood', 'Dan Strickland')",Fred Croscut,Diane Miller,"('Glenn Wahl', 'Bill Boria')","('Duncan McNeill', 'Art Thomas')"
+Pierre Chagnon,"('Kim Sherwood', 'Sally P Carlson')",Bill Boria,Art Thomas,"('Glenn Wahl', 'Mary Hajdu')","('Duncan McNeill', 'Kathy Young')"
+Sally P Carlson,"('Sally P Carlson', 'Dan Strickland')",Mary Hajdu,Kathy Young,"('Glenn Wahl', 'A J Dolce')","('Duncan McNeill', 'Dave Lloyd')"
+,"('Pierre Chagnon', 'Sally P Carlson')",A J Dolce,Dave Lloyd,"('Glenn Wahl', 'Gary Lash')","('Duncan McNeill', 'Dan Thomas')"
+,"('Pierre Chagnon', 'Kim Sherwood')",Gary Lash,Dan Thomas,"('Glenn Wahl', 'Bill Parment')","('Duncan McNeill', 'Robin Miller')"
+,,Bill Parment,Robin Miller,"('Glenn Wahl', 'Brad Gill')","('Duncan McNeill', 'Dick Sena')"
+,,Brad Gill,Dick Sena,"('Glenn Wahl', 'Mike Hogan')","('Duncan McNeill', 'Pierre Chagnon')"
+,,Mike Hogan,Lois Dilworth,"('Glenn Wahl', 'Andy Goodell')","('Duncan McNeill', 'Lois Dilworth')"
+,,Andy Goodell,Jay Gould,"('Glenn Wahl', 'Roger Doebke')","('Duncan McNeill', 'Jay Gould')"
+,,Roger Doebke,David Stapleton,"('Glenn Wahl', 'Roger Ruckman')","('Duncan McNeill', 'David Stapleton')"
+,,Roger Ruckman,Brad Lawson,"('Glenn Wahl', 'Rudy Mueller')","('Duncan McNeill', 'Brad Lawson')"
+,,Rudy Mueller,Sharon Turano,"('Glenn Wahl', 'Cathy Young')","('Duncan McNeill', 'Sharon Turano')"
+,,Cathy Young,Mary Frank,"('Glenn Wahl', 'Pierre Chagnon')","('Duncan McNeill', 'Mary Frank')"
+,,Sally Jaroszynski,Louis Rieg,"('Glenn Wahl', 'Sally Jaroszynski')","('Duncan McNeill', 'Louis Rieg')"
+,,Robert Stewart,Ralph Whitney,"('Glenn Wahl', 'Robert Stewart')","('Duncan McNeill', 'Ralph Whitney')"
+,,Anthony Ingraffea,Frank Geracci,"('Glenn Wahl', 'Anthony Ingraffea')","('Duncan McNeill', 'Frank Geracci')"
+,,Jim Pullan,Frank Stow,"('Glenn Wahl', 'Jim Pullan')","('Duncan McNeill', 'Kim Sherwood')"
+,,Todd Saracki,Paul Silzle,"('Glenn Wahl', 'Todd Saracki')","('Duncan McNeill', 'Frank Stow')"
+,,Barrie Yochim,Sarah Novak,"('Glenn Wahl', 'Barrie Yochim')","('Duncan McNeill', 'Paul Silzle')"
+,,Christina Jarvis,Rax Tolman,"('Glenn Wahl', 'Christina Jarvis')","('Duncan McNeill', 'Sarah Novak')"
+,,George Spanos,Randy Holcomb,"('Glenn Wahl', 'George Spanos')","('Duncan McNeill', 'Sally P Carlson')"
+,,Frank Gould,Nancy Thomas,"('Glenn Wahl', 'Frank Gould')","('Duncan McNeill', 'Dan Strickland')"
+,,Minda Rae Amiran,,"('Glenn Wahl', 'Kim Sherwood')","('Duncan McNeill', 'Rax Tolman')"
+,,Tom Erlandson,,"('Glenn Wahl', 'Minda Rae Amiran')","('Duncan McNeill', 'Randy Holcomb')"
+,,James Spann,,"('Glenn Wahl', 'Tom Erlandson')","('Duncan McNeill', 'Nancy Thomas')"
+,,John Jablonski,,"('Glenn Wahl', 'Sally P Carlson')","('Diane Miller', 'Art Thomas')"
+,,Michael Sullivan,,"('Glenn Wahl', 'Dan Strickland')","('Diane Miller', 'Kathy Young')"
+,,Schimminger,,"('Glenn Wahl', 'James Spann')","('Diane Miller', 'Dave Lloyd')"
+,,Julie Coppola Cox,,"('Glenn Wahl', 'John Jablonski')","('Diane Miller', 'Dan Thomas')"
+,,Jeffrey Piazza,,"('Glenn Wahl', 'Michael Sullivan')","('Diane Miller', 'Robin Miller')"
+,,Sam Teresi,,"('Glenn Wahl', 'Schimminger')","('Diane Miller', 'Dick Sena')"
+,,,,"('Glenn Wahl', 'Julie Coppola Cox')","('Diane Miller', 'Pierre Chagnon')"
+,,,,"('Glenn Wahl', 'Jeffrey Piazza')","('Diane Miller', 'Lois Dilworth')"
+,,,,"('Glenn Wahl', 'Sam Teresi')","('Diane Miller', 'Jay Gould')"
+,,,,"('Fred Croscut', 'Brad Gill')","('Diane Miller', 'David Stapleton')"
+,,,,"('Fred Croscut', 'Bill Boria')","('Diane Miller', 'Brad Lawson')"
+,,,,"('Fred Croscut', 'Mary Hajdu')","('Diane Miller', 'Sharon Turano')"
+,,,,"('Fred Croscut', 'A J Dolce')","('Diane Miller', 'Mary Frank')"
+,,,,"('Fred Croscut', 'Gary Lash')","('Diane Miller', 'Louis Rieg')"
+,,,,"('Fred Croscut', 'Bill Parment')","('Diane Miller', 'Ralph Whitney')"
+,,,,"('Fred Croscut', 'Mike Hogan')","('Diane Miller', 'Frank Geracci')"
+,,,,"('Fred Croscut', 'Andy Goodell')","('Diane Miller', 'Kim Sherwood')"
+,,,,"('Fred Croscut', 'Roger Doebke')","('Diane Miller', 'Frank Stow')"
+,,,,"('Fred Croscut', 'Roger Ruckman')","('Diane Miller', 'Paul Silzle')"
+,,,,"('Fred Croscut', 'Rudy Mueller')","('Diane Miller', 'Sarah Novak')"
+,,,,"('Fred Croscut', 'Cathy Young')","('Diane Miller', 'Sally P Carlson')"
+,,,,"('Fred Croscut', 'Pierre Chagnon')","('Diane Miller', 'Dan Strickland')"
+,,,,"('Fred Croscut', 'Sally Jaroszynski')","('Diane Miller', 'Rax Tolman')"
+,,,,"('Fred Croscut', 'Robert Stewart')","('Diane Miller', 'Randy Holcomb')"
+,,,,"('Fred Croscut', 'Anthony Ingraffea')","('Diane Miller', 'Nancy Thomas')"
+,,,,"('Fred Croscut', 'Jim Pullan')","('Art Thomas', 'Kathy Young')"
+,,,,"('Fred Croscut', 'Todd Saracki')","('Art Thomas', 'Dave Lloyd')"
+,,,,"('Fred Croscut', 'Barrie Yochim')","('Art Thomas', 'Dan Strickland')"
+,,,,"('Fred Croscut', 'Christina Jarvis')","('Art Thomas', 'Dan Thomas')"
+,,,,"('Fred Croscut', 'George Spanos')","('Art Thomas', 'Robin Miller')"
+,,,,"('Fred Croscut', 'Frank Gould')","('Art Thomas', 'Dick Sena')"
+,,,,"('Fred Croscut', 'Kim Sherwood')","('Art Thomas', 'Pierre Chagnon')"
+,,,,"('Fred Croscut', 'Minda Rae Amiran')","('Art Thomas', 'Jay Gould')"
+,,,,"('Fred Croscut', 'Tom Erlandson')","('Art Thomas', 'David Stapleton')"
+,,,,"('Fred Croscut', 'Sally P Carlson')","('Art Thomas', 'Brad Lawson')"
+,,,,"('Fred Croscut', 'Dan Strickland')","('Art Thomas', 'Sharon Turano')"
+,,,,"('Fred Croscut', 'James Spann')","('Art Thomas', 'Mary Frank')"
+,,,,"('Fred Croscut', 'John Jablonski')","('Art Thomas', 'Louis Rieg')"
+,,,,"('Fred Croscut', 'Michael Sullivan')","('Art Thomas', 'Ralph Whitney')"
+,,,,"('Fred Croscut', 'Schimminger')","('Art Thomas', 'Frank Geracci')"
+,,,,"('Fred Croscut', 'Julie Coppola Cox')","('Art Thomas', 'Kim Sherwood')"
+,,,,"('Fred Croscut', 'Jeffrey Piazza')","('Art Thomas', 'Frank Stow')"
+,,,,"('Fred Croscut', 'Sam Teresi')","('Art Thomas', 'Paul Silzle')"
+,,,,"('Bill Boria', 'Brad Gill')","('Art Thomas', 'Sarah Novak')"
+,,,,"('Bill Boria', 'Mary Hajdu')","('Art Thomas', 'Sally P Carlson')"
+,,,,"('Bill Boria', 'A J Dolce')","('Art Thomas', 'Lois Dilworth')"
+,,,,"('Bill Boria', 'Gary Lash')","('Art Thomas', 'Rax Tolman')"
+,,,,"('Bill Boria', 'Bill Parment')","('Art Thomas', 'Randy Holcomb')"
+,,,,"('Bill Boria', 'Mike Hogan')","('Art Thomas', 'Nancy Thomas')"
+,,,,"('Bill Boria', 'Andy Goodell')","('Kathy Young', 'Dan Strickland')"
+,,,,"('Bill Boria', 'Roger Doebke')","('Kathy Young', 'Dave Lloyd')"
+,,,,"('Bill Boria', 'Roger Ruckman')","('Kathy Young', 'Dan Thomas')"
+,,,,"('Bill Boria', 'Rudy Mueller')","('Kathy Young', 'Robin Miller')"
+,,,,"('Bill Boria', 'Cathy Young')","('Kathy Young', 'Dick Sena')"
+,,,,"('Bill Boria', 'Pierre Chagnon')","('Kathy Young', 'Pierre Chagnon')"
+,,,,"('Bill Boria', 'Sally Jaroszynski')","('Kathy Young', 'Jay Gould')"
+,,,,"('Bill Boria', 'Robert Stewart')","('Kathy Young', 'David Stapleton')"
+,,,,"('Bill Boria', 'Anthony Ingraffea')","('Kathy Young', 'Brad Lawson')"
+,,,,"('Bill Boria', 'Jim Pullan')","('Kathy Young', 'Sharon Turano')"
+,,,,"('Bill Boria', 'Todd Saracki')","('Kathy Young', 'Mary Frank')"
+,,,,"('Bill Boria', 'Barrie Yochim')","('Kathy Young', 'Louis Rieg')"
+,,,,"('Bill Boria', 'Christina Jarvis')","('Kathy Young', 'Ralph Whitney')"
+,,,,"('Bill Boria', 'George Spanos')","('Kathy Young', 'Frank Geracci')"
+,,,,"('Bill Boria', 'Frank Gould')","('Kathy Young', 'Kim Sherwood')"
+,,,,"('Bill Boria', 'Kim Sherwood')","('Kathy Young', 'Frank Stow')"
+,,,,"('Bill Boria', 'Minda Rae Amiran')","('Kathy Young', 'Paul Silzle')"
+,,,,"('Bill Boria', 'Tom Erlandson')","('Kathy Young', 'Sarah Novak')"
+,,,,"('Bill Boria', 'Sally P Carlson')","('Kathy Young', 'Sally P Carlson')"
+,,,,"('Bill Boria', 'Dan Strickland')","('Kathy Young', 'Lois Dilworth')"
+,,,,"('Bill Boria', 'James Spann')","('Kathy Young', 'Rax Tolman')"
+,,,,"('Bill Boria', 'John Jablonski')","('Kathy Young', 'Randy Holcomb')"
+,,,,"('Bill Boria', 'Michael Sullivan')","('Kathy Young', 'Nancy Thomas')"
+,,,,"('Bill Boria', 'Schimminger')","('Dave Lloyd', 'Dan Thomas')"
+,,,,"('Bill Boria', 'Julie Coppola Cox')","('Dave Lloyd', 'Robin Miller')"
+,,,,"('Bill Boria', 'Jeffrey Piazza')","('Dave Lloyd', 'Dick Sena')"
+,,,,"('Bill Boria', 'Sam Teresi')","('Dave Lloyd', 'Pierre Chagnon')"
+,,,,"('Mary Hajdu', 'A J Dolce')","('Dave Lloyd', 'Lois Dilworth')"
+,,,,"('Mary Hajdu', 'Gary Lash')","('Dave Lloyd', 'Jay Gould')"
+,,,,"('Mary Hajdu', 'Bill Parment')","('Dave Lloyd', 'David Stapleton')"
+,,,,"('Mary Hajdu', 'Brad Gill')","('Dave Lloyd', 'Brad Lawson')"
+,,,,"('Mary Hajdu', 'Mike Hogan')","('Dave Lloyd', 'Sharon Turano')"
+,,,,"('Mary Hajdu', 'Andy Goodell')","('Dave Lloyd', 'Mary Frank')"
+,,,,"('Mary Hajdu', 'Roger Doebke')","('Dave Lloyd', 'Louis Rieg')"
+,,,,"('Mary Hajdu', 'Roger Ruckman')","('Dave Lloyd', 'Ralph Whitney')"
+,,,,"('Mary Hajdu', 'Rudy Mueller')","('Dave Lloyd', 'Frank Geracci')"
+,,,,"('Mary Hajdu', 'Cathy Young')","('Dave Lloyd', 'Kim Sherwood')"
+,,,,"('Mary Hajdu', 'Pierre Chagnon')","('Dave Lloyd', 'Frank Stow')"
+,,,,"('Mary Hajdu', 'Sally Jaroszynski')","('Dave Lloyd', 'Paul Silzle')"
+,,,,"('Mary Hajdu', 'Robert Stewart')","('Dave Lloyd', 'Sarah Novak')"
+,,,,"('Mary Hajdu', 'Anthony Ingraffea')","('Dave Lloyd', 'Sally P Carlson')"
+,,,,"('Mary Hajdu', 'Jim Pullan')","('Dave Lloyd', 'Dan Strickland')"
+,,,,"('Mary Hajdu', 'Todd Saracki')","('Dave Lloyd', 'Rax Tolman')"
+,,,,"('Mary Hajdu', 'Barrie Yochim')","('Dave Lloyd', 'Randy Holcomb')"
+,,,,"('Mary Hajdu', 'Christina Jarvis')","('Dave Lloyd', 'Nancy Thomas')"
+,,,,"('Mary Hajdu', 'George Spanos')","('Dan Thomas', 'Robin Miller')"
+,,,,"('Mary Hajdu', 'Frank Gould')","('Dan Thomas', 'Dick Sena')"
+,,,,"('Mary Hajdu', 'Kim Sherwood')","('Dan Thomas', 'Pierre Chagnon')"
+,,,,"('Mary Hajdu', 'Minda Rae Amiran')","('Dan Thomas', 'Lois Dilworth')"
+,,,,"('Mary Hajdu', 'Tom Erlandson')","('Dan Thomas', 'Jay Gould')"
+,,,,"('Mary Hajdu', 'Sally P Carlson')","('Dan Thomas', 'David Stapleton')"
+,,,,"('Mary Hajdu', 'Dan Strickland')","('Dan Thomas', 'Brad Lawson')"
+,,,,"('Mary Hajdu', 'James Spann')","('Dan Thomas', 'Sharon Turano')"
+,,,,"('Mary Hajdu', 'John Jablonski')","('Dan Thomas', 'Mary Frank')"
+,,,,"('Mary Hajdu', 'Michael Sullivan')","('Dan Thomas', 'Louis Rieg')"
+,,,,"('Mary Hajdu', 'Schimminger')","('Dan Thomas', 'Ralph Whitney')"
+,,,,"('Mary Hajdu', 'Julie Coppola Cox')","('Dan Thomas', 'Frank Geracci')"
+,,,,"('Mary Hajdu', 'Jeffrey Piazza')","('Dan Thomas', 'Kim Sherwood')"
+,,,,"('Mary Hajdu', 'Sam Teresi')","('Dan Thomas', 'Frank Stow')"
+,,,,"('A J Dolce', 'Brad Gill')","('Dan Thomas', 'Paul Silzle')"
+,,,,"('A J Dolce', 'Gary Lash')","('Dan Thomas', 'Sarah Novak')"
+,,,,"('A J Dolce', 'Bill Parment')","('Dan Thomas', 'Sally P Carlson')"
+,,,,"('A J Dolce', 'Mike Hogan')","('Dan Thomas', 'Dan Strickland')"
+,,,,"('A J Dolce', 'Andy Goodell')","('Dan Thomas', 'Rax Tolman')"
+,,,,"('A J Dolce', 'Roger Doebke')","('Dan Thomas', 'Randy Holcomb')"
+,,,,"('A J Dolce', 'Roger Ruckman')","('Dan Thomas', 'Nancy Thomas')"
+,,,,"('A J Dolce', 'Rudy Mueller')","('Robin Miller', 'Dick Sena')"
+,,,,"('A J Dolce', 'Cathy Young')","('Robin Miller', 'Pierre Chagnon')"
+,,,,"('A J Dolce', 'Pierre Chagnon')","('Robin Miller', 'Lois Dilworth')"
+,,,,"('A J Dolce', 'Sally Jaroszynski')","('Robin Miller', 'Jay Gould')"
+,,,,"('A J Dolce', 'Robert Stewart')","('Robin Miller', 'David Stapleton')"
+,,,,"('A J Dolce', 'Anthony Ingraffea')","('Robin Miller', 'Brad Lawson')"
+,,,,"('A J Dolce', 'Jim Pullan')","('Robin Miller', 'Sharon Turano')"
+,,,,"('A J Dolce', 'Todd Saracki')","('Robin Miller', 'Mary Frank')"
+,,,,"('A J Dolce', 'Barrie Yochim')","('Robin Miller', 'Louis Rieg')"
+,,,,"('A J Dolce', 'Christina Jarvis')","('Robin Miller', 'Ralph Whitney')"
+,,,,"('A J Dolce', 'George Spanos')","('Robin Miller', 'Frank Geracci')"
+,,,,"('A J Dolce', 'Frank Gould')","('Robin Miller', 'Kim Sherwood')"
+,,,,"('A J Dolce', 'Kim Sherwood')","('Robin Miller', 'Frank Stow')"
+,,,,"('A J Dolce', 'Minda Rae Amiran')","('Robin Miller', 'Paul Silzle')"
+,,,,"('A J Dolce', 'Tom Erlandson')","('Robin Miller', 'Sarah Novak')"
+,,,,"('A J Dolce', 'Sally P Carlson')","('Robin Miller', 'Sally P Carlson')"
+,,,,"('A J Dolce', 'Dan Strickland')","('Robin Miller', 'Dan Strickland')"
+,,,,"('A J Dolce', 'James Spann')","('Robin Miller', 'Rax Tolman')"
+,,,,"('A J Dolce', 'John Jablonski')","('Robin Miller', 'Randy Holcomb')"
+,,,,"('A J Dolce', 'Michael Sullivan')","('Robin Miller', 'Nancy Thomas')"
+,,,,"('A J Dolce', 'Schimminger')","('Dick Sena', 'Sarah Novak')"
+,,,,"('A J Dolce', 'Julie Coppola Cox')","('Dick Sena', 'Pierre Chagnon')"
+,,,,"('A J Dolce', 'Jeffrey Piazza')","('Dick Sena', 'Lois Dilworth')"
+,,,,"('A J Dolce', 'Sam Teresi')","('Dick Sena', 'Jay Gould')"
+,,,,"('Gary Lash', 'Bill Parment')","('Dick Sena', 'David Stapleton')"
+,,,,"('Gary Lash', 'Brad Gill')","('Dick Sena', 'Brad Lawson')"
+,,,,"('Gary Lash', 'Mike Hogan')","('Dick Sena', 'Sharon Turano')"
+,,,,"('Gary Lash', 'Andy Goodell')","('Dick Sena', 'Mary Frank')"
+,,,,"('Gary Lash', 'Roger Doebke')","('Dick Sena', 'Louis Rieg')"
+,,,,"('Gary Lash', 'Roger Ruckman')","('Dick Sena', 'Ralph Whitney')"
+,,,,"('Gary Lash', 'Rudy Mueller')","('Dick Sena', 'Frank Geracci')"
+,,,,"('Gary Lash', 'Cathy Young')","('Dick Sena', 'Kim Sherwood')"
+,,,,"('Gary Lash', 'Pierre Chagnon')","('Dick Sena', 'Frank Stow')"
+,,,,"('Gary Lash', 'Sally Jaroszynski')","('Dick Sena', 'Paul Silzle')"
+,,,,"('Gary Lash', 'Robert Stewart')","('Dick Sena', 'Sally P Carlson')"
+,,,,"('Gary Lash', 'Anthony Ingraffea')","('Dick Sena', 'Dan Strickland')"
+,,,,"('Gary Lash', 'Jim Pullan')","('Dick Sena', 'Rax Tolman')"
+,,,,"('Gary Lash', 'Todd Saracki')","('Dick Sena', 'Randy Holcomb')"
+,,,,"('Gary Lash', 'Barrie Yochim')","('Dick Sena', 'Nancy Thomas')"
+,,,,"('Gary Lash', 'Christina Jarvis')","('Pierre Chagnon', 'Lois Dilworth')"
+,,,,"('Gary Lash', 'George Spanos')","('Pierre Chagnon', 'Jay Gould')"
+,,,,"('Gary Lash', 'Frank Gould')","('Pierre Chagnon', 'David Stapleton')"
+,,,,"('Gary Lash', 'Kim Sherwood')","('Pierre Chagnon', 'Brad Lawson')"
+,,,,"('Gary Lash', 'Minda Rae Amiran')","('Pierre Chagnon', 'Sharon Turano')"
+,,,,"('Gary Lash', 'Tom Erlandson')","('Pierre Chagnon', 'Mary Frank')"
+,,,,"('Gary Lash', 'Sally P Carlson')","('Pierre Chagnon', 'Louis Rieg')"
+,,,,"('Gary Lash', 'Dan Strickland')","('Pierre Chagnon', 'Ralph Whitney')"
+,,,,"('Gary Lash', 'James Spann')","('Pierre Chagnon', 'Frank Geracci')"
+,,,,"('Gary Lash', 'John Jablonski')","('Pierre Chagnon', 'Frank Stow')"
+,,,,"('Gary Lash', 'Michael Sullivan')","('Pierre Chagnon', 'Paul Silzle')"
+,,,,"('Gary Lash', 'Schimminger')","('Pierre Chagnon', 'Sarah Novak')"
+,,,,"('Gary Lash', 'Julie Coppola Cox')","('Pierre Chagnon', 'Rax Tolman')"
+,,,,"('Gary Lash', 'Jeffrey Piazza')","('Pierre Chagnon', 'Randy Holcomb')"
+,,,,"('Gary Lash', 'Sam Teresi')","('Pierre Chagnon', 'Nancy Thomas')"
+,,,,"('Bill Parment', 'Brad Gill')","('Lois Dilworth', 'Jay Gould')"
+,,,,"('Bill Parment', 'Dan Strickland')","('Lois Dilworth', 'David Stapleton')"
+,,,,"('Bill Parment', 'Mike Hogan')","('Lois Dilworth', 'Brad Lawson')"
+,,,,"('Bill Parment', 'Andy Goodell')","('Lois Dilworth', 'Sharon Turano')"
+,,,,"('Bill Parment', 'Roger Doebke')","('Lois Dilworth', 'Mary Frank')"
+,,,,"('Bill Parment', 'Roger Ruckman')","('Lois Dilworth', 'Louis Rieg')"
+,,,,"('Bill Parment', 'Rudy Mueller')","('Lois Dilworth', 'Ralph Whitney')"
+,,,,"('Bill Parment', 'Cathy Young')","('Lois Dilworth', 'Frank Geracci')"
+,,,,"('Bill Parment', 'Pierre Chagnon')","('Lois Dilworth', 'Kim Sherwood')"
+,,,,"('Bill Parment', 'Sally Jaroszynski')","('Lois Dilworth', 'Frank Stow')"
+,,,,"('Bill Parment', 'Robert Stewart')","('Lois Dilworth', 'Paul Silzle')"
+,,,,"('Bill Parment', 'Anthony Ingraffea')","('Lois Dilworth', 'Sarah Novak')"
+,,,,"('Bill Parment', 'Jim Pullan')","('Lois Dilworth', 'Sally P Carlson')"
+,,,,"('Bill Parment', 'Todd Saracki')","('Lois Dilworth', 'Dan Strickland')"
+,,,,"('Bill Parment', 'Barrie Yochim')","('Lois Dilworth', 'Rax Tolman')"
+,,,,"('Bill Parment', 'Christina Jarvis')","('Lois Dilworth', 'Randy Holcomb')"
+,,,,"('Bill Parment', 'George Spanos')","('Lois Dilworth', 'Nancy Thomas')"
+,,,,"('Bill Parment', 'Frank Gould')","('Jay Gould', 'David Stapleton')"
+,,,,"('Bill Parment', 'Kim Sherwood')","('Jay Gould', 'Brad Lawson')"
+,,,,"('Bill Parment', 'Minda Rae Amiran')","('Jay Gould', 'Sharon Turano')"
+,,,,"('Bill Parment', 'Tom Erlandson')","('Jay Gould', 'Mary Frank')"
+,,,,"('Bill Parment', 'Sally P Carlson')","('Jay Gould', 'Louis Rieg')"
+,,,,"('Bill Parment', 'James Spann')","('Jay Gould', 'Ralph Whitney')"
+,,,,"('Bill Parment', 'John Jablonski')","('Jay Gould', 'Frank Geracci')"
+,,,,"('Bill Parment', 'Michael Sullivan')","('Jay Gould', 'Kim Sherwood')"
+,,,,"('Bill Parment', 'Schimminger')","('Jay Gould', 'Frank Stow')"
+,,,,"('Bill Parment', 'Julie Coppola Cox')","('Jay Gould', 'Paul Silzle')"
+,,,,"('Bill Parment', 'Jeffrey Piazza')","('Jay Gould', 'Sarah Novak')"
+,,,,"('Bill Parment', 'Sam Teresi')","('Jay Gould', 'Sally P Carlson')"
+,,,,"('Brad Gill', 'Mike Hogan')","('Jay Gould', 'Dan Strickland')"
+,,,,"('Brad Gill', 'Andy Goodell')","('Jay Gould', 'Rax Tolman')"
+,,,,"('Brad Gill', 'Roger Doebke')","('Jay Gould', 'Randy Holcomb')"
+,,,,"('Brad Gill', 'Roger Ruckman')","('Jay Gould', 'Nancy Thomas')"
+,,,,"('Brad Gill', 'Rudy Mueller')","('David Stapleton', 'Brad Lawson')"
+,,,,"('Brad Gill', 'Cathy Young')","('David Stapleton', 'Sharon Turano')"
+,,,,"('Brad Gill', 'Pierre Chagnon')","('David Stapleton', 'Mary Frank')"
+,,,,"('Brad Gill', 'Sally Jaroszynski')","('David Stapleton', 'Louis Rieg')"
+,,,,"('Brad Gill', 'Robert Stewart')","('David Stapleton', 'Ralph Whitney')"
+,,,,"('Brad Gill', 'Anthony Ingraffea')","('David Stapleton', 'Frank Geracci')"
+,,,,"('Brad Gill', 'Jim Pullan')","('David Stapleton', 'Kim Sherwood')"
+,,,,"('Brad Gill', 'Todd Saracki')","('David Stapleton', 'Frank Stow')"
+,,,,"('Brad Gill', 'Barrie Yochim')","('David Stapleton', 'Paul Silzle')"
+,,,,"('Brad Gill', 'Christina Jarvis')","('David Stapleton', 'Sarah Novak')"
+,,,,"('Brad Gill', 'George Spanos')","('David Stapleton', 'Sally P Carlson')"
+,,,,"('Brad Gill', 'Frank Gould')","('David Stapleton', 'Dan Strickland')"
+,,,,"('Brad Gill', 'Kim Sherwood')","('David Stapleton', 'Rax Tolman')"
+,,,,"('Brad Gill', 'Minda Rae Amiran')","('David Stapleton', 'Randy Holcomb')"
+,,,,"('Brad Gill', 'Tom Erlandson')","('David Stapleton', 'Nancy Thomas')"
+,,,,"('Brad Gill', 'Sally P Carlson')","('Brad Lawson', 'Sharon Turano')"
+,,,,"('Brad Gill', 'Dan Strickland')","('Brad Lawson', 'Mary Frank')"
+,,,,"('Brad Gill', 'James Spann')","('Brad Lawson', 'Louis Rieg')"
+,,,,"('Brad Gill', 'John Jablonski')","('Brad Lawson', 'Ralph Whitney')"
+,,,,"('Brad Gill', 'Michael Sullivan')","('Brad Lawson', 'Frank Geracci')"
+,,,,"('Brad Gill', 'Schimminger')","('Brad Lawson', 'Kim Sherwood')"
+,,,,"('Brad Gill', 'Julie Coppola Cox')","('Brad Lawson', 'Frank Stow')"
+,,,,"('Brad Gill', 'Jeffrey Piazza')","('Brad Lawson', 'Paul Silzle')"
+,,,,"('Brad Gill', 'Sam Teresi')","('Brad Lawson', 'Sarah Novak')"
+,,,,"('Mike Hogan', 'Andy Goodell')","('Brad Lawson', 'Sally P Carlson')"
+,,,,"('Mike Hogan', 'Roger Doebke')","('Brad Lawson', 'Dan Strickland')"
+,,,,"('Mike Hogan', 'Roger Ruckman')","('Brad Lawson', 'Rax Tolman')"
+,,,,"('Mike Hogan', 'Rudy Mueller')","('Brad Lawson', 'Randy Holcomb')"
+,,,,"('Mike Hogan', 'Cathy Young')","('Brad Lawson', 'Nancy Thomas')"
+,,,,"('Mike Hogan', 'Pierre Chagnon')","('Sharon Turano', 'Mary Frank')"
+,,,,"('Mike Hogan', 'Sally Jaroszynski')","('Sharon Turano', 'Louis Rieg')"
+,,,,"('Mike Hogan', 'Robert Stewart')","('Sharon Turano', 'Ralph Whitney')"
+,,,,"('Mike Hogan', 'Anthony Ingraffea')","('Sharon Turano', 'Frank Geracci')"
+,,,,"('Mike Hogan', 'Jim Pullan')","('Sharon Turano', 'Kim Sherwood')"
+,,,,"('Mike Hogan', 'Todd Saracki')","('Sharon Turano', 'Frank Stow')"
+,,,,"('Mike Hogan', 'Barrie Yochim')","('Sharon Turano', 'Paul Silzle')"
+,,,,"('Mike Hogan', 'Christina Jarvis')","('Sharon Turano', 'Sarah Novak')"
+,,,,"('Mike Hogan', 'George Spanos')","('Sharon Turano', 'Sally P Carlson')"
+,,,,"('Mike Hogan', 'Frank Gould')","('Sharon Turano', 'Dan Strickland')"
+,,,,"('Mike Hogan', 'Kim Sherwood')","('Sharon Turano', 'Rax Tolman')"
+,,,,"('Mike Hogan', 'Minda Rae Amiran')","('Sharon Turano', 'Randy Holcomb')"
+,,,,"('Mike Hogan', 'Tom Erlandson')","('Sharon Turano', 'Nancy Thomas')"
+,,,,"('Mike Hogan', 'Sally P Carlson')","('Mary Frank', 'Louis Rieg')"
+,,,,"('Mike Hogan', 'Dan Strickland')","('Mary Frank', 'Ralph Whitney')"
+,,,,"('Mike Hogan', 'James Spann')","('Mary Frank', 'Frank Geracci')"
+,,,,"('Mike Hogan', 'John Jablonski')","('Mary Frank', 'Kim Sherwood')"
+,,,,"('Mike Hogan', 'Michael Sullivan')","('Mary Frank', 'Frank Stow')"
+,,,,"('Mike Hogan', 'Schimminger')","('Mary Frank', 'Paul Silzle')"
+,,,,"('Mike Hogan', 'Julie Coppola Cox')","('Mary Frank', 'Sarah Novak')"
+,,,,"('Mike Hogan', 'Jeffrey Piazza')","('Mary Frank', 'Sally P Carlson')"
+,,,,"('Mike Hogan', 'Sam Teresi')","('Mary Frank', 'Dan Strickland')"
+,,,,"('Andy Goodell', 'Roger Doebke')","('Mary Frank', 'Rax Tolman')"
+,,,,"('Andy Goodell', 'Roger Ruckman')","('Mary Frank', 'Randy Holcomb')"
+,,,,"('Andy Goodell', 'Rudy Mueller')","('Mary Frank', 'Nancy Thomas')"
+,,,,"('Andy Goodell', 'Cathy Young')","('Louis Rieg', 'Ralph Whitney')"
+,,,,"('Andy Goodell', 'Pierre Chagnon')","('Louis Rieg', 'Frank Geracci')"
+,,,,"('Andy Goodell', 'Sally Jaroszynski')","('Louis Rieg', 'Kim Sherwood')"
+,,,,"('Andy Goodell', 'Robert Stewart')","('Louis Rieg', 'Frank Stow')"
+,,,,"('Andy Goodell', 'Anthony Ingraffea')","('Louis Rieg', 'Paul Silzle')"
+,,,,"('Andy Goodell', 'Jim Pullan')","('Louis Rieg', 'Sarah Novak')"
+,,,,"('Andy Goodell', 'Todd Saracki')","('Louis Rieg', 'Sally P Carlson')"
+,,,,"('Andy Goodell', 'Barrie Yochim')","('Louis Rieg', 'Dan Strickland')"
+,,,,"('Andy Goodell', 'Christina Jarvis')","('Louis Rieg', 'Rax Tolman')"
+,,,,"('Andy Goodell', 'George Spanos')","('Louis Rieg', 'Randy Holcomb')"
+,,,,"('Andy Goodell', 'Frank Gould')","('Louis Rieg', 'Nancy Thomas')"
+,,,,"('Andy Goodell', 'Kim Sherwood')","('Ralph Whitney', 'Frank Geracci')"
+,,,,"('Andy Goodell', 'Minda Rae Amiran')","('Ralph Whitney', 'Kim Sherwood')"
+,,,,"('Andy Goodell', 'Tom Erlandson')","('Ralph Whitney', 'Frank Stow')"
+,,,,"('Andy Goodell', 'Sally P Carlson')","('Ralph Whitney', 'Paul Silzle')"
+,,,,"('Andy Goodell', 'Dan Strickland')","('Ralph Whitney', 'Sarah Novak')"
+,,,,"('Andy Goodell', 'James Spann')","('Ralph Whitney', 'Sally P Carlson')"
+,,,,"('Andy Goodell', 'John Jablonski')","('Ralph Whitney', 'Dan Strickland')"
+,,,,"('Andy Goodell', 'Michael Sullivan')","('Ralph Whitney', 'Rax Tolman')"
+,,,,"('Andy Goodell', 'Schimminger')","('Ralph Whitney', 'Randy Holcomb')"
+,,,,"('Andy Goodell', 'Julie Coppola Cox')","('Ralph Whitney', 'Nancy Thomas')"
+,,,,"('Andy Goodell', 'Jeffrey Piazza')","('Frank Geracci', 'Kim Sherwood')"
+,,,,"('Andy Goodell', 'Sam Teresi')","('Frank Geracci', 'Frank Stow')"
+,,,,"('Roger Doebke', 'Roger Ruckman')","('Frank Geracci', 'Paul Silzle')"
+,,,,"('Roger Doebke', 'Rudy Mueller')","('Frank Geracci', 'Sarah Novak')"
+,,,,"('Roger Doebke', 'Cathy Young')","('Frank Geracci', 'Sally P Carlson')"
+,,,,"('Roger Doebke', 'Pierre Chagnon')","('Frank Geracci', 'Dan Strickland')"
+,,,,"('Roger Doebke', 'Sally Jaroszynski')","('Frank Geracci', 'Rax Tolman')"
+,,,,"('Roger Doebke', 'Robert Stewart')","('Frank Geracci', 'Randy Holcomb')"
+,,,,"('Roger Doebke', 'Anthony Ingraffea')","('Frank Geracci', 'Nancy Thomas')"
+,,,,"('Roger Doebke', 'Jim Pullan')","('Kim Sherwood', 'Frank Stow')"
+,,,,"('Roger Doebke', 'Todd Saracki')","('Kim Sherwood', 'Paul Silzle')"
+,,,,"('Roger Doebke', 'Barrie Yochim')","('Kim Sherwood', 'Sarah Novak')"
+,,,,"('Roger Doebke', 'Christina Jarvis')","('Kim Sherwood', 'Rax Tolman')"
+,,,,"('Roger Doebke', 'George Spanos')","('Kim Sherwood', 'Randy Holcomb')"
+,,,,"('Roger Doebke', 'Frank Gould')","('Kim Sherwood', 'Nancy Thomas')"
+,,,,"('Roger Doebke', 'Kim Sherwood')","('Frank Stow', 'Paul Silzle')"
+,,,,"('Roger Doebke', 'Minda Rae Amiran')","('Frank Stow', 'Sarah Novak')"
+,,,,"('Roger Doebke', 'Tom Erlandson')","('Frank Stow', 'Sally P Carlson')"
+,,,,"('Roger Doebke', 'Sally P Carlson')","('Frank Stow', 'Dan Strickland')"
+,,,,"('Roger Doebke', 'Dan Strickland')","('Frank Stow', 'Rax Tolman')"
+,,,,"('Roger Doebke', 'James Spann')","('Frank Stow', 'Randy Holcomb')"
+,,,,"('Roger Doebke', 'John Jablonski')","('Frank Stow', 'Nancy Thomas')"
+,,,,"('Roger Doebke', 'Michael Sullivan')","('Paul Silzle', 'Sarah Novak')"
+,,,,"('Roger Doebke', 'Schimminger')","('Paul Silzle', 'Sally P Carlson')"
+,,,,"('Roger Doebke', 'Julie Coppola Cox')","('Paul Silzle', 'Dan Strickland')"
+,,,,"('Roger Doebke', 'Jeffrey Piazza')","('Paul Silzle', 'Rax Tolman')"
+,,,,"('Roger Doebke', 'Sam Teresi')","('Paul Silzle', 'Randy Holcomb')"
+,,,,"('Roger Ruckman', 'Schimminger')","('Paul Silzle', 'Nancy Thomas')"
+,,,,"('Roger Ruckman', 'Rudy Mueller')","('Sarah Novak', 'Sally P Carlson')"
+,,,,"('Roger Ruckman', 'Cathy Young')","('Sarah Novak', 'Dan Strickland')"
+,,,,"('Roger Ruckman', 'Pierre Chagnon')","('Sarah Novak', 'Rax Tolman')"
+,,,,"('Roger Ruckman', 'Sally Jaroszynski')","('Sarah Novak', 'Randy Holcomb')"
+,,,,"('Roger Ruckman', 'Robert Stewart')","('Sarah Novak', 'Nancy Thomas')"
+,,,,"('Roger Ruckman', 'Anthony Ingraffea')","('Sally P Carlson', 'Rax Tolman')"
+,,,,"('Roger Ruckman', 'Jim Pullan')","('Sally P Carlson', 'Randy Holcomb')"
+,,,,"('Roger Ruckman', 'Todd Saracki')","('Sally P Carlson', 'Nancy Thomas')"
+,,,,"('Roger Ruckman', 'Barrie Yochim')","('Dan Strickland', 'Rax Tolman')"
+,,,,"('Roger Ruckman', 'Christina Jarvis')","('Dan Strickland', 'Randy Holcomb')"
+,,,,"('Roger Ruckman', 'George Spanos')","('Dan Strickland', 'Nancy Thomas')"
+,,,,"('Roger Ruckman', 'Frank Gould')","('Rax Tolman', 'Randy Holcomb')"
+,,,,"('Roger Ruckman', 'Kim Sherwood')","('Rax Tolman', 'Nancy Thomas')"
+,,,,"('Roger Ruckman', 'Minda Rae Amiran')","('Randy Holcomb', 'Nancy Thomas')"
+,,,,"('Roger Ruckman', 'Tom Erlandson')",
+,,,,"('Roger Ruckman', 'Sally P Carlson')",
+,,,,"('Roger Ruckman', 'Dan Strickland')",
+,,,,"('Roger Ruckman', 'James Spann')",
+,,,,"('Roger Ruckman', 'John Jablonski')",
+,,,,"('Roger Ruckman', 'Michael Sullivan')",
+,,,,"('Roger Ruckman', 'Julie Coppola Cox')",
+,,,,"('Roger Ruckman', 'Jeffrey Piazza')",
+,,,,"('Roger Ruckman', 'Sam Teresi')",
+,,,,"('Rudy Mueller', 'Cathy Young')",
+,,,,"('Rudy Mueller', 'Pierre Chagnon')",
+,,,,"('Rudy Mueller', 'Sally Jaroszynski')",
+,,,,"('Rudy Mueller', 'Robert Stewart')",
+,,,,"('Rudy Mueller', 'Anthony Ingraffea')",
+,,,,"('Rudy Mueller', 'Jim Pullan')",
+,,,,"('Rudy Mueller', 'Todd Saracki')",
+,,,,"('Rudy Mueller', 'Barrie Yochim')",
+,,,,"('Rudy Mueller', 'Christina Jarvis')",
+,,,,"('Rudy Mueller', 'George Spanos')",
+,,,,"('Rudy Mueller', 'Frank Gould')",
+,,,,"('Rudy Mueller', 'Kim Sherwood')",
+,,,,"('Rudy Mueller', 'Minda Rae Amiran')",
+,,,,"('Rudy Mueller', 'Tom Erlandson')",
+,,,,"('Rudy Mueller', 'Sally P Carlson')",
+,,,,"('Rudy Mueller', 'Dan Strickland')",
+,,,,"('Rudy Mueller', 'James Spann')",
+,,,,"('Rudy Mueller', 'John Jablonski')",
+,,,,"('Rudy Mueller', 'Michael Sullivan')",
+,,,,"('Rudy Mueller', 'Schimminger')",
+,,,,"('Rudy Mueller', 'Julie Coppola Cox')",
+,,,,"('Rudy Mueller', 'Jeffrey Piazza')",
+,,,,"('Rudy Mueller', 'Sam Teresi')",
+,,,,"('Cathy Young', 'Pierre Chagnon')",
+,,,,"('Cathy Young', 'Sally Jaroszynski')",
+,,,,"('Cathy Young', 'Robert Stewart')",
+,,,,"('Cathy Young', 'Anthony Ingraffea')",
+,,,,"('Cathy Young', 'Jim Pullan')",
+,,,,"('Cathy Young', 'Todd Saracki')",
+,,,,"('Cathy Young', 'Barrie Yochim')",
+,,,,"('Cathy Young', 'Christina Jarvis')",
+,,,,"('Cathy Young', 'George Spanos')",
+,,,,"('Cathy Young', 'Frank Gould')",
+,,,,"('Cathy Young', 'Kim Sherwood')",
+,,,,"('Cathy Young', 'Minda Rae Amiran')",
+,,,,"('Cathy Young', 'Tom Erlandson')",
+,,,,"('Cathy Young', 'Sally P Carlson')",
+,,,,"('Cathy Young', 'Dan Strickland')",
+,,,,"('Cathy Young', 'James Spann')",
+,,,,"('Cathy Young', 'John Jablonski')",
+,,,,"('Cathy Young', 'Michael Sullivan')",
+,,,,"('Cathy Young', 'Schimminger')",
+,,,,"('Cathy Young', 'Julie Coppola Cox')",
+,,,,"('Cathy Young', 'Jeffrey Piazza')",
+,,,,"('Cathy Young', 'Sam Teresi')",
+,,,,"('Pierre Chagnon', 'Sally Jaroszynski')",
+,,,,"('Pierre Chagnon', 'Robert Stewart')",
+,,,,"('Pierre Chagnon', 'Anthony Ingraffea')",
+,,,,"('Pierre Chagnon', 'Jim Pullan')",
+,,,,"('Pierre Chagnon', 'Todd Saracki')",
+,,,,"('Pierre Chagnon', 'Barrie Yochim')",
+,,,,"('Pierre Chagnon', 'Christina Jarvis')",
+,,,,"('Pierre Chagnon', 'George Spanos')",
+,,,,"('Pierre Chagnon', 'Frank Gould')",
+,,,,"('Pierre Chagnon', 'Minda Rae Amiran')",
+,,,,"('Pierre Chagnon', 'Tom Erlandson')",
+,,,,"('Pierre Chagnon', 'James Spann')",
+,,,,"('Pierre Chagnon', 'John Jablonski')",
+,,,,"('Pierre Chagnon', 'Michael Sullivan')",
+,,,,"('Pierre Chagnon', 'Schimminger')",
+,,,,"('Pierre Chagnon', 'Julie Coppola Cox')",
+,,,,"('Pierre Chagnon', 'Jeffrey Piazza')",
+,,,,"('Pierre Chagnon', 'Sam Teresi')",
+,,,,"('Sally Jaroszynski', 'Robert Stewart')",
+,,,,"('Sally Jaroszynski', 'Anthony Ingraffea')",
+,,,,"('Sally Jaroszynski', 'Jim Pullan')",
+,,,,"('Sally Jaroszynski', 'Todd Saracki')",
+,,,,"('Sally Jaroszynski', 'Barrie Yochim')",
+,,,,"('Sally Jaroszynski', 'Christina Jarvis')",
+,,,,"('Sally Jaroszynski', 'George Spanos')",
+,,,,"('Sally Jaroszynski', 'Frank Gould')",
+,,,,"('Sally Jaroszynski', 'Kim Sherwood')",
+,,,,"('Sally Jaroszynski', 'Minda Rae Amiran')",
+,,,,"('Sally Jaroszynski', 'Tom Erlandson')",
+,,,,"('Sally Jaroszynski', 'Sally P Carlson')",
+,,,,"('Sally Jaroszynski', 'Dan Strickland')",
+,,,,"('Sally Jaroszynski', 'James Spann')",
+,,,,"('Sally Jaroszynski', 'John Jablonski')",
+,,,,"('Sally Jaroszynski', 'Michael Sullivan')",
+,,,,"('Sally Jaroszynski', 'Schimminger')",
+,,,,"('Sally Jaroszynski', 'Julie Coppola Cox')",
+,,,,"('Sally Jaroszynski', 'Jeffrey Piazza')",
+,,,,"('Sally Jaroszynski', 'Sam Teresi')",
+,,,,"('Robert Stewart', 'Anthony Ingraffea')",
+,,,,"('Robert Stewart', 'Jim Pullan')",
+,,,,"('Robert Stewart', 'Todd Saracki')",
+,,,,"('Robert Stewart', 'Barrie Yochim')",
+,,,,"('Robert Stewart', 'Christina Jarvis')",
+,,,,"('Robert Stewart', 'George Spanos')",
+,,,,"('Robert Stewart', 'Frank Gould')",
+,,,,"('Robert Stewart', 'Kim Sherwood')",
+,,,,"('Robert Stewart', 'Minda Rae Amiran')",
+,,,,"('Robert Stewart', 'Tom Erlandson')",
+,,,,"('Robert Stewart', 'Sally P Carlson')",
+,,,,"('Robert Stewart', 'Dan Strickland')",
+,,,,"('Robert Stewart', 'James Spann')",
+,,,,"('Robert Stewart', 'John Jablonski')",
+,,,,"('Robert Stewart', 'Michael Sullivan')",
+,,,,"('Robert Stewart', 'Schimminger')",
+,,,,"('Robert Stewart', 'Julie Coppola Cox')",
+,,,,"('Robert Stewart', 'Jeffrey Piazza')",
+,,,,"('Robert Stewart', 'Sam Teresi')",
+,,,,"('Anthony Ingraffea', 'Jim Pullan')",
+,,,,"('Anthony Ingraffea', 'Todd Saracki')",
+,,,,"('Anthony Ingraffea', 'Barrie Yochim')",
+,,,,"('Anthony Ingraffea', 'Christina Jarvis')",
+,,,,"('Anthony Ingraffea', 'George Spanos')",
+,,,,"('Anthony Ingraffea', 'Frank Gould')",
+,,,,"('Anthony Ingraffea', 'Kim Sherwood')",
+,,,,"('Anthony Ingraffea', 'Minda Rae Amiran')",
+,,,,"('Anthony Ingraffea', 'Tom Erlandson')",
+,,,,"('Anthony Ingraffea', 'Sally P Carlson')",
+,,,,"('Anthony Ingraffea', 'Dan Strickland')",
+,,,,"('Anthony Ingraffea', 'James Spann')",
+,,,,"('Anthony Ingraffea', 'John Jablonski')",
+,,,,"('Anthony Ingraffea', 'Michael Sullivan')",
+,,,,"('Anthony Ingraffea', 'Schimminger')",
+,,,,"('Anthony Ingraffea', 'Julie Coppola Cox')",
+,,,,"('Anthony Ingraffea', 'Jeffrey Piazza')",
+,,,,"('Anthony Ingraffea', 'Sam Teresi')",
+,,,,"('Jim Pullan', 'Todd Saracki')",
+,,,,"('Jim Pullan', 'Barrie Yochim')",
+,,,,"('Jim Pullan', 'Christina Jarvis')",
+,,,,"('Jim Pullan', 'George Spanos')",
+,,,,"('Jim Pullan', 'Frank Gould')",
+,,,,"('Jim Pullan', 'Kim Sherwood')",
+,,,,"('Jim Pullan', 'Minda Rae Amiran')",
+,,,,"('Jim Pullan', 'Tom Erlandson')",
+,,,,"('Jim Pullan', 'Sally P Carlson')",
+,,,,"('Jim Pullan', 'Dan Strickland')",
+,,,,"('Jim Pullan', 'James Spann')",
+,,,,"('Jim Pullan', 'John Jablonski')",
+,,,,"('Jim Pullan', 'Michael Sullivan')",
+,,,,"('Jim Pullan', 'Schimminger')",
+,,,,"('Jim Pullan', 'Julie Coppola Cox')",
+,,,,"('Jim Pullan', 'Jeffrey Piazza')",
+,,,,"('Jim Pullan', 'Sam Teresi')",
+,,,,"('Todd Saracki', 'Barrie Yochim')",
+,,,,"('Todd Saracki', 'Christina Jarvis')",
+,,,,"('Todd Saracki', 'George Spanos')",
+,,,,"('Todd Saracki', 'Frank Gould')",
+,,,,"('Todd Saracki', 'Kim Sherwood')",
+,,,,"('Todd Saracki', 'Minda Rae Amiran')",
+,,,,"('Todd Saracki', 'Tom Erlandson')",
+,,,,"('Todd Saracki', 'Sally P Carlson')",
+,,,,"('Todd Saracki', 'Dan Strickland')",
+,,,,"('Todd Saracki', 'James Spann')",
+,,,,"('Todd Saracki', 'John Jablonski')",
+,,,,"('Todd Saracki', 'Michael Sullivan')",
+,,,,"('Todd Saracki', 'Schimminger')",
+,,,,"('Todd Saracki', 'Julie Coppola Cox')",
+,,,,"('Todd Saracki', 'Jeffrey Piazza')",
+,,,,"('Todd Saracki', 'Sam Teresi')",
+,,,,"('Barrie Yochim', 'Dan Strickland')",
+,,,,"('Barrie Yochim', 'Christina Jarvis')",
+,,,,"('Barrie Yochim', 'George Spanos')",
+,,,,"('Barrie Yochim', 'Frank Gould')",
+,,,,"('Barrie Yochim', 'Kim Sherwood')",
+,,,,"('Barrie Yochim', 'Minda Rae Amiran')",
+,,,,"('Barrie Yochim', 'Tom Erlandson')",
+,,,,"('Barrie Yochim', 'Sally P Carlson')",
+,,,,"('Barrie Yochim', 'James Spann')",
+,,,,"('Barrie Yochim', 'John Jablonski')",
+,,,,"('Barrie Yochim', 'Michael Sullivan')",
+,,,,"('Barrie Yochim', 'Schimminger')",
+,,,,"('Barrie Yochim', 'Julie Coppola Cox')",
+,,,,"('Barrie Yochim', 'Jeffrey Piazza')",
+,,,,"('Barrie Yochim', 'Sam Teresi')",
+,,,,"('Christina Jarvis', 'George Spanos')",
+,,,,"('Christina Jarvis', 'Frank Gould')",
+,,,,"('Christina Jarvis', 'Kim Sherwood')",
+,,,,"('Christina Jarvis', 'Minda Rae Amiran')",
+,,,,"('Christina Jarvis', 'Tom Erlandson')",
+,,,,"('Christina Jarvis', 'Sally P Carlson')",
+,,,,"('Christina Jarvis', 'Dan Strickland')",
+,,,,"('Christina Jarvis', 'James Spann')",
+,,,,"('Christina Jarvis', 'John Jablonski')",
+,,,,"('Christina Jarvis', 'Michael Sullivan')",
+,,,,"('Christina Jarvis', 'Schimminger')",
+,,,,"('Christina Jarvis', 'Julie Coppola Cox')",
+,,,,"('Christina Jarvis', 'Jeffrey Piazza')",
+,,,,"('Christina Jarvis', 'Sam Teresi')",
+,,,,"('George Spanos', 'Frank Gould')",
+,,,,"('George Spanos', 'Kim Sherwood')",
+,,,,"('George Spanos', 'Minda Rae Amiran')",
+,,,,"('George Spanos', 'Tom Erlandson')",
+,,,,"('George Spanos', 'Sally P Carlson')",
+,,,,"('George Spanos', 'Dan Strickland')",
+,,,,"('George Spanos', 'James Spann')",
+,,,,"('George Spanos', 'John Jablonski')",
+,,,,"('George Spanos', 'Michael Sullivan')",
+,,,,"('George Spanos', 'Schimminger')",
+,,,,"('George Spanos', 'Julie Coppola Cox')",
+,,,,"('George Spanos', 'Jeffrey Piazza')",
+,,,,"('George Spanos', 'Sam Teresi')",
+,,,,"('Frank Gould', 'Kim Sherwood')",
+,,,,"('Frank Gould', 'Minda Rae Amiran')",
+,,,,"('Frank Gould', 'Tom Erlandson')",
+,,,,"('Frank Gould', 'Sally P Carlson')",
+,,,,"('Frank Gould', 'Dan Strickland')",
+,,,,"('Frank Gould', 'James Spann')",
+,,,,"('Frank Gould', 'John Jablonski')",
+,,,,"('Frank Gould', 'Michael Sullivan')",
+,,,,"('Frank Gould', 'Schimminger')",
+,,,,"('Frank Gould', 'Julie Coppola Cox')",
+,,,,"('Frank Gould', 'Jeffrey Piazza')",
+,,,,"('Frank Gould', 'Sam Teresi')",
+,,,,"('Kim Sherwood', 'Minda Rae Amiran')",
+,,,,"('Kim Sherwood', 'Tom Erlandson')",
+,,,,"('Kim Sherwood', 'James Spann')",
+,,,,"('Kim Sherwood', 'John Jablonski')",
+,,,,"('Kim Sherwood', 'Michael Sullivan')",
+,,,,"('Kim Sherwood', 'Schimminger')",
+,,,,"('Kim Sherwood', 'Julie Coppola Cox')",
+,,,,"('Kim Sherwood', 'Jeffrey Piazza')",
+,,,,"('Kim Sherwood', 'Sam Teresi')",
+,,,,"('Minda Rae Amiran', 'Tom Erlandson')",
+,,,,"('Minda Rae Amiran', 'Sally P Carlson')",
+,,,,"('Minda Rae Amiran', 'Dan Strickland')",
+,,,,"('Minda Rae Amiran', 'James Spann')",
+,,,,"('Minda Rae Amiran', 'John Jablonski')",
+,,,,"('Minda Rae Amiran', 'Michael Sullivan')",
+,,,,"('Minda Rae Amiran', 'Schimminger')",
+,,,,"('Minda Rae Amiran', 'Julie Coppola Cox')",
+,,,,"('Minda Rae Amiran', 'Jeffrey Piazza')",
+,,,,"('Minda Rae Amiran', 'Sam Teresi')",
+,,,,"('Tom Erlandson', 'Sally P Carlson')",
+,,,,"('Tom Erlandson', 'Dan Strickland')",
+,,,,"('Tom Erlandson', 'James Spann')",
+,,,,"('Tom Erlandson', 'John Jablonski')",
+,,,,"('Tom Erlandson', 'Michael Sullivan')",
+,,,,"('Tom Erlandson', 'Schimminger')",
+,,,,"('Tom Erlandson', 'Julie Coppola Cox')",
+,,,,"('Tom Erlandson', 'Jeffrey Piazza')",
+,,,,"('Tom Erlandson', 'Sam Teresi')",
+,,,,"('Sally P Carlson', 'James Spann')",
+,,,,"('Sally P Carlson', 'John Jablonski')",
+,,,,"('Sally P Carlson', 'Michael Sullivan')",
+,,,,"('Sally P Carlson', 'Schimminger')",
+,,,,"('Sally P Carlson', 'Julie Coppola Cox')",
+,,,,"('Sally P Carlson', 'Jeffrey Piazza')",
+,,,,"('Sally P Carlson', 'Sam Teresi')",
+,,,,"('Dan Strickland', 'James Spann')",
+,,,,"('Dan Strickland', 'John Jablonski')",
+,,,,"('Dan Strickland', 'Michael Sullivan')",
+,,,,"('Dan Strickland', 'Schimminger')",
+,,,,"('Dan Strickland', 'Julie Coppola Cox')",
+,,,,"('Dan Strickland', 'Jeffrey Piazza')",
+,,,,"('Dan Strickland', 'Sam Teresi')",
+,,,,"('James Spann', 'Schimminger')",
+,,,,"('James Spann', 'John Jablonski')",
+,,,,"('James Spann', 'Michael Sullivan')",
+,,,,"('James Spann', 'Julie Coppola Cox')",
+,,,,"('James Spann', 'Jeffrey Piazza')",
+,,,,"('James Spann', 'Sam Teresi')",
+,,,,"('John Jablonski', 'Michael Sullivan')",
+,,,,"('John Jablonski', 'Schimminger')",
+,,,,"('John Jablonski', 'Julie Coppola Cox')",
+,,,,"('John Jablonski', 'Jeffrey Piazza')",
+,,,,"('John Jablonski', 'Sam Teresi')",
+,,,,"('Michael Sullivan', 'Schimminger')",
+,,,,"('Michael Sullivan', 'Julie Coppola Cox')",
+,,,,"('Michael Sullivan', 'Jeffrey Piazza')",
+,,,,"('Michael Sullivan', 'Sam Teresi')",
+,,,,"('Schimminger', 'Julie Coppola Cox')",
+,,,,"('Schimminger', 'Jeffrey Piazza')",
+,,,,"('Schimminger', 'Sam Teresi')",
+,,,,"('Julie Coppola Cox', 'Jeffrey Piazza')",
+,,,,"('Julie Coppola Cox', 'Sam Teresi')",
+,,,,"('Jeffrey Piazza', 'Sam Teresi')",

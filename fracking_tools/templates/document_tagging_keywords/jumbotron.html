@@ -1,0 +1,21 @@
+<div class="jumbotron jumbotron-fluid" id="home-banner">
+  <div class="container text-center">
+    <h1 class="display-4 text-dark">Fracking Tools: Tag Documents for Keywords</h1>
+    <p class="lead text-dark">Tag one or many documents for a list of keywords.</p>
+    <hr class="my-4">
+    <div class="row my-4">
+      <div class="col-sm-3">
+        <a href="{% url 'document_utilities:doccomp' %}" class="btn btn-primary btn-block my-1">Compare Documents</a>
+      </div>
+      <div class="col-sm-3">
+        <a href="{% url 'document_utilities:nertag' %}" class="btn btn-success btn-block my-1">Tag Documents with NER</a>
+      </div>
+      <div class="col-sm-3">
+        <a href="{% url 'document_utilities:docstats' %}" class="btn btn-danger btn-block my-1">Compute Document Statistics</a>
+      </div>
+      <div class="col-sm-3">
+        <a href="#" class="btn btn-dark btn-block my-1">OCR Documents</a>
+      </div>
+    </div>
+  </div>
+</div>

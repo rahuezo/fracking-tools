@@ -108,7 +108,5 @@ def tag_ner_view(request):
         response = HttpResponse(zf_content, content_type='application/zip')
         response['Content-Disposition'] = 'attachment; filename="{0}"'.format(
             os.path.split("{0}.zip".format(output_zip_path))[1])
-    return response
-
-
-    # return render(request, 'document_tagging/document_ner_tagging.html')
+        return response
+    return redirect('document_utilities:nertag')

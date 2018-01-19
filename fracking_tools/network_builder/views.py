@@ -59,7 +59,8 @@ def build_event_networks(request):
 
         response = HttpResponse(zf_content, content_type='application/zip')
         response['Content-Disposition'] = 'attachment; filename="{0}"'.format(os.path.split("{0}.zip".format(output_zip_path))[1])
-    return response
+        return response
+    return redirect('network_builder:events')
 
 
 def build_pair_networks(request):
@@ -87,7 +88,8 @@ def build_pair_networks(request):
 
         response = HttpResponse(zf_content, content_type='application/zip')
         response['Content-Disposition'] = 'attachment; filename="{0}"'.format(os.path.split("{0}.zip".format(output_zip_path))[1])
-    return response
+        return response
+    return redirect('network_builder:pairs')
 
 
 

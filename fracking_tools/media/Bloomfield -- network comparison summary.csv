@@ -1,0 +1,92 @@
+Actor Overlap,Relationship Overlap,Unique Newspaper Network Actors,Unique Meeting Minute Network Actors,Unique Newspaper Network Relationships,Unique Newspaper Network Relationships
+,,Gloria Foster,Andy Hall,"('Gloria Foster', 'Steve Barnhoorn')","('Andy Hall', 'Joan Herrington')"
+,,Steve Barnhoorn,Joan Herrington,"('Gloria Foster', 'Tim Jensen')","('Andy Hall', 'Dan Morley')"
+,,Tim Jensen,Dan Morley,"('Gloria Foster', 'Kris Singer')","('Andy Hall', 'Francis Coleman')"
+,,Kris Singer,Francis Coleman,"('Gloria Foster', 'Dodie Huber')","('Andy Hall', 'Kathy Conradt')"
+,,Dodie Huber,Kathy Conradt,"('Gloria Foster', 'John Holko')","('Andy Hall', 'Bryan Rayburn')"
+,,John Holko,Bryan Rayburn,"('Gloria Foster', 'David Palmerton')","('Andy Hall', 'Clayton Bernard')"
+,,David Palmerton,Clayton Bernard,"('Gloria Foster', 'Tom Johnson')","('Andy Hall', 'Mark Falsone')"
+,,Tom Johnson,Mark Falsone,"('Gloria Foster', 'Mary Lucern')","('Andy Hall', 'Scott Kimball')"
+,,Mary Lucern,Scott Kimball,"('Gloria Foster', 'David Slottje')","('Andy Hall', 'Nancy Long')"
+,,David Slottje,Nancy Long,"('Gloria Foster', 'John Cowley')","('Andy Hall', 'Joe Steel')"
+,,John Cowley,Joe Steel,"('Gloria Foster', 'Cherie Messore')","('Joan Herrington', 'Dan Morley')"
+,,Cherie Messore,,"('Gloria Foster', 'Fred Lightfoote')","('Joan Herrington', 'Francis Coleman')"
+,,Fred Lightfoote,,"('Gloria Foster', 'Harry Schwarzweller')","('Joan Herrington', 'Kathy Conradt')"
+,,Harry Schwarzweller,,"('Steve Barnhoorn', 'Tim Jensen')","('Joan Herrington', 'Bryan Rayburn')"
+,,,,"('Steve Barnhoorn', 'Kris Singer')","('Joan Herrington', 'Clayton Bernard')"
+,,,,"('Steve Barnhoorn', 'Dodie Huber')","('Joan Herrington', 'Mark Falsone')"
+,,,,"('Steve Barnhoorn', 'John Holko')","('Joan Herrington', 'Scott Kimball')"
+,,,,"('Steve Barnhoorn', 'David Palmerton')","('Joan Herrington', 'Nancy Long')"
+,,,,"('Steve Barnhoorn', 'Tom Johnson')","('Joan Herrington', 'Joe Steel')"
+,,,,"('Steve Barnhoorn', 'Mary Lucern')","('Dan Morley', 'Nancy Long')"
+,,,,"('Steve Barnhoorn', 'David Slottje')","('Dan Morley', 'Francis Coleman')"
+,,,,"('Steve Barnhoorn', 'John Cowley')","('Dan Morley', 'Kathy Conradt')"
+,,,,"('Steve Barnhoorn', 'Cherie Messore')","('Dan Morley', 'Bryan Rayburn')"
+,,,,"('Steve Barnhoorn', 'Fred Lightfoote')","('Dan Morley', 'Clayton Bernard')"
+,,,,"('Steve Barnhoorn', 'Harry Schwarzweller')","('Dan Morley', 'Mark Falsone')"
+,,,,"('Tim Jensen', 'Kris Singer')","('Dan Morley', 'Scott Kimball')"
+,,,,"('Tim Jensen', 'Dodie Huber')","('Dan Morley', 'Joe Steel')"
+,,,,"('Tim Jensen', 'John Holko')","('Francis Coleman', 'Kathy Conradt')"
+,,,,"('Tim Jensen', 'David Palmerton')","('Francis Coleman', 'Bryan Rayburn')"
+,,,,"('Tim Jensen', 'Tom Johnson')","('Francis Coleman', 'Clayton Bernard')"
+,,,,"('Tim Jensen', 'Mary Lucern')","('Francis Coleman', 'Mark Falsone')"
+,,,,"('Tim Jensen', 'David Slottje')","('Francis Coleman', 'Scott Kimball')"
+,,,,"('Tim Jensen', 'John Cowley')","('Francis Coleman', 'Nancy Long')"
+,,,,"('Tim Jensen', 'Cherie Messore')","('Francis Coleman', 'Joe Steel')"
+,,,,"('Tim Jensen', 'Fred Lightfoote')","('Kathy Conradt', 'Nancy Long')"
+,,,,"('Tim Jensen', 'Harry Schwarzweller')","('Kathy Conradt', 'Bryan Rayburn')"
+,,,,"('Kris Singer', 'Dodie Huber')","('Kathy Conradt', 'Clayton Bernard')"
+,,,,"('Kris Singer', 'John Holko')","('Kathy Conradt', 'Mark Falsone')"
+,,,,"('Kris Singer', 'David Palmerton')","('Kathy Conradt', 'Scott Kimball')"
+,,,,"('Kris Singer', 'Tom Johnson')","('Kathy Conradt', 'Joe Steel')"
+,,,,"('Kris Singer', 'Mary Lucern')","('Bryan Rayburn', 'Clayton Bernard')"
+,,,,"('Kris Singer', 'David Slottje')","('Bryan Rayburn', 'Mark Falsone')"
+,,,,"('Kris Singer', 'John Cowley')","('Bryan Rayburn', 'Scott Kimball')"
+,,,,"('Kris Singer', 'Cherie Messore')","('Bryan Rayburn', 'Nancy Long')"
+,,,,"('Kris Singer', 'Fred Lightfoote')","('Bryan Rayburn', 'Joe Steel')"
+,,,,"('Kris Singer', 'Harry Schwarzweller')","('Clayton Bernard', 'Nancy Long')"
+,,,,"('Dodie Huber', 'John Holko')","('Clayton Bernard', 'Mark Falsone')"
+,,,,"('Dodie Huber', 'David Palmerton')","('Clayton Bernard', 'Scott Kimball')"
+,,,,"('Dodie Huber', 'Tom Johnson')","('Clayton Bernard', 'Joe Steel')"
+,,,,"('Dodie Huber', 'Mary Lucern')","('Mark Falsone', 'Scott Kimball')"
+,,,,"('Dodie Huber', 'David Slottje')","('Mark Falsone', 'Nancy Long')"
+,,,,"('Dodie Huber', 'John Cowley')","('Mark Falsone', 'Joe Steel')"
+,,,,"('Dodie Huber', 'Cherie Messore')","('Scott Kimball', 'Nancy Long')"
+,,,,"('Dodie Huber', 'Fred Lightfoote')","('Scott Kimball', 'Joe Steel')"
+,,,,"('Dodie Huber', 'Harry Schwarzweller')","('Nancy Long', 'Joe Steel')"
+,,,,"('John Holko', 'David Palmerton')",
+,,,,"('John Holko', 'Tom Johnson')",
+,,,,"('John Holko', 'Mary Lucern')",
+,,,,"('John Holko', 'David Slottje')",
+,,,,"('John Holko', 'John Cowley')",
+,,,,"('John Holko', 'Cherie Messore')",
+,,,,"('John Holko', 'Fred Lightfoote')",
+,,,,"('John Holko', 'Harry Schwarzweller')",
+,,,,"('David Palmerton', 'Tom Johnson')",
+,,,,"('David Palmerton', 'Mary Lucern')",
+,,,,"('David Palmerton', 'David Slottje')",
+,,,,"('David Palmerton', 'John Cowley')",
+,,,,"('David Palmerton', 'Cherie Messore')",
+,,,,"('David Palmerton', 'Fred Lightfoote')",
+,,,,"('David Palmerton', 'Harry Schwarzweller')",
+,,,,"('Tom Johnson', 'Mary Lucern')",
+,,,,"('Tom Johnson', 'David Slottje')",
+,,,,"('Tom Johnson', 'John Cowley')",
+,,,,"('Tom Johnson', 'Cherie Messore')",
+,,,,"('Tom Johnson', 'Fred Lightfoote')",
+,,,,"('Tom Johnson', 'Harry Schwarzweller')",
+,,,,"('Mary Lucern', 'David Slottje')",
+,,,,"('Mary Lucern', 'John Cowley')",
+,,,,"('Mary Lucern', 'Cherie Messore')",
+,,,,"('Mary Lucern', 'Fred Lightfoote')",
+,,,,"('Mary Lucern', 'Harry Schwarzweller')",
+,,,,"('David Slottje', 'Cherie Messore')",
+,,,,"('David Slottje', 'John Cowley')",
+,,,,"('David Slottje', 'Fred Lightfoote')",
+,,,,"('David Slottje', 'Harry Schwarzweller')",
+,,,,"('John Cowley', 'Cherie Messore')",
+,,,,"('John Cowley', 'Fred Lightfoote')",
+,,,,"('John Cowley', 'Harry Schwarzweller')",
+,,,,"('Cherie Messore', 'Fred Lightfoote')",
+,,,,"('Cherie Messore', 'Harry Schwarzweller')",
+,,,,"('Fred Lightfoote', 'Harry Schwarzweller')",

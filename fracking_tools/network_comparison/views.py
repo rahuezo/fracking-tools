@@ -28,9 +28,13 @@ def compare_networks_view(request):
         network_a_files = request.FILES.getlist('network-a-csvs')
         network_b_files = request.FILES.getlist('network-b-csvs')
 
+        network_a_label = request.POST.get('net-a-label')
+        network_b_label = request.POST.get('net-b-label')
+
         network_a_csvs = filter(lambda x: x.name in map(lambda y: y.name, network_b_files), network_a_files)
         network_b_csvs = filter(lambda x: x.name in map(lambda y: y.name, network_a_files), network_b_files)
 
+        print network_a_label, network_b_label
         comparisons = {}
 
         for i in xrange(len(network_a_csvs)):
@@ -42,7 +46,8 @@ def compare_networks_view(request):
                 network_a = AdjacencyMatrix(rows_a).to_network()
                 network_b = AdjacencyMatrix(rows_b).to_network()
 
-                fn, header, rows = NetworkComparison(network_name, network_a, network_b).summarize()
+                fn, header, rows = NetworkComparison(network_name, network_a, network_b,
+                                                     network_a_label, network_b_label).summarize()
 
                 comparisons[fn] = [header, rows]
 
@@ -62,4 +67,5 @@ def compare_networks_view(request):
         response = HttpResponse(zf_content, content_type='application/zip')
         response['Content-Disposition'] = 'attachment; filename="{0}"'.format(os.path.split("{0}.zip".format(output_zip_path))[1])
 
-    return response #redirect('network_builder:netcomp')
+        return response
+    return redirect('network_builder:netcomp')
